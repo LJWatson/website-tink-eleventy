@@ -58,12 +58,12 @@ Saqib went on to talk about Silverlight specifically, and some of the accessibil
 
 ## Panel Session * To comply or not to comply?
 
-* [Kath Moonan](https://www.twitter.com/ladymoonani) - AbilityNet (Chair).
-* [Mark Boulton](https://www.twitter.com/markboulton) - Mark Boulton Design.
-* Bim Egan - RNIB.
-* [Léonie Watson](https://www.twitter.com/leoniewatson) - Nomensa.
-* [Lisa Herrod](https://www.twitter.com/scenariogirl) - Scenario Seven.
-* [Christian Heilmann](https://www.twitter.com/codepo8) - Yahoo!
+* [Kath Moonan](https://www.twitter.com/ladymoonani) * AbilityNet (Chair).
+* [Mark Boulton](https://www.twitter.com/markboulton) * Mark Boulton Design.
+* Bim Egan * RNIB.
+* [Léonie Watson](https://www.twitter.com/leoniewatson) * Nomensa.
+* [Lisa Herrod](https://www.twitter.com/scenariogirl) * Scenario Seven.
+* [Christian Heilmann](https://www.twitter.com/codepo8) * Yahoo!
 
 The session looked at how guidelines and standards fit into the process of developing web technologies. Testing with people with disabilities was also discussed, and the dangers of testing with expert users was highlighted.  
 When looking for people to test with, focusing on the target audience and then finding people with disabilities within that group. In other words, if your website is for children, find young people with disabilities to test with, as they fall into your intended target audience.

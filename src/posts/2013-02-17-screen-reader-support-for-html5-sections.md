@@ -16,7 +16,7 @@ Thanks to [Alastair Campbell](https://www.twitter.com/alastc) and [Kiran Kaja](h
 Screen reader support for HTML5 sections
 
 | Element | Jaws 14/FF 18 | Jaws 14/IE 9 | NVDA 2012.3/FF 18 | NVDA 2012.3/IE 9 | VoiceOver/Safari 6 | Window Eyes 8/FF 18 |Window Eyes 8/IE 9
-| --- | --- | --- | --- | --- | --- | --- | ---
+| --* | --* | --* | --* | --* | --* | --* | ---
 | [article](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element) | Yes | Yes | No | No | No | No | No
 | [aside](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-aside-element) | Yes | Yes | Yes | No | Yes | No | No
 | [footer](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-footer-element)

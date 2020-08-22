@@ -11,11 +11,11 @@ It is common on the web for the current thing in a collection to be highlighted 
 
 There are several common patterns where the current thing in a group or collection is highlighted visually:
 
-- The current page/link in a navigation block;
-- The current step in a process/progressbar;
-- The current date in a calendar;
-- The current time in a timetable/schedule;
-- The current location in a breadcrumb/map.
+* The current page/link in a navigation block;
+* The current step in a process/progressbar;
+* The current date in a calendar;
+* The current time in a timetable/schedule;
+* The current location in a breadcrumb/map.
 
 Usually the current thing is differentiated from the other things in the collection using CSS. For example:
 
@@ -36,7 +36,7 @@ background-color: #cc33ff;
 </nav>
 ```
 
-CSS is predominantly a visual medium, and with one [notable exception](/accessibility-support-for-css-generated-content/) it isn't exposed to screen readers - and therein lies the problem.
+CSS is predominantly a visual medium, and with one [notable exception](/accessibility-support-for-css-generated-content/) it isn't exposed to screen readers * and therein lies the problem.
 
 It's possible to solve this particular use case by removing the href attribute on the current link, rendering it inert and preventing screen readers from announcing it as a link at all. Or by using a foreground image instead of a background image, and giving it an alt text (like "Current page") that conveys the relevant information to screen reader users.
 

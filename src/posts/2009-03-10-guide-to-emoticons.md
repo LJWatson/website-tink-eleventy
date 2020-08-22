@@ -37,7 +37,7 @@ Despite the fantastic range of emoticons now in existence, only a few basic ones
 Table of Common Emoticons
 
 | Emoticon | Longhand Description | Verbal Description |
-| --- | --- | --- |
+| --* | --* | --* |
 | :-) | Colon, Hyphen, Right Paren | Smile |
 | :-( | Colon, Hyphen, Left Paren | Sad Smile |
 | ;-) | Semi Colon, Hyphen, Right Paren | Winking Smile |
@@ -58,7 +58,7 @@ As communication becomes quicker and more minimalist, the need for greater expre
 Table of Less Common Emoticons
 
 | Emoticon | Longhand Description | Verbal Description |
-| --- | --- | --- |
+| --* | --* | --* |
 | %\*} | Percent, Star, Right Brace | Very Drunk |
 | :-\* | Colon, Hyphen, Star | Kiss|
 | ':-) | Apostrophe, Colon, Hyphen, Right Paren | Sarcastically raised Eyebrow |
@@ -72,7 +72,7 @@ Emoticons are also used to describe the way a person looks, particularly their f
 Table of Descriptive Emoticons
 
 | Emoticon | Longhand Description | Verbal Description |
-| --- | --- | --- |
+| --* | --* | --* |
 | :-{) | Colon, Hyphen, Left Brace, Right Paren | Wears a Moustache |
 | :-)> | Colon, Hyphen, Right Paren, Greater | Wears a Beard |
 | %-) | Percent, Hyphen, Right Paren | Wearing Spectacles |
@@ -86,7 +86,7 @@ It is even possible to portray different characters using emoticons. These are o
 Table of Character Emoticons
 
 | Emoticon | Longhand Description | Verbal Description |
-| --- | --- | --- |
+| --* | --* | --* |
 | O:-) | Capital O, Colon, Hyphen, Right Paren | Angel Face |
 | \>:-> | Greater, Colon, Hyphen, Greater | Devil Face |
 | 8=X | Number 8, Equals, Capital X | Skull and Cross Bones |

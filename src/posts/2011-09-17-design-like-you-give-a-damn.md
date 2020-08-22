@@ -15,7 +15,7 @@ Design like you’re [Banksy](https://en.wikipedia.org/wiki/Banksy). Read the ru
 
 Design like you’re [Da Vinci](https://en.wikipedia.org/wiki/Leonardo_da_Vinci). Be curious about everything, and never stop questioning how you can make things better.
 
-- Design like you’re [Chanel](https://en.wikipedia.org/wiki/Coco_Chanel). Strive for beauty and elegance, but understand that those things will not be the same for everybody.
+* Design like you’re [Chanel](https://en.wikipedia.org/wiki/Coco_Chanel). Strive for beauty and elegance, but understand that those things will not be the same for everybody.
 
 Design like you’re [Brunel](https://en.wikipedia.org/wiki/Isambard_Kingdom_Brunel). Know that planning is important, but that imagination makes the extraordinary possible.
 

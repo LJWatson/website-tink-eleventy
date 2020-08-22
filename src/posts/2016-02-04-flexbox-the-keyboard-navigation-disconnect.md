@@ -83,4 +83,4 @@ The Firefox implementation/bug seems to have merit though. It isn’t perfect, b
 
 ## Related reading
 
-- [HTML source order versus CSS display order, by Adrian Roselli](https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html)
+* [HTML source order versus CSS display order, by Adrian Roselli](https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html)

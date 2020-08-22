@@ -11,8 +11,8 @@ People often include screen reader users in the much larger group of keyboard-on
 
 To help explain this, I'm going to generalise and refer to the two following groups of people:
 
-- Keyboard users: people who don't use a mouse but can see the content.
-- Screen reader users: people who don't use a mouse and can't see the content.
+* Keyboard users: people who don't use a mouse but can see the content.
+* Screen reader users: people who don't use a mouse and can't see the content.
 
 This is a massive over-simplification of the different groups, but the ability to see the content or not is the crux of the difference in navigation.
 
@@ -20,9 +20,9 @@ This is a massive over-simplification of the different groups, but the ability t
 
 Keyboard users navigate through content using a limited set of keyboard shortcuts:
 
-- The tab key moves to the next focusable element (like a link, button, or form field) and scrolls it into view if it wasn't already contained within the viewport. The shift and tab keys together move to the previous focusable element.
-- The space key scrolls the next chunk of content into view, and the shift and space keys together scroll the previous chunk of content into view. The pagedown and pageup keys do the same things respectively.
-- The home key brings the top of the page into view, and the end key brings the bottom of the page into view.
+* The tab key moves to the next focusable element (like a link, button, or form field) and scrolls it into view if it wasn't already contained within the viewport. The shift and tab keys together move to the previous focusable element.
+* The space key scrolls the next chunk of content into view, and the shift and space keys together scroll the previous chunk of content into view. The pagedown and pageup keys do the same things respectively.
+* The home key brings the top of the page into view, and the end key brings the bottom of the page into view.
 
 This isn't a very refined way of navigating content, and it isn't without problems, but it generally works if you can see the content as it moves into view. That, of course, is where screen reader users come unstuck.
 

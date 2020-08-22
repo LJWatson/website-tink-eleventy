@@ -70,10 +70,10 @@ The SVG code looks like this:
 
 It looks like a table, but the samantic information exposed by SVG in the accessibility tree is not that of a table. According to the [SVG Accessibility API Mappings (AAM)](https://www.w3.org/TR/svg-aam-1.0/), the exposed roles are:
 
-- `graphics-document` for the `svg` element;
-- `graphics-symbol` for the `rect` element;
-- `group` for the `g` element;
-- `group` or `text` (depending on the accessibility API) for the `text` element.
+* `graphics-document` for the `svg` element;
+* `graphics-symbol` for the `rect` element;
+* `group` for the `g` element;
+* `group` or `text` (depending on the accessibility API) for the `text` element.
 
 **Note:** the graphics-document and `graphics-symbol` roles are documented in the [ARIA Graphics module](https://www.w3.org/TR/graphics-aria-1.0/), and the [Graphics AAM](https://w3c.github.io/aria/graphics-aam/graphics-aam.html).
 
@@ -83,11 +83,11 @@ There is an added complication: although these roles are supported by browsers a
 
 So in the absence of useful semantic information, we can use these ARIA roles as an accessibility polyfill:
 
-- [`table`](https://www.w3.org/TR/wai-aria-1.1#table)
-- [`row`](https://www.w3.org/TR/wai-aria-1.1#row)
-- [`columnheader`](https://www.w3.org/TR/wai-aria-1.1#columnheader)
-- [`rowheader`](https://www.w3.org/TR/wai-aria-1.1#rowheader)
-- [`cell`](https://www.w3.org/TR/wai-aria-1.1#cell)
+* [`table`](https://www.w3.org/TR/wai-aria-1.1#table)
+* [`row`](https://www.w3.org/TR/wai-aria-1.1#row)
+* [`columnheader`](https://www.w3.org/TR/wai-aria-1.1#columnheader)
+* [`rowheader`](https://www.w3.org/TR/wai-aria-1.1#rowheader)
+* [`cell`](https://www.w3.org/TR/wai-aria-1.1#cell)
 
 ## Basic SVG table + ARIA
 

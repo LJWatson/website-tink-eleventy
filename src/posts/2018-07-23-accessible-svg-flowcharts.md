@@ -13,10 +13,10 @@ SVG lacks the semantics to express structures like line graphs, bar charts, or f
 
 The following ARIA roles and attributes were used for the W3C flowchart:
 
-- [`list` role](https://www.w3.org/TR/wai-aria-1.1/#list)
-- [`listitem` role](https://www.w3.org/TR/wai-aria-1.1/#listitem)
-- [`img` role](https://www.w3.org/TR/wai-aria-1.1/#img)
-- [`aria-hidden` attribute](https://www.w3.org/TR/wai-aria-1.1/#list)
+* [`list` role](https://www.w3.org/TR/wai-aria-1.1/#list)
+* [`listitem` role](https://www.w3.org/TR/wai-aria-1.1/#listitem)
+* [`img` role](https://www.w3.org/TR/wai-aria-1.1/#img)
+* [`aria-hidden` attribute](https://www.w3.org/TR/wai-aria-1.1/#list)
 
 ## Adding the ARIA
 
@@ -40,12 +40,12 @@ The `aria-hidden` attribute was then used to hide the `text` element from screen
 ```svg
 <g role="list">
 
-<!-- FPWD -->
+<!-* FPWD -->
 <g role="listitem">
 
 <a xlink:href="#wd-1">
 <rect role="img" fill="white" y="122" width="57" height="45">
-<title>First Public Working Draft (FPWD) - Exclusion opportunity</title>
+<title>First Public Working Draft (FPWD) * Exclusion opportunity</title>
 </rect>
 
 <text font-size="8">
@@ -59,7 +59,7 @@ The `aria-hidden` attribute was then used to hide the `text` element from screen
 </a>
 </g>
 
-<!-- WD -->
+<!-* WD -->
 <g role="listitem">
 
 <a xlink:href="#cr-1">
@@ -72,7 +72,7 @@ The `aria-hidden` attribute was then used to hide the `text` element from screen
 
 <g role="list">
 
-<!-- New WD -->
+<!-* New WD -->
 <g role="listitem">
 
 <a xlink:href="#wd-1">
@@ -89,7 +89,7 @@ The `aria-hidden` attribute was then used to hide the `text` element from screen
 </a>
 </g>
 
-<!-- Advance to CR -->
+<!-* Advance to CR -->
 <g role="listitem" fill="#060">
 
 <a xlink:href="#cr-1">
@@ -118,8 +118,8 @@ The SVG flowchart now has a semantically meaningful structure, but to really und
 
 The flowchart in the W3C Process document attempts to provide this form of navigation using links. This makes it possible to navigate directly between the siblings in the first layer of the flowchart (using the tab key), but is also introduces some different problems:
 
-- The links have no [perceived affordance](https://www.jnd.org/dn.mss/affordances_and.html); this may be ok for pointer device users who do not need the links, but not for sighted keyboard users who do. The visual affordance of the links could be improved, but that creates a different problem; should a pointer device user click/tap on the link, the shift of focus would be so slight as to be unnoticeable and the link would appear to be broken.
-- The destination of the link is not indicated to anyone. This could be resolved by separating the link from the item, but this reduces the usability of navigating from one sibling item directly to the next by introducing additional keystrokes.
-- It isn't particularly scalable. Without some way of knowing when a press of the tab key moved focus out of one branch to the next, it would be too easy for keyboard users (sighted and not) to get lostt in a flowchart with multiple branches.
+* The links have no [perceived affordance](https://www.jnd.org/dn.mss/affordances_and.html); this may be ok for pointer device users who do not need the links, but not for sighted keyboard users who do. The visual affordance of the links could be improved, but that creates a different problem; should a pointer device user click/tap on the link, the shift of focus would be so slight as to be unnoticeable and the link would appear to be broken.
+* The destination of the link is not indicated to anyone. This could be resolved by separating the link from the item, but this reduces the usability of navigating from one sibling item directly to the next by introducing additional keystrokes.
+* It isn't particularly scalable. Without some way of knowing when a press of the tab key moved focus out of one branch to the next, it would be too easy for keyboard users (sighted and not) to get lostt in a flowchart with multiple branches.
 
 Although the keyboard experience still leaves something to be desired in SVG, adding ARIA goes some way to making the content more usable by screen reader users. The ARIA enabled version is included in the [W3C Process 2018](https://www.w3.org/2018/Process-20180201/), and a [demo version](https://design-patterns.tink.uk/svg-flowchart/index.html) is also available. If you find any issues, you can file them on [Github](https://github.com/w3c/w3process/).
