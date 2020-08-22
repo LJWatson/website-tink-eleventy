@@ -1,4 +1,4 @@
-    ---
+---
 title: "Accessible SVG line graphs"
 date: "2017-09-09"
 tags: ["SVG", "ARIA"]
@@ -9,9 +9,9 @@ SVG is often used for data visualisation, but because SVG lacks the semantics to
 
 Let's take a simple [SVG line graph](http://design-patterns.tink.uk/svg-line-graph/original.html) as a working example. In this graph the y axis represents usage by percent, and the x axis represents time. The three lines represent the different screen readers:
 
-- Jaws is a solid blue line;
-- NVDA is a dotted black line;
-- VoiceOver is a smaller dotted green line.
+* Jaws is a solid blue line;
+* NVDA is a dotted black line;
+* VoiceOver is a smaller dotted green line.
 
 Using the graph you can tell what percent of usage each screen reader had at a particular point in time. For example, in January 2014 74% of screen reader users used Jaws, in May 2012 43% used NVDA, and in July 2014 30.9% used Voiceover.
 
@@ -19,13 +19,13 @@ This data can be represented as a table: where the rows represent the screen rea
 
 It's a good idea to give people choices about the way they consume content, so letting people choose between a graphical and tabular view of the data would be a good thing to do in any case. But in the interests of making your primary content as accessible as it can be, you can use the following ARIA to add table semantics directly in the SVG:
 
-- [`table` role](https://w3.org/tr/wai-aria-1.1#table)
-- [`row` role](https://w3.org/tr/wai-aria-1.1#row)
-- [`rowheader` role](https://w3.org/tr/wai-aria-1.1#rowheader)
-- [`columnheader` role](https://w3.org/tr/wai-aria-1.1#columnheader)
-- [`cell` role](https://w3.org/tr/wai-aria-1.1#cell)
-- [`img` role](https://w3.org/tr/wai-aria-1.1#img)
-- [`aria-hidden` attribute](https://w3.org/tr/wai-aria-1.1#aria-hidden)
+* [`table` role](https://w3.org/tr/wai-aria-1.1#table)
+* [`row` role](https://w3.org/tr/wai-aria-1.1#row)
+* [`rowheader` role](https://w3.org/tr/wai-aria-1.1#rowheader)
+* [`columnheader` role](https://w3.org/tr/wai-aria-1.1#columnheader)
+* [`cell` role](https://w3.org/tr/wai-aria-1.1#cell)
+* [`img` role](https://w3.org/tr/wai-aria-1.1#img)
+* [`aria-hidden` attribute](https://w3.org/tr/wai-aria-1.1#aria-hidden)
 
 ## Adding ARIA
 
