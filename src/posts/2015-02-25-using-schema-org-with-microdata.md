@@ -17,7 +17,7 @@ The vocabularies available on schema.org are the result of a public collaboratio
 
 The schema.org vocabularies can be used with [Microdata](https://en.wikipedia.org/wiki/Microdata_%28HTML%29), [RDFa](https://en.wikipedia.org/wiki/RDFa) or [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD). Microdata and RDFa can both be dropped straight into HTML, and of the two Microdata is the easiest way to start using the schema.org vocabularies.
 
-The posts in the [recipe book](https://tink.uk/category/recipe-book/) category of this website use schema.org vocabularies with Microdata to markup information. The basic HTML looks something like this:
+The posts in the [recipe book](/category/recipe-book/) category of this website use schema.org vocabularies with Microdata to markup information. The basic HTML looks something like this:
 
 ```html
 <article>

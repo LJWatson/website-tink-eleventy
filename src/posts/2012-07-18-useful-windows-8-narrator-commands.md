@@ -120,4 +120,4 @@ You can manipulate the Narrator cursor in relation to the mouse or keyboard curs
 * Move Narrator cursor to pointer: Caps lock t.
 * Set focus to item: Caps lock ~ (tilda).
 
-As well as the Narrator specific commands, there are many different [Windows 8 shortcut keys](https://tink.co.uk/2012/07/useful-windows-8-shortcut-keys-for-keyboard-users/) that make it possible to move around Windows 8 much more easily.
+As well as the Narrator specific commands, there are many different [Windows 8 shortcut keys](https://tink.uk/2012/07/useful-windows-8-shortcut-keys-for-keyboard-users/) that make it possible to move around Windows 8 much more easily.

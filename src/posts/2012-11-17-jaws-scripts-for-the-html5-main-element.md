@@ -13,7 +13,7 @@ The [main element extension](https://dvcs.w3.org/hg/html-extensions/raw-file/tip
 
 [ARIA roles](https://www.w3.org/TR/wai-aria/roles) can be applied to HTML elements to give them semantic meaning. For example a div with role="navigation" is announced by Jaws as "Navigation region".
 
-The advantage of ARIA roles is that [screen readers can use them](https://tink.co.uk/2011/07/how-do-aria-landmark-roles-help-screen-reader-users/) to navigate through a page. Use the **semi colon** key in Jaws, the **d** key in NVDA, or the **roter** with VoiceOver to move between these landmarks.
+The advantage of ARIA roles is that [screen readers can use them](https://tink.uk/2011/07/how-do-aria-landmark-roles-help-screen-reader-users/) to navigate through a page. Use the **semi colon** key in Jaws, the **d** key in NVDA, or the **roter** with VoiceOver to move between these landmarks.
 
 The disadvantage is that developers must consciously include ARIA roles in their HTML code. The advent of HTML5 elements with stronger native semantics means that (in time) this will no longer be necessary (with HTML at least). For example the HTML5 `nav` element already causes Jaws to announce "Navigation region", whether role="navigation" is present or not.
 

@@ -28,7 +28,7 @@ This isn't a very refined way of navigating content, and it isn't without proble
 
 ## Screen reader navigation
 
-Apart from things like [live regions](https://tink.uk/accessible-forms-with-aria-live-regions/), screen readers only speak the content they're focused on, and here we need to draw an important distinction: keyboard focus and [screen reader focus](https://tink.uk/understanding-screen-reader-interaction-modes/) are not the same thing!
+Apart from things like [live regions](/accessible-forms-with-aria-live-regions/), screen readers only speak the content they're focused on, and here we need to draw an important distinction: keyboard focus and [screen reader focus](/understanding-screen-reader-interaction-modes/) are not the same thing!
 
 Keyboard focus is restricted to tabbing between focusable elements. If a screen reader user uses the tab key to navigate content, all they will hear is the name of each focusable element as it receives keyboard focus. What they won't hear is all the other content like text, headings, and images.
 

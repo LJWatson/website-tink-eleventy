@@ -5,7 +5,7 @@ tags: ["SVG", "ARIA"]
 categories: "Code things"
 ---
 
-SVG is often used for data visualisation, but because SVG lacks the semantics to express structures like bar charts, line graphs, and scatter plots, the content is difficult for screen reader users to interpret. The solution is to use the technique for creating [accessible SVG tables](https://tink.uk/accessible-svg-tables/) as your starting point.
+SVG is often used for data visualisation, but because SVG lacks the semantics to express structures like bar charts, line graphs, and scatter plots, the content is difficult for screen reader users to interpret. The solution is to use the technique for creating [accessible SVG tables](/accessible-svg-tables/) as your starting point.
 
 Let's take a simple [SVG line graph](https://design-patterns.tink.uk/svg-line-graph/original.html) as a working example. In this graph the y axis represents usage by percent, and the x axis represents time. The three lines represent the different screen readers:
 
