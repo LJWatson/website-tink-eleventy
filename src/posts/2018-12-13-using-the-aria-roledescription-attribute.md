@@ -5,7 +5,7 @@ tags: ["ARIA", "Screen readers", "WebVR"]
 categories: "Code things"
 ---
 
-The [aria-roledescription](https://www.w3.org/TR/wai-aria-1.1/#aria-roledescription) attribute changes the way screen readers announce the role of an element. Intended to give authors a way to provide a localised and human-readable description for a role, it has the capacity to both enhance and seriously break accessibility for screen reader users.
+The [`aria-roledescription`](https://www.w3.org/TR/wai-aria-1.1/#aria-roledescription) attribute changes the way screen readers announce the role of an element. Intended to give authors a way to provide a localised and human-readable description for a role, it has the capacity to both enhance and seriously break accessibility for screen reader users.
 
 The ARIA1.1 specification describes the `aria-roledescription` attribute like this:
 
@@ -20,12 +20,12 @@ Let's take a link as an example:
 
 The screen reader takes the element's role ("link") and uses it to tell the user what kind of thing they're dealing with. The user can then make an informed decision about what to do with the element (in this case activate the link or ignore it).
 
-Screen readers do this for most major HTML elements. In other words, when you can't see the element on-screen, the role is critical to understanding the nature of the element. So why would anyone want to override such useful information?
+Screen readers do this for most HTML elements. In other words, when you can't see the element on-screen, the role is critical to understanding the nature of the element. So why would anyone want to override such useful information?
 
 The ARIA1.1 specification offers two possible use cases for `aria-roledescription`:
 
-* Changing the role announcement for a <section> element, when it's used to represent a slide in an HTML slide deck;
-* Changing the role announcement for a <button> element, when the button is used to manage an email attachment.
+* Changing the role announcement for a `section` element, when it's used to represent a slide in an HTML slide deck;
+* Changing the role announcement for a `<button>` element, when the button is used to manage an email attachment.
 
 The first use case looks something like this:
 
@@ -69,7 +69,7 @@ The ARIA1.1 specification goes on to place constraints on the way authors use ar
 >When using aria-roledescription, authors SHOULD also ensure that:
 >
 >1. The element to which aria-roledescription is applied has a valid WAI-ARIA role or has an implicit WAI-ARIA role semantic.
->2. The value of aria-roledescription is not empty or does not contain only whitespace characters.>
+>2. The value of aria-roledescription is not empty or does not contain only whitespace characters.
 
 It then places stronger constraints on the way browsers handle the aria-roledescription attribute:
 
@@ -92,6 +92,6 @@ WebVR is scripted, and attached to the `canvas` element. This means that objects
 
 This example assumes there is a single static object inside of the WebVR, so it's a long way short of production reality, but it does mean the object inside the WebVR would be announced by a screen reader as "A red monster with lots of teeth; Ravenous Bugblatter Beast of Traal". The ordering of the information isn't ideal, but it does at least communicate what the object is, and give a brief description of it.
 
-**Note:** it's necessary to include `role="img"` on the `<div>` in order to conform to the requirement that `aria-roledescription` is only used on elements with an implicit or explicit ARIA role (`div` elements do not have an implicit ARIA role, so one is provided explicitly using the `role` attribute).
+**Note:** it's necessary to include `role="img"` on the `div` in order to conform to the requirement that `aria-roledescription` is only used on elements with an implicit or explicit ARIA role (`div` elements do not have an implicit ARIA role, so one is provided explicitly using the `role` attribute).
 
 For now though the use cases for `aria-roledescription` are there, but they're not particularly compelling. In the future this could well change, but in the meantime think very carefully before you decide to change the way an element's role is announced by screen readers!
