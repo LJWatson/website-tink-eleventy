@@ -1,0 +1,15 @@
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+
+  // This gets us past the reset stytle that has more
+  // specificy than a root class
+  &[class] {
+    margin-inline-start: -1rem;
+  }
+
+  > * {
+    padding-block-start: 1rem;
+    padding-inline-start: 1rem;
+  }
+}

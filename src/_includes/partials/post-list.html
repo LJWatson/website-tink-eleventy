@@ -1,0 +1,25 @@
+<div class="[ post ] [ flow ] [ flow-space-900 text-500 ]">
+  {% for item in postListItems %}
+    <article class="flow">
+      <h2 class="text-700 md:text-800">
+        <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
+      </h2>
+      <div class="[ post__meta ] [ measure-short flow-space-700 ]">
+        <time class="font-sans weight-bold" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+        {% set categories = helpers.getCategories(item) %}
+        {% if categories | length %}
+          <ul class="cluster">
+          {% for category in categories %}
+            <li>  
+              <a href="/category/{{ category | slug }}" class="[ pill ] [ bg-primary ]">{{ category }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+      {% if item.data.summary %}
+        <p class="measure-short flow-space-400">{{ item.data.summary }}</p>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

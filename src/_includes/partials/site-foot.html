@@ -1,0 +1,31 @@
+<footer class="[ site-foot ] [ ender ]">
+  <div class="wrapper">
+    <div class="splitter">
+      <div>
+        <h2>Follow me on:</h2>
+        <ul>
+          {% if site.twitterHandle %}
+          <li>
+            <a href="//twitter.com/{{ site.twitterHandle }}" rel="external">Twitter</a>
+          </li>
+          {% endif %}
+
+          {% if site.gitHubHandle %}
+          <li>
+            <a href="//github.com/{{ site.gitHubHandle }}" rel="external">GitHub</a>
+          </li>
+          {% endif %}
+
+          {% if site.linkedinHandle %}
+          <li>
+            <a href="//www.linkedin.com/in/{{ site.linkedinHandle }}" rel="external">LinkedIn</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+      <p>
+        &copy; {{ site.authorName }}
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "About Léonie",
+      "url": "/about-leonie/"
+    },
+    {
+      "text": "On other blogs",
+      "url": "/on-other-blogs"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{% extends "layouts/base.html" %}
+
+{% block foot %}
+  <script src="/js/components/code-block.js?{{ global.random() }}" type="module"></script>
+{% endblock %}
+{% block content %}
+  <div class="[ post ] [ flow ] [ flow-space-700 text-500 ]">
+    <h1>{{ title }}</h1>
+    <div class="[ post__meta ] [ measure-short flow-space-300 ]">
+      <time class="font-sans weight-bold" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+      {% set categories = helpers.getCategories(categories, true) %}
+      {% if categories | length %}
+        <ul class="cluster" aria-label="Categories">
+        {% for category in categories %}
+          <li>  
+            <a href="/category/{{ category | slug }}" class="[ pill ] [ bg-primary ]">{{ category }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+    <hr />
+    <div class="[ post__body ] [ flow ] [ flow-space-700 ]">
+      {{ content | safe }}
+    </div>
+    {% if tags %}
+      <hr />
+      <div>
+        <h2>Filed under</h2>
+        <ul class="cluster">
+          {% for tag in tags %}
+            <li>
+              <a class="[ pill ] [ bg-primary ]" href="/tag/{{ tag | slug }}/">{{ tag | replace(' ', '') | title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %} 
+  </div>
+{% endblock %}

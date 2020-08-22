@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %} 
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+{% set postListItems = pagination.items %}
+
+{# If this is a taxonomy, grab those items instead as one large collection #}
+{% if taxonomy %}
+  {% set postListItems = helpers.filterCollectionsByTaxonomy(collections, taxonomy.text, taxonomyKey) %}
+  {% set pageHeaderTitle = 'Blog posts filed under “' + taxonomy.text + '”' %}
+{% endif %}
+
+{% block content %}
+  {# The homepage still uses feed so we set homepage specific stuff here #}
+  {% if page.url === '/' %}
+    <h1 class="visually-hidden">{{ site.homepageTitle }}</h1>
+  {% elseif taxonomy %}
+    <h1>{{ 'Posts filed under “' + taxonomy.text + '”' }}</h1>
+    <hr />
+  {% else %}
+    {# We take one off the total because page one is actually the homepage #}
+    <h1>Page {{ pagination.pageNumber }} of {{ pagination.pages.length - 1}} of the blog</h1>
+    <hr />
+  {% endif %}
+  
+  {% include "partials/post-list.html" %}
+
+  {% if not taxonomy %}
+    <hr />
+    {% include "partials/pagination.html" %}
+  {% endif %}
+{% endblock %}
