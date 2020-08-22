@@ -7,7 +7,7 @@ categories: "Code things"
 
 Updated on 4th February 2018.
 
-The CSS Speech properties are intended to give content aural style, in the same way other CSS properties give content visual style. The [CSS Speech module](http://www.w3.org/TR/css3-speech/) is largely unsupported in browsers, but the [Web Speech API](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html#dfn-ttsgetvoices) can be used to demonstrate something of the way CSS Speech might work in practice.
+The CSS Speech properties are intended to give content aural style, in the same way other CSS properties give content visual style. The [CSS Speech module](https://www.w3.org/TR/css3-speech/) is largely unsupported in browsers, but the [Web Speech API](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html#dfn-ttsgetvoices) can be used to demonstrate something of the way CSS Speech might work in practice.
 
 The CSS Speech module and Web Speech API both use [Text To Speech (TTS)](https://en.wikipedia.org/wiki/Speech_synthesis). The CSS Speech module describes how a service that uses TTS (like a screen reader or voice assistant) speaks web content, and the Web Speech API produces synthetic speech using a TTS engine.
 
@@ -23,27 +23,27 @@ If CSS Speech was supported by browsers, it would be possible for a screen reade
 
 In the absence of consistent browser support for CSS Speech, it isn’t possible to determine the [computed aural style](https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle) of content. Even if it were, there is no way to relay that information to a screen reader and force it to respond accordingly. There are no APIs for interacting directly with screen readers.
 
-It is possible to use the Web Speech API to simulate the way a screen reader might respond to CSS Speech though. A [basic demo](http://playground.tink.uk/cssspeech/index.html) is available (with the warning that it’s held together with chicken wire and sticky tape). Thanks to [Aurelio De Rosa](http://www.twitter.com/AurelioDeRosa), from whom I borrowed the workaround for the [getVoices() bug in Chrome](https://code.google.com/p/chromium/issues/detail?id=340160).
+It is possible to use the Web Speech API to simulate the way a screen reader might respond to CSS Speech though. A [basic demo](https://playground.tink.uk/cssspeech/index.html) is available (with the warning that it’s held together with chicken wire and sticky tape). Thanks to [Aurelio De Rosa](https://www.twitter.com/AurelioDeRosa), from whom I borrowed the workaround for the [getVoices() bug in Chrome](https://code.google.com/p/chromium/issues/detail?id=340160).
 
 ## CSS Speech properties
 
-The CSS Speech properties let you define aural styles for content in the same way you define visual style. There is even an [aural box model](http://www.w3.org/TR/css3-speech/#aural-model) for arranging the spacial and temporal aspects of the aural presentation.
+The CSS Speech properties let you define aural styles for content in the same way you define visual style. There is even an [aural box model](https://www.w3.org/TR/css3-speech/#aural-model) for arranging the spacial and temporal aspects of the aural presentation.
 
 At present only [WebKit/Safari](https://webkit.org/blog/8084/release-notes-for-safari-technology-preview-48/) has support for CSS Speech, and then only for the `speak` and `speak-as` properties.
 
-As the [`display`](http://www.w3.org/TR/CSS21/visuren.html#display-prop) property determines whether content is rendered visually, the [`speak`](http://www.w3.org/TR/css3-speech/#speak) property determines whether it is rendered aurally. The `speak` property can be set to `auto`, `none` or `normal`, with `auto` being the default.
+As the [`display`](https://www.w3.org/TR/CSS21/visuren.html#display-prop) property determines whether content is rendered visually, the [`speak`](https://www.w3.org/TR/css3-speech/#speak) property determines whether it is rendered aurally. The `speak` property can be set to `auto`, `none` or `normal`, with `auto` being the default.
 
 When the `speak` property is set to `auto`, it defers to the state of the `display` property.        `display: none;` is set the computed value of the `speak` property is also `none`, otherwise it is `normal`.
 
 There are CSS properties for manipulating other basic speech characteristics:
 
-The [`voice-volume`](http://www.w3.org/TR/css3-speech/#voice-volume) property determines the relative loudness of the TTS output. It can be set by keyword (`silent`, `x-soft`, `soft`, `medium`, `loud`, `x-loud`), or by decibel (`15DB`). By default it’s set to `medium`.
+The [`voice-volume`](https://www.w3.org/TR/css3-speech/#voice-volume) property determines the relative loudness of the TTS output. It can be set by keyword (`silent`, `x-soft`, `soft`, `medium`, `loud`, `x-loud`), or by decibel (`15DB`). By default it’s set to `medium`.
 
 **When voice-volume: silent; is set, the content is rendered aurally but spoken at zero volume. In this respect it is similar to visibility: hidden;, which causes content to be rendered in the DOM but hidden from view.**
 
-The [`voice-rate`](http://www.w3.org/TR/css3-speech/#voice-rate) property determines the speed at which content is spoken. It can be set using a keyword (`normal`, `x-slow`, `slow`, `medium`, `fast`, `x-fast`), or a percentage. It defaults to `normal`.
+The [`voice-rate`](https://www.w3.org/TR/css3-speech/#voice-rate) property determines the speed at which content is spoken. It can be set using a keyword (`normal`, `x-slow`, `slow`, `medium`, `fast`, `x-fast`), or a percentage. It defaults to `normal`.
 
-The [`voice-pitch`](http://www.w3.org/TR/css3-speech/#voice-pitch) property determines the frequency at which the content is spoken. It can be set using a keyword (`x-low`, `low`, `medium`, `high`, `x-high`), or by percentage. It is set to `medium` by default.
+The [`voice-pitch`](https://www.w3.org/TR/css3-speech/#voice-pitch) property determines the frequency at which the content is spoken. It can be set using a keyword (`x-low`, `low`, `medium`, `high`, `x-high`), or by percentage. It is set to `medium` by default.
 
 ### CSS Speech example
 

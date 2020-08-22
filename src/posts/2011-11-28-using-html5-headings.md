@@ -5,11 +5,11 @@ tags: ["HTML"]
 categories: "Code things"
 ---
 
-HTML5 headings make it easy to syndicate and reuse content, without breaking the heading hierarchy. Using HTML5 headings and keeping the heading hierarchy backwards compatible proves unexpectedly complicated though. The [HTML5 specification](http://dev.w3.org/html5/spec/spec.html#contents) has a solution, but is it the right one?
+HTML5 headings make it easy to syndicate and reuse content, without breaking the heading hierarchy. Using HTML5 headings and keeping the heading hierarchy backwards compatible proves unexpectedly complicated though. The [HTML5 specification](https://dev.w3.org/html5/spec/spec.html#contents) has a solution, but is it the right one?
 
 ## HTML5 sections
 
-HTML5 uses [sectioning content](http://dev.w3.org/html5/spec/content-models.html#sectioning-content) to break a page up into chunks. The `article`, `aside`, `nav` and `section` elements can be used to explicitly create sections. Here’s what the HTML5 specification says about sectioning content:
+HTML5 uses [sectioning content](https://dev.w3.org/html5/spec/content-models.html#sectioning-content) to break a page up into chunks. The `article`, `aside`, `nav` and `section` elements can be used to explicitly create sections. Here’s what the HTML5 specification says about sectioning content:
 
 > "Sectioning content is content that defines the scope of headings and footers… Each sectioning content element potentially has a heading and an outline."
 
@@ -203,4 +203,4 @@ The question has been asked whether the h1 only or explicitly ranked headings te
 
 **Updated:** 26th November 2015.
 
-Originally I recommended using a flat h1 heading structure. Four years later the HTML5 outline algorithm is still not supported in browsers, and without that an h1 only heading structure is meaningless. Better to use explicitly ranked HTML headings and take care to get the [heading hierarchy](http://www.nomensa.com/blog/2010/using-html-headings) right!
+Originally I recommended using a flat h1 heading structure. Four years later the HTML5 outline algorithm is still not supported in browsers, and without that an h1 only heading structure is meaningless. Better to use explicitly ranked HTML headings and take care to get the [heading hierarchy](https://www.nomensa.com/blog/2010/using-html-headings) right!

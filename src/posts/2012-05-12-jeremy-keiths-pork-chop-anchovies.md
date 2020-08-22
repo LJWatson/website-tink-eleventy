@@ -5,7 +5,7 @@ tags: ["Dinner", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The eighth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This tasty recipe is from [Jeremy Keith](http://www.twitter.com/adactio).
+The eighth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This tasty recipe is from [Jeremy Keith](https://www.twitter.com/adactio).
 
 ## Information
 
@@ -37,6 +37,6 @@ The eighth in a series of posts that bring together the two sides of my blog: Fo
 
 To be honest, I don’t get the chance to cook very often. Not that I’m complaining: my wife, Jessica, loves to cook and is very, very good at it. But if Jessica is away, then I get to break out my chops. Literally.
 
-My go-to meal for one is a pork chop recipe from TV chef Valentine Warner. He presented a programme called “What To Eat Now”. There was an [accompanying book](http://www.amazon.co.uk/What-Eat-Now-Valentine-Warner/dp/1845334507), which is very good, but for some reason, this recipe wasn’t included.
+My go-to meal for one is a pork chop recipe from TV chef Valentine Warner. He presented a programme called “What To Eat Now”. There was an [accompanying book](https://www.amazon.co.uk/What-Eat-Now-Valentine-Warner/dp/1845334507), which is very good, but for some reason, this recipe wasn’t included.
 
 I know it \*sounds\* weird to have anchovies and capers with pork, but trust me: it is absolutely delicious. Serve it with some mashed potatoes and a vegetable of your choice—I’m quite partial to purple sprouting broccoli. Have a glass of hearty Shiraz (or maybe a Grenache-Shiraz mix). Enjoy!

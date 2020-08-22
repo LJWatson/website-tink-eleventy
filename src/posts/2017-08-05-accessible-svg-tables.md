@@ -75,7 +75,7 @@ It looks like a table, but the samantic information exposed by SVG in the access
 - `group` for the `g` element;
 - `group` or `text` (depending on the accessibility API) for the `text` element.
 
-**Note:** the graphics-document and `graphics-symbol` roles are documented in the [ARIA Graphics module](https://www.w3.org/TR/graphics-aria-1.0/), and the [Graphics AAM](http://w3c.github.io/aria/graphics-aam/graphics-aam.html).
+**Note:** the graphics-document and `graphics-symbol` roles are documented in the [ARIA Graphics module](https://www.w3.org/TR/graphics-aria-1.0/), and the [Graphics AAM](https://w3c.github.io/aria/graphics-aam/graphics-aam.html).
 
 There is an added complication: although these roles are supported by browsers and accessibility APIs, they are not well supported by screen readers. The `group` role is recognised by screen readers but is not communicated to users in this context, and neither the `graphics-document` or `graphics-symbol` roles is recognised at all. The text content is available to screen readers though.
 
@@ -144,4 +144,4 @@ The updated code looks like this:
 </svg>
 ```
 
-This has the advantage of being supported on multiple platforms, in multiple browsers, and with multiple screen readers. The [ARIA tables demo](http://ljwatson.github.io/design-patterns/aria-tables/index.html) includes information about browser and screen reader support for Windows, MacOS, iOS, and Android.
+This has the advantage of being supported on multiple platforms, in multiple browsers, and with multiple screen readers. The [ARIA tables demo](https://ljwatson.github.io/design-patterns/aria-tables/index.html) includes information about browser and screen reader support for Windows, MacOS, iOS, and Android.

@@ -48,4 +48,4 @@ There are a couple of other keyboard shortcuts for classic Windows features:
 
 The Ease of Access Center is still part of Windows 8. It contains the Magnifier, Narrator, and on screen keyboard applications, plus settings for making Windows easier to see, usable without a mouse or without sound. You can also start Narrator directly with Windows key enter.
 
-There are many more Windows 8 keyboard shortcuts available. Download a spreadsheet of [30 Windows 8 shortcut keys (XLS, 26Kb)](http://tink.co.uk/wp-content/uploads/2012/07/Windows-8_keyboard-shortcuts_2012-07.xls), including those featured in this post.
+There are many more Windows 8 keyboard shortcuts available. Download a spreadsheet of [30 Windows 8 shortcut keys (XLS, 26Kb)](https://tink.co.uk/wp-content/uploads/2012/07/Windows-8_keyboard-shortcuts_2012-07.xls), including those featured in this post.

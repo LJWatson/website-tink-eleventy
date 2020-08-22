@@ -5,13 +5,13 @@ tags: ["ARIA", "JavaScript", "Screen readers"]
 categories: "Code things"
 ---
 
-[Traduction française](http://access42.net/Utiliser-le-role-application-ARIA.html)
+[Traduction française](https://access42.net/Utiliser-le-role-application-ARIA.html)
 
 The [ARIA `application` role](https://www.w3.org/TR/wai-aria-1.1/#application) changes the way screen readers interact with web content. Several good articles explain (rightly) why the `application` role should be [used with caution](https://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely/), but this post looks at a use case where the `application` role is used to good effect.
 
 Screen readers sometimes intercept keystrokes and repurpose them for screen reader specific tasks, like navigating content by headings or reading a line of text. The `application` role prevents the screen reader from intercepting keystrokes, and passes them back through to the browser as though the screen reader wasn’t running. Read [Understanding screen reader interaction](/understanding-screen-reader-interaction-modes/) for more information.
 
-It is this intercept behaviour that means some screen readers, notably those that run on Windows, do not work with keyboard shortcuts provided using JavaScript. The screen reader intercepts the given shortcut keys and uses them for its own purpose, instead of letting them through to the browser and the waiting Javascript. Read [Time to revisit accesskey](http://tink.uk/time-to-revisit-accesskey/) for more information.
+It is this intercept behaviour that means some screen readers, notably those that run on Windows, do not work with keyboard shortcuts provided using JavaScript. The screen reader intercepts the given shortcut keys and uses them for its own purpose, instead of letting them through to the browser and the waiting Javascript. Read [Time to revisit accesskey](https://tink.uk/time-to-revisit-accesskey/) for more information.
 
 The answer may seem simple at this point – use the `application` role to stop the screen reader intercepting the shortcut keys, so the Javascript can do its job. The problem with this is that it will stop the screen reader intercepting every keystroke, not just those intended to be used as keyboard shortcuts. In other words, none of the keystrokes used for navigating and interacting with content will be available to the user. This seriously impairs their ability to read and interact with content in the normal way.
 

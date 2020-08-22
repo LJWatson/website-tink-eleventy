@@ -5,7 +5,7 @@ tags: ["Dinner", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The tenth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This beautifully written Italian recipe is from [Joseph Karr O'Connor](http://www.twitter.com/accessiblejoe).
+The tenth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This beautifully written Italian recipe is from [Joseph Karr O'Connor](https://www.twitter.com/accessiblejoe).
 
 ## Information
 
@@ -99,7 +99,7 @@ Steam will condense on the lid, pour that off into the sink. You want to reduce 
 
 ## Joseph's notes
 
-play the soundtrack by Nino Rota to [Fellini’s Juliet of the Spirits](http://www.youtube.com/watch?v=nggmv4N94J4) on your stereo.
+play the soundtrack by Nino Rota to [Fellini’s Juliet of the Spirits](https://www.youtube.com/watch?v=nggmv4N94J4) on your stereo.
 
 My parents emigrated from Ireland to New York in the late 1940s. The Italian women in the neighborhood took one look at my painfully thin dad and proceeded to teach my mom Italian cooking. You should have tasted her lasagna. Magnifico!
 

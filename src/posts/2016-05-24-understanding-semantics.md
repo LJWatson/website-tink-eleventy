@@ -5,7 +5,7 @@ tags: ["HTML"]
 categories: "Code things"
 ---
 
-[Эта статья на русском](http://css-live.ru/articles/ponimanie-semantiki.html)
+[Эта статья на русском](https://css-live.ru/articles/ponimanie-semantiki.html)
 
 The word “semantic” is regularly used in the context of web development. We talk about “semantic code” and the “semantics” of a given element, but what do we really mean by it, and why is it important?
 

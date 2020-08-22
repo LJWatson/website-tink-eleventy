@@ -19,4 +19,4 @@ There are three configuration changes you can make to firefox. I'm obliged at th
 8. Use the enter key to toggle this setting to false.
 9. Restart firefox.
 
-Note: This workaround does not seem to work with Firefox 40 on Windows 10 with the [Jaws 17 public beta](http://www.freedomscientific.com/downloads/jaws/jawspublicbeta). Please use the comments to add further information about this workaround - but no technical support requests please.
+Note: This workaround does not seem to work with Firefox 40 on Windows 10 with the [Jaws 17 public beta](https://www.freedomscientific.com/downloads/jaws/jawspublicbeta). Please use the comments to add further information about this workaround - but no technical support requests please.

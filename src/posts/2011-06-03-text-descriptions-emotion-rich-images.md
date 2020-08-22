@@ -5,7 +5,7 @@ tags: ["HTML", "Screen readers"]
 categories: "Web life"
 ---
 
-This article was first posted in 2007 on the [eAccess blog](http://www.headstar.com/eablive/?p=106). Three years later and I still believe that emotion rich images are important to blind people, particularly those who once had sight (and that's most of us). Results from the third [WebAIM screen reader survey](http://webaim.org/projects/screenreadersurvey/#images) suggest I'm not alone, so I'm reposting the article here to encourage the debate to continue.
+This article was first posted in 2007 on the [eAccess blog](https://www.headstar.com/eablive/?p=106). Three years later and I still believe that emotion rich images are important to blind people, particularly those who once had sight (and that's most of us). Results from the third [WebAIM screen reader survey](https://webaim.org/projects/screenreadersurvey/#images) suggest I'm not alone, so I'm reposting the article here to encourage the debate to continue.
 
 So just what is a decorative image? It seems to me that one person’s eye candy is another person’s emotional link to a website.
 

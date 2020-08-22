@@ -5,7 +5,7 @@ tags: ["Accompaniments"]
 categories: "Recipe book"
 ---
 
-Potato dauphinoise is ridiculously easy to make, gloriously indulgent and absolutely delicious. It goes well with anything from a lamb roast to a good steak, but my favourite is potato dauphinoise with [confit of duck](http://tink.co.uk/2009/12/confit-of-duck/)!
+Potato dauphinoise is ridiculously easy to make, gloriously indulgent and absolutely delicious. It goes well with anything from a lamb roast to a good steak, but my favourite is potato dauphinoise with [confit of duck](https://tink.co.uk/2009/12/confit-of-duck/)!
 
 ## Information
 

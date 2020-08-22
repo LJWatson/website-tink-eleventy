@@ -5,7 +5,7 @@ tags: ["Screen readers", "Windows"]
 categories: "Desktop things"
 ---
 
-_This post was updated on 8th July 2012, to reflect changes in the [Windows 8 release edition](http://windows.microsoft.com/en-US/windows-8/release-preview)._
+_This post was updated on 8th July 2012, to reflect changes in the [Windows 8 release edition](https://windows.microsoft.com/en-US/windows-8/release-preview)._
 
 Windows 8 has several accessibility improvements. One of the most noticeable is Narrator, Windows’ built in speech capability. Narrator has grown up in Windows 8, and now comes with a lot more to offer.
 
@@ -37,11 +37,11 @@ On a desktop computer, Microsoft David is the default. It’s a pleasant America
 
 ### Windows 8 voice samples
 
-[Windows 8 voice samples](http://www.youtube.com/watch?v=e-cfj3kkmOM)
+[Windows 8 voice samples](https://www.youtube.com/watch?v=e-cfj3kkmOM)
 
 ## Command settings
 
-Narrator has 72 keyboard commands (as of the June 2012 [release edition](http://windows.microsoft.com/en-US/windows-8/release-preview). When Narrator is running you can call up a list of available commands (Capslock f1). Within the “Commands” settings you can change the keystrokes required to invoke any particular command.
+Narrator has 72 keyboard commands (as of the June 2012 [release edition](https://windows.microsoft.com/en-US/windows-8/release-preview). When Narrator is running you can call up a list of available commands (Capslock f1). Within the “Commands” settings you can change the keystrokes required to invoke any particular command.
 
 ## Narrator commands
 

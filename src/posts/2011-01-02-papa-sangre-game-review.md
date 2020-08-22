@@ -5,11 +5,11 @@ tags: ["Games", "Apps"]
 categories: "Mobile things"
 ---
 
-You are lost, deep in the darkness of the land of the dead. Your eyes are useless to you here — but your ears are filled with sound. Thus the scene is set for [Papa Sangre](http://www.papasangre.com/), one of the most stylish (and screen reader friendly) games on the iOS platform.
+You are lost, deep in the darkness of the land of the dead. Your eyes are useless to you here — but your ears are filled with sound. Thus the scene is set for [Papa Sangre](https://www.papasangre.com/), one of the most stylish (and screen reader friendly) games on the iOS platform.
 
 > Papa Sangre is a video game with no video. It’s a first-person thriller, done entirely in audio by an award-winning team of game designers, musicians, sound designers and developers.
 
-Created by [Somethin’ Else](http://www.somethinelse.com/) with support from [4IP](http://www.4ip.org.uk/), Papa Sangre uses the first real time 3D audio engine on a hand held device. It’s a remarkably slick app, with added kudos for being perfectly accessible to blind/partially sighted gamers.
+Created by [Somethin’ Else](https://www.somethinelse.com/) with support from [4IP](https://www.4ip.org.uk/), Papa Sangre uses the first real time 3D audio engine on a hand held device. It’s a remarkably slick app, with added kudos for being perfectly accessible to blind/partially sighted gamers.
 
 ## Gameplay
 
@@ -19,7 +19,7 @@ The gameplay is extremely simple. You hold your iOS device in landscape orientat
 
 You change direction by swiping left/right across the top of the screen. As you move through the game world the 3D audio engine creates a vivid landscape around you. You’ll need a set of earphones though. Without them it’s impossible to react to the 3D soundscape and play the game successfully.
 
-Papa Sangre works seamlessly with [VoiceOver](http://en.wikipedia.org/wiki/VoiceOver). You don’t need the screen reader to play the game itself, only to start the game and move between levels. Useful cues are given to let you know when to turn VoiceOver on/off, so it couldn’t be easier.
+Papa Sangre works seamlessly with [VoiceOver](https://en.wikipedia.org/wiki/VoiceOver). You don’t need the screen reader to play the game itself, only to start the game and move between levels. Useful cues are given to let you know when to turn VoiceOver on/off, so it couldn’t be easier.
 
 ## Game world
 
@@ -37,4 +37,4 @@ You must sneak past the many delightfully dreadful creatures that inhabit Papa S
 
 The production quality of Papa Sangre is brilliant. The characters are elegantly simple, and the dialogue far better than you’ll find in many (revenue churning) online game worlds.
 
-At £3.99 from the [iTunes app store](http://itunes.apple.com/gb/app/papa-sangre/id407536885?mt=8) it’s worth absolutely every single penny. Papa Sangre is a captivating adventure in a child like world of macabre fantasy!
+At £3.99 from the [iTunes app store](https://itunes.apple.com/gb/app/papa-sangre/id407536885?mt=8) it’s worth absolutely every single penny. Papa Sangre is a captivating adventure in a child like world of macabre fantasy!

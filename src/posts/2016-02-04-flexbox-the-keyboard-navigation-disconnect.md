@@ -39,7 +39,7 @@ There are two things that can be done to bypass the DOM order at the code level,
 
 ### The `tabindex` attribute
 
-The [HTML `tabindex` attribute](http://w3c.github.io/html/editing.html#the-tabindex-attribute) can be used to impose a specific DOM order on content. If the `tabindex` values match the corresponding `order` property values, the visual and DOM orders can be brought into alignment. In the following example the visual and keyboard order are both "3", "2", "1".
+The [HTML `tabindex` attribute](https://w3c.github.io/html/editing.html#the-tabindex-attribute) can be used to impose a specific DOM order on content. If the `tabindex` values match the corresponding `order` property values, the visual and DOM orders can be brought into alignment. In the following example the visual and keyboard order are both "3", "2", "1".
 
 ```html
 <div style="display: flex;">
@@ -75,7 +75,7 @@ Firefox realigns the tab order to match the visual order (based on the order pro
 
 Interestingly this behaviour is considered to be an [implementation bug](https://bugzilla.mozilla.org/show_bug.cgi?id=812687) because it's contrary to the FlexBox specification. This may explain why neither the DOM order or the accessibility tree seem to be altered (the realignment appears to happen elsewhere), but the upshot is that it solves the disconnect problem for people using the tab key to navigate content.
 
-It doesn’t entirely solve the flexbox disconnect problem for screen reader users though. If a screen reader user tabs through the content the realignment happens as described, but screen readers that use a [virtual buffer](http://tink.uk/understanding-screen-reader-interaction-modes/) will also present the content in DOM order when the virtual mode is used. It’s worth mentioning that this is the case with all the options mentioned here, and it’s likely to be the case with any future option that doesn't rearrange the DOM and/or accessibility tree.
+It doesn’t entirely solve the flexbox disconnect problem for screen reader users though. If a screen reader user tabs through the content the realignment happens as described, but screen readers that use a [virtual buffer](https://tink.uk/understanding-screen-reader-interaction-modes/) will also present the content in DOM order when the virtual mode is used. It’s worth mentioning that this is the case with all the options mentioned here, and it’s likely to be the case with any future option that doesn't rearrange the DOM and/or accessibility tree.
 
 So the current situation is unsatisfactory for developers and users alike. As [Rich Schwerdtfeger explains](https://lists.w3.org/Archives/Public/public-apa/2016Jan/0025.html), the CSS "don’t use it" recommendation is unacceptable, and hacking things at the code level isn’t desirable or worthwhile in this instance.
 
@@ -83,4 +83,4 @@ The Firefox implementation/bug seems to have merit though. It isn’t perfect, b
 
 ## Related reading
 
-- [HTML source order versus CSS display order, by Adrian Roselli](http://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html)
+- [HTML source order versus CSS display order, by Adrian Roselli](https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html)

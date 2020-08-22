@@ -5,7 +5,7 @@ tags: ["CSS", "HTML", "Screen readers"]
 categories: "Code things"
 ---
 
-The CSS [before/after pseudo-selectors](http://www.w3.org/TR/css3-selectors/#gen-content) can be used to insert content into a page. In some situations this technique is a useful thing to do, but how do browsers and screen readers handle the generated content?
+The CSS [before/after pseudo-selectors](https://www.w3.org/TR/css3-selectors/#gen-content) can be used to insert content into a page. In some situations this technique is a useful thing to do, but how do browsers and screen readers handle the generated content?
 
 Quick recap: The `before/after` selectors insert content either before or after an element’s existing content. For example the CSS shown below will insert "bar" immediately after the "Foo" that is already present in the HTML:
 
@@ -21,7 +21,7 @@ The result of which can be seen in this [test case](https://test-cases.tink.uk/c
 
 ## Accessibility mechanics
 
-CSS generated content isn’t included in the DOM. Ordinarily browsers take information from the DOM to create the accessibility tree, but in this case the generated content is still factored into the [accessible name computation](http://www.w3.org/TR/accname-aam-1.1/#terminology) for the element.
+CSS generated content isn’t included in the DOM. Ordinarily browsers take information from the DOM to create the accessibility tree, but in this case the generated content is still factored into the [accessible name computation](https://www.w3.org/TR/accname-aam-1.1/#terminology) for the element.
 
 ## Accessibility results
 
@@ -36,6 +36,6 @@ Browser and screen reader support for CSS generated content
 | TalkBack | Yes | N/A | N/A | N/A | N/A | N/A
 | VoiceOver | N/A | N/A | N/A | N/A | Yes | Yes
 
-With Internet Explorer accounting for about [15% of traffic](http://caniuse.com/usage_table.php) (in March 2015), there is good reason to consider the viability of using CSS generated content.
+With Internet Explorer accounting for about [15% of traffic](https://caniuse.com/usage_table.php) (in March 2015), there is good reason to consider the viability of using CSS generated content.
 
 There is another more important consideration however - the separation of content and structure from design. Introducing content through the design layer breaks the standards model, and so it should be done only when the generated content does not alter the meaning of the original content. In other words, use CSS generated content to change or supplement the design, but not to create or alter important content on the page.

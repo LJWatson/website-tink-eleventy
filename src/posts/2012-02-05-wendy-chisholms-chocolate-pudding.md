@@ -5,7 +5,7 @@ tags: ["Pudding", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The third in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This beautiful chocolate pudding is from [Wendy Chisholm](http://www.twitter.com/wendyabc).
+The third in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This beautiful chocolate pudding is from [Wendy Chisholm](https://www.twitter.com/wendyabc).
 
 ## Information
 
@@ -18,7 +18,7 @@ The third in a series of posts that bring together the two sides of my blog: Foo
 
 * 5 avocados, (peeled and pitted)
 * 1 cup/240ml raw agave nectar
-* 1/4 cup/25g [cacao powder](http://en.wikipedia.org/wiki/Cocoa_solids)
+* 1/4 cup/25g [cacao powder](https://en.wikipedia.org/wiki/Cocoa_solids)
 * Pinch of sea salt
 * Seeds from 1 vanilla bean
 
@@ -31,4 +31,4 @@ The third in a series of posts that bring together the two sides of my blog: Foo
 
 ## Wendy's notes
 
-I recently began eating more raw foods and have fallen in love with [Alissa Cohen’s Raw Food for Everyone](http://www.alissacohen.com/). This recipe has been the biggest surprise. I had no idea how good it would taste. I like it better than regular pudding. So, for the surprise factor and the simplicity, I’ll call it my “favorite of the moment”.
+I recently began eating more raw foods and have fallen in love with [Alissa Cohen’s Raw Food for Everyone](https://www.alissacohen.com/). This recipe has been the biggest surprise. I had no idea how good it would taste. I like it better than regular pudding. So, for the surprise factor and the simplicity, I’ll call it my “favorite of the moment”.

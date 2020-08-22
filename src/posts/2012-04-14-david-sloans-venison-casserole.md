@@ -5,7 +5,7 @@ tags: ["Dinner", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The seventh in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This hearty feast is from [David Sloan](http://www.twitter.com/sloandr).
+The seventh in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This hearty feast is from [David Sloan](https://www.twitter.com/sloandr).
 
 ## Information
 

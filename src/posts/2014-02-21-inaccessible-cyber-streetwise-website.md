@@ -5,15 +5,15 @@ tags: []
 categories: "Web life"
 ---
 
-The [Cyber Streetwise](https://www.cyberstreetwise.com/#!/street) website was launched by the UK [Home Office](https://www.gov.uk/government/organisations/home-office) in January. Developed by [Nudge Digital](http://www.nudgedigital.co.uk/), Cyber Streetwise is a high profile website intended to change attitudes towards online security. It is also a complete travesty when it comes to accessibility.
+The [Cyber Streetwise](https://www.cyberstreetwise.com/#!/street) website was launched by the UK [Home Office](https://www.gov.uk/government/organisations/home-office) in January. Developed by [Nudge Digital](https://www.nudgedigital.co.uk/), Cyber Streetwise is a high profile website intended to change attitudes towards online security. It is also a complete travesty when it comes to accessibility.
 
-The Cyber Streetwise website has already received criticism from [industry](https://medium.com/p/55d6028c688a) and [the press](http://www.theregister.co.uk/2014/02/14/cyber_streetwise/), for its poor technical architecture and unintuitive interface design. Even with such criticisms in mind, the appalling lack of accessibility on the Cyber Streetwise website is simply astonishing.
+The Cyber Streetwise website has already received criticism from [industry](https://medium.com/p/55d6028c688a) and [the press](https://www.theregister.co.uk/2014/02/14/cyber_streetwise/), for its poor technical architecture and unintuitive interface design. Even with such criticisms in mind, the appalling lack of accessibility on the Cyber Streetwise website is simply astonishing.
 
-The Cyber Streetwise website cannot be used with the keyboard. It can’t be used if you use a screen reader, screen magnifier or speech recognition tool. It catastrophically fails almost every [principle of inclusive design](http://www.w3.org/TR/WCAG20/) there is.
+The Cyber Streetwise website cannot be used with the keyboard. It can’t be used if you use a screen reader, screen magnifier or speech recognition tool. It catastrophically fails almost every [principle of inclusive design](https://www.w3.org/TR/WCAG20/) there is.
 
 The only thing that surpasses the inexcusable absence of accessibility, is Cyber Streetwise’s belief that accessibility was a considered part of the website’s development to begin with.
 
-When [contacted on Twitter](https://twitter.com/LeonieWatson/status/434697623422132225) to ask why accessibility for disabled people hadn’t been considered, [@CyberStreetwise](http://www.twitter.com/cyberstreetwise) replied to say "it was! We’re deploying the accessible version of the site this week". Pushing an update to a website over a month after launch is certainly an interesting definition of having considered something!
+When [contacted on Twitter](https://twitter.com/LeonieWatson/status/434697623422132225) to ask why accessibility for disabled people hadn’t been considered, [@CyberStreetwise](https://www.twitter.com/cyberstreetwise) replied to say "it was! We’re deploying the accessible version of the site this week". Pushing an update to a website over a month after launch is certainly an interesting definition of having considered something!
 
 When asked whether they meant the update would make the website accessible, or that an alternate version would be made available, @CyberStreetwise replied to say it would be a "progressively enhancing experience".
 

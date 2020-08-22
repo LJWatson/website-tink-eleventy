@@ -22,7 +22,7 @@ History recalls that the first emoticon was posted to a Carnegie Mellon Universi
 
 > propose that the following character sequence for joke markers: :-) Read it sideways. Actually, it is probably more economical to mark things that are not jokes, given current trends. For this, use :-(
 
-For Fahlman's own view of how it all began, take a look at his page on [Smiley Lore](http://www-2.cs.cmu.edu/%7Esef/sefSmiley.htm "Smiley Lore").
+For Fahlman's own view of how it all began, take a look at his page on [Smiley Lore](https://www-2.cs.cmu.edu/%7Esef/sefSmiley.htm "Smiley Lore").
 
 ## Types of Emoticon
 

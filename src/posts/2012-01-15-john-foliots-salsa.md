@@ -5,7 +5,7 @@ tags: ["Accompaniments", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The first in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This gorgeous salsa recipe is from [John Foliot](http://www.twitter.com/johnfoliot).
+The first in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This gorgeous salsa recipe is from [John Foliot](https://www.twitter.com/johnfoliot).
 
 ## Information
 
@@ -19,7 +19,7 @@ The first in a series of posts that bring together the two sides of my blog: Foo
 * 20lb/9kg fresh tomatoes (I prefer Roma)
 * 24 assorted hot peppers (ideally Jalapeño, but any hot pepper will do)
 * 6 medium sized onions
-* 12 [Tomatillos](http://en.wikipedia.org/wiki/Tomatillo)
+* 12 [Tomatillos](https://en.wikipedia.org/wiki/Tomatillo)
 * 4 cloves of garlic (peeled)
 * 4tbsp salt
 * 1cup/240ml vinegar

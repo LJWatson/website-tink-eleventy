@@ -13,7 +13,7 @@ My disability is personal to me, and I share that information at my discretion. 
 
 ## I don’t want to be relegated to a ghetto
 
-We’ve spent years encouraging people to move away from [text-only websites](http://www.nomensa.com/blog/2004/text-only-sites/), and with good reason. If there is one thing that history should have taught us by now, it’s that social segregation is a bad idea.
+We’ve spent years encouraging people to move away from [text-only websites](https://www.nomensa.com/blog/2004/text-only-sites/), and with good reason. If there is one thing that history should have taught us by now, it’s that social segregation is a bad idea.
 
 ## I don’t want design decisions to be based on the wrong thing
 
@@ -21,7 +21,7 @@ The best screen reader detection can hope for, is to tell whether a screen reade
 
 ## I don’t want old mistakes to be repeated
 
-We’ve spent time turning to web standards and feature detection, instead of [browser sniffing](http://css-tricks.com/browser-detection-is-bad/) and excluding the ones we didn’t care to support (guilty as charged). Screen reader detection leaves us vulnerable to the same exclusion allover again, only this time feature detection won’t come to the rescue. The relationship between screen readers and browsers is symbiotic, and in terms of traditionally detectable features, screen readers derive most of their capability from the browser.
+We’ve spent time turning to web standards and feature detection, instead of [browser sniffing](https://css-tricks.com/browser-detection-is-bad/) and excluding the ones we didn’t care to support (guilty as charged). Screen reader detection leaves us vulnerable to the same exclusion allover again, only this time feature detection won’t come to the rescue. The relationship between screen readers and browsers is symbiotic, and in terms of traditionally detectable features, screen readers derive most of their capability from the browser.
 
 ## I don’t want things to be hard work
 

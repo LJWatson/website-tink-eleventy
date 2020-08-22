@@ -5,7 +5,7 @@ tags: ["Philosophy"]
 categories: "Real life"
 ---
 
-In 1997, Mary Schmich published a [guide to life](http://www.chicagotribune.com/news/columnists/chi-schmich-sunscreen-column,0,4054576.column) in the Chicago Tribune. In 1999, Baz Lurhmann turned it into a chillout anthem called [Everybody's Free (To Wear Sunscreen)](http://www.youtube.com/watch?v=sTJ7AzBIJoI). It was, and remains, some of the best advice for life I've ever heard...
+In 1997, Mary Schmich published a [guide to life](https://www.chicagotribune.com/news/columnists/chi-schmich-sunscreen-column,0,4054576.column) in the Chicago Tribune. In 1999, Baz Lurhmann turned it into a chillout anthem called [Everybody's Free (To Wear Sunscreen)](https://www.youtube.com/watch?v=sTJ7AzBIJoI). It was, and remains, some of the best advice for life I've ever heard...
 
 > Ladies and gentlemen of the class of '97:
 > 

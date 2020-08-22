@@ -36,7 +36,7 @@ background-color: #cc33ff;
 </nav>
 ```
 
-CSS is predominantly a visual medium, and with one [notable exception](http://tink.uk/accessibility-support-for-css-generated-content/) it isn't exposed to screen readers - and therein lies the problem.
+CSS is predominantly a visual medium, and with one [notable exception](https://tink.uk/accessibility-support-for-css-generated-content/) it isn't exposed to screen readers - and therein lies the problem.
 
 It's possible to solve this particular use case by removing the href attribute on the current link, rendering it inert and preventing screen readers from announcing it as a link at all. Or by using a foreground image instead of a background image, and giving it an alt text (like "Current page") that conveys the relevant information to screen reader users.
 

@@ -5,7 +5,7 @@ tags: ["ARIA", "HTML"]
 categories: "Code things"
 ---
 
-When a parent/child relationship is evident on-screen, but it isn’t represented in the DOM, the [aria-owns](http://www.w3.org/TR/wai-aria/states_and_properties#aria-owns) attribute can be used to establish that relationship in the accessibility layer.
+When a parent/child relationship is evident on-screen, but it isn’t represented in the DOM, the [aria-owns](https://www.w3.org/TR/wai-aria/states_and_properties#aria-owns) attribute can be used to establish that relationship in the accessibility layer.
 
 The parent/child relationship is a cornerstone of HTML structure. Every element in an HTML document is the parent, sibling or child of another.
 
@@ -64,6 +64,6 @@ The `aria-owns` attribute creates a parent/child relationship between the two li
 
 Which is to say that is what should happen. Unfortunately screen reader support for aria-owns is still inconsistent.
 
-Using this [aria-owns test case](http://ljwatson.github.io/test-cases/aria-owns/index.html), Jaws has support with Chrome, firefox and Internet Explorer. NVDA has support with chrome, but not Edge, Firefox or Internet Explorer. TalkBack does with Chrome, but VoiceOver does not in Safari (OSX or iOS).
+Using this [aria-owns test case](https://ljwatson.github.io/test-cases/aria-owns/index.html), Jaws has support with Chrome, firefox and Internet Explorer. NVDA has support with chrome, but not Edge, Firefox or Internet Explorer. TalkBack does with Chrome, but VoiceOver does not in Safari (OSX or iOS).
 
 Updated on 19th October to include results for Narrator (on Windows 10). The `aria-owns` attribute is not supported by Narrator with either Edge or Internet Explorer.

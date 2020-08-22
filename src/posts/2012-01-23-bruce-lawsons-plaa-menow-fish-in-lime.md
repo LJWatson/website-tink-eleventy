@@ -5,7 +5,7 @@ tags: ["Dinner", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The second in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This sumptuous Thai recipe is from [Bruce Lawson](http://www.twitter.com/brucel).
+The second in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This sumptuous Thai recipe is from [Bruce Lawson](https://www.twitter.com/brucel).
 
 ## Information
 
@@ -35,4 +35,4 @@ The second in a series of posts that bring together the two sides of my blog: Fo
 
 ## Bruce's notes
 
-This is a recipe from Thailand, the home of my lovely missus and where I met her when we were both teachers in Bangkok. She [teaches Thai cookery](http://www.thaicookery.co.uk/) for a living now.
+This is a recipe from Thailand, the home of my lovely missus and where I met her when we were both teachers in Bangkok. She [teaches Thai cookery](https://www.thaicookery.co.uk/) for a living now.

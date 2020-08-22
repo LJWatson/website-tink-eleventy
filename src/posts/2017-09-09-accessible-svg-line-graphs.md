@@ -7,7 +7,7 @@ categories: "Code things"
 
 SVG is often used for data visualisation, but because SVG lacks the semantics to express structures like bar charts, line graphs, and scatter plots, the content is difficult for screen reader users to interpret. The solution is to use the technique for creating [accessible SVG tables](https://tink.uk/accessible-svg-tables/) as your starting point.
 
-Let's take a simple [SVG line graph](http://design-patterns.tink.uk/svg-line-graph/original.html) as a working example. In this graph the y axis represents usage by percent, and the x axis represents time. The three lines represent the different screen readers:
+Let's take a simple [SVG line graph](https://design-patterns.tink.uk/svg-line-graph/original.html) as a working example. In this graph the y axis represents usage by percent, and the x axis represents time. The three lines represent the different screen readers:
 
 * Jaws is a solid blue line;
 * NVDA is a dotted black line;
@@ -83,10 +83,10 @@ The `img` role is again used to expose the content as a graphic in the browser, 
 
 Use the `aria-hidden` attribute to hide the y axis values, the y axis label ("Percentage usage"), and the legend, from screen readers. The same information is available to screen reader users through the row and column headers, so this avoids duplication of information without removing it from the visual presentation.
 
-A [working demo](http://design-patterns.tink.uk/svg-line-graph/index.html) of the chart has all of these changes applied.
+A [working demo](https://design-patterns.tink.uk/svg-line-graph/index.html) of the chart has all of these changes applied.
 
 The state of SVG accessibility support in browsers and screen readers is still highly inconsistent, even when ARIA is used to polyfill semantic information. This solution works with Jaws in Chrome and IE, but only partially in Firefox (because Jaws doesn't recognise the contents of the table cells in that browser); NVDA struggles with the ARIA table semantics in Chrome, Firefox, and IE; whilst this solution works well with VoiceOver in Safari.
 
 The upshot is that this technique is enough to make the primary SVG content more screen reader accessible, and support is likely to improve as browsers and screen readers improve their support for SVG and ARIA, but it isn't enough to make it completely so. For this (and many other good reasons), it's a good idea to provide an alternative view of the information, for example by providing both a graphical and a tabular view of the content (as noted above).
 
-Thanks to [WebAIM](http://webaim.org) for the data (taken from their screen reader surveys) used to create this line graph, and to Chaals McCathie Nevile who borrowed the original SVG chart from HighChart and started [thinking about its accessibility](http://svg-access-w3cg.github.io/use-case-examples/hc-chart/notes.html).
+Thanks to [WebAIM](https://webaim.org) for the data (taken from their screen reader surveys) used to create this line graph, and to Chaals McCathie Nevile who borrowed the original SVG chart from HighChart and started [thinking about its accessibility](https://svg-access-w3cg.github.io/use-case-examples/hc-chart/notes.html).

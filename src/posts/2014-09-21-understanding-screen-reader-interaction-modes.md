@@ -5,13 +5,13 @@ tags: ["Screen readers", "ARIA"]
 categories: "Code things"
 ---
 
-[Traduction française](http://access42.net/Comprendre-les-modes-d-interaction.html?lang=fr)
+[Traduction française](https://access42.net/Comprendre-les-modes-d-interaction.html?lang=fr)
 
 Windows screen readers have multiple modes of interaction, and depending on the task being carried out they’ll automatically switch to the most appropriate mode. This post explains why Windows screen readers behave the way they do, and how your code can influence that behaviour.
 
 ## Virtual/browse mode
 
-When a document is rendered in the browser, Windows screen readers like JAWS and NVDA access the [Document Object Model (DOM)](http://en.wikipedia.org/wiki/Document_Object_Model) either directly or through the available accessibility APIs. The DOM is a hierarchical representation of the objects in the web-document, and the information that’s retrieved from it is augmented by the screen reader and displayed to the user as a virtual copy of the original.
+When a document is rendered in the browser, Windows screen readers like JAWS and NVDA access the [Document Object Model (DOM)](https://en.wikipedia.org/wiki/Document_Object_Model) either directly or through the available accessibility APIs. The DOM is a hierarchical representation of the objects in the web-document, and the information that’s retrieved from it is augmented by the screen reader and displayed to the user as a virtual copy of the original.
 
 By creating a virtual copy of the document, screen readers make it possible for blind people to interact with content in ways that would otherwise be impossible on the Windows platform. This happens because the screen reader intercepts most keypresses before they reach the browser, triggering an interaction with the virtual document instead.
 
@@ -39,8 +39,8 @@ For the most part a screen reader will handle the different interaction modes au
 
 A set of tabs is a good example: When interacting with a set of tabs in a software application, the left/right cursor keys cycle between each of the tabs in the set. When a set of tabs is transposed into a web-document the same interaction design pattern is supported by the script that provides the widget’s functionality. Herein lies the challenge though: A Windows screen reader will intercept the left/right keystrokes and use them to move focus within the virtual buffer, instead of passing them through to the browser to interact with the set of tabs.
 
-[ARIA](http://www.w3.org/TR/wai-aria/) (known as WAI-ARIA on formal occasions) is the solution. When certain [ARIA roles](http://www.w3.org/TR/wai-aria/roles) are applied to custom widgets, they inform the screen reader that the element (or group of elements) has a specific purpose, and also that virtual/browse mode is not appropriate. The result is that the screen reader switches into applications mode and treats the widget as though it were a component of a software application.
+[ARIA](https://www.w3.org/TR/wai-aria/) (known as WAI-ARIA on formal occasions) is the solution. When certain [ARIA roles](https://www.w3.org/TR/wai-aria/roles) are applied to custom widgets, they inform the screen reader that the element (or group of elements) has a specific purpose, and also that virtual/browse mode is not appropriate. The result is that the screen reader switches into applications mode and treats the widget as though it were a component of a software application.
 
-To all intents and purposes, applications mode is the same as forms/focus mode – it causes the screen reader to pass keystrokes back through to the browser so they can fulfil their original purpose. For example, when the [tablist](http://www.w3.org/TR/wai-aria/roles#tablist) and [tab](http://www.w3.org/TR/wai-aria/roles#tab) roles are used as part of the [tab widget design pattern](http://www.w3.org/TR/wai-aria-practices/#tabpanel), using the tab key to move focus onto the first tab in the set causes a Windows screen reader to automatically switch into applications mode. From that point all the keyboard interaction is handled by the script. This does mean of course that the script driving the functionality of the widget has to be setup to handle keyboard interaction!
+To all intents and purposes, applications mode is the same as forms/focus mode – it causes the screen reader to pass keystrokes back through to the browser so they can fulfil their original purpose. For example, when the [tablist](https://www.w3.org/TR/wai-aria/roles#tablist) and [tab](https://www.w3.org/TR/wai-aria/roles#tab) roles are used as part of the [tab widget design pattern](https://www.w3.org/TR/wai-aria-practices/#tabpanel), using the tab key to move focus onto the first tab in the set causes a Windows screen reader to automatically switch into applications mode. From that point all the keyboard interaction is handled by the script. This does mean of course that the script driving the functionality of the widget has to be setup to handle keyboard interaction!
 
-With thanks to [Hans Hillen](http://www.twitter.com/hanshillen).
+With thanks to [Hans Hillen](https://www.twitter.com/hanshillen).

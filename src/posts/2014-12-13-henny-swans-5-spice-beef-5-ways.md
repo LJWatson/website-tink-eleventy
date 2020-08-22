@@ -5,7 +5,7 @@ tags: ["Dinner", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The 11th in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This bundle of awesome Chinese dishes is from [Henny Swan](http://www.twitter.com/iheni).
+The 11th in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This bundle of awesome Chinese dishes is from [Henny Swan](https://www.twitter.com/iheni).
 
 ## Information
 
@@ -76,5 +76,5 @@ This makes a good canapé and is another mix of east and west. Mix some crème f
 
 If you are into good Chinese food the best recipe books are:
 
-* The Food of China – Murdoch books – which unfortunately I can’t find a copy of online but [Food of China: a journey for food lovers](http://www.amazon.com/The-Food-China-Journey-Lovers/dp/1740454634) comes close.
-* [Land of plenty: a treasury of authentic Sichuan cookery](http://www.amazon.co.uk/Land-Plenty-Treasury-Authentic-Sichuan/dp/0393051773/ref=sr_1_5?s=books&ie=UTF8&qid=1417962220&sr=1-5&keywords=fuschia+dunlop) – Fuschia Dunlop.
+* The Food of China – Murdoch books – which unfortunately I can’t find a copy of online but [Food of China: a journey for food lovers](https://www.amazon.com/The-Food-China-Journey-Lovers/dp/1740454634) comes close.
+* [Land of plenty: a treasury of authentic Sichuan cookery](https://www.amazon.co.uk/Land-Plenty-Treasury-Authentic-Sichuan/dp/0393051773/ref=sr_1_5?s=books&ie=UTF8&qid=1417962220&sr=1-5&keywords=fuschia+dunlop) – Fuschia Dunlop.

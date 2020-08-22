@@ -7,7 +7,7 @@ categories: "Code things"
 
 Many websites provide keyboard shortcuts for common tasks. Keyboard shortcuts are useful things to have, but the way in which they’re provided is often problematic for Windows screen reader users.
 
-Websites like [Facebook](http://www.facebook.com/), [Twitter](http://www.twitter.com/) and [Google](http://www.google.com/) provide keyboard shortcuts for repetitive tasks, like posting a status update, replying to a tweet, or deleting an email. The shortcuts are intended to make things easier for keyboard-only users, but also for mouse users (because it’s often quicker to hit a keyboard shortcut than it is to locate the relevant control and click on it with a mouse).
+Websites like [Facebook](https://www.facebook.com/), [Twitter](https://www.twitter.com/) and [Google](https://www.google.com/) provide keyboard shortcuts for repetitive tasks, like posting a status update, replying to a tweet, or deleting an email. The shortcuts are intended to make things easier for keyboard-only users, but also for mouse users (because it’s often quicker to hit a keyboard shortcut than it is to locate the relevant control and click on it with a mouse).
 
 Each of these sites (and many others) provide keyboard shortcuts using JavaScript. On the face of it this seems like a reasonable way to do things, but layering keyboard functionality on top of the application means that none of the shortcuts are available to Windows screen reader users.
 
@@ -39,4 +39,4 @@ Jaws then has to scrape the DOM to get at that information. It’s a method that
 
 ## Accessibility API access
 
-What we need is a way for websites to provide keyboard shortcuts that are exposed in the browser’s accessibility tree – so that the information can be queried by any assistive technology using the accessibility API. Perhaps it’s time to [revisit accesskey](http://www.w3.org/WAI/PF/HTML/wiki/Accesskey), fix the broken bits and extend it to become a useful thing?
+What we need is a way for websites to provide keyboard shortcuts that are exposed in the browser’s accessibility tree – so that the information can be queried by any assistive technology using the accessibility API. Perhaps it’s time to [revisit accesskey](https://www.w3.org/WAI/PF/HTML/wiki/Accesskey), fix the broken bits and extend it to become a useful thing?

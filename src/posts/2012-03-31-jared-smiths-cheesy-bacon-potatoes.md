@@ -5,7 +5,7 @@ tags: ["Dinner", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The sixth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This fabulous outdoors recipe is from [Jared Smith](http://www.twitter.com/jared_w_smith).
+The sixth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This fabulous outdoors recipe is from [Jared Smith](https://www.twitter.com/jared_w_smith).
 
 ## Information
 
@@ -20,11 +20,11 @@ The sixth in a series of posts that bring together the two sides of my blog: Foo
 * 6 rashers bacon
 * 1 onion (chopped)
 * 3 cups/300g cheddar cheese (grated)
-* [Lawry's seasoning](http://www.mccormick.com/Lawrys/Flavors/Spice-Blends/Seasoned-Salt) or salt and pepper
+* [Lawry's seasoning](https://www.mccormick.com/Lawrys/Flavors/Spice-Blends/Seasoned-Salt) or salt and pepper
 
 ## Method
 
-1. Line the bottom of a 12" [dutch oven](http://en.wikipedia.org/wiki/Dutch_oven) with the bacon, then place over coals or in an oven until the bacon browns slightly on one side.
+1. Line the bottom of a 12" [dutch oven](https://en.wikipedia.org/wiki/Dutch_oven) with the bacon, then place over coals or in an oven until the bacon browns slightly on one side.
 2. Break the bacon into small bits, and layer it together with the potatoes and onions.
 3. Add plenty of Lawry’s seasoning, salt and pepper to taste, put the lid on the dutch oven and cook at 375f/195c for about an hour or until the potatoes have begun to soften.
 4. Add small amounts of water and stir occasionally to ensure tenderness and even cooking.

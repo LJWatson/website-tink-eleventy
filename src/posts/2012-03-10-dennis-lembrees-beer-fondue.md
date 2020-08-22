@@ -5,7 +5,7 @@ tags: ["Dinner", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The fifth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This tasty fondue recipe is from [Dennis Lembree](http://www.twitter.com/dennisl).
+The fifth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This tasty fondue recipe is from [Dennis Lembree](https://www.twitter.com/dennisl).
 
 ## Information
 

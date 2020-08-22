@@ -46,4 +46,4 @@ This recipe is fabulous for brunch on Christmas eve, or any lazy weekend when yo
 
 The challenge with this recipe is making the Hollandaise sauce and poaching the eggs, so they’re both ready at the same time. One approach is to cook with a friend and split the tasks between you, another is to buy in some ready made Hollandaise sauce from the grocery store.
 
-Hollandaise sauce has a bit of a reputation for being difficult to make. It isn’t, but you have to take care not to over heat it (or the sauce curdles). Using a bowl over simmering water (known as a [bain marie](http://en.wikipedia.org/wiki/Bain-marie)) is the secret because it stops the sauce coming into contact with direct heat.
+Hollandaise sauce has a bit of a reputation for being difficult to make. It isn’t, but you have to take care not to over heat it (or the sauce curdles). Using a bowl over simmering water (known as a [bain marie](https://en.wikipedia.org/wiki/Bain-marie)) is the secret because it stops the sauce coming into contact with direct heat.

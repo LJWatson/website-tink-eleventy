@@ -5,7 +5,7 @@ tags: ["Dinner", "Web standards food"]
 categories: "Recipe book"
 ---
 
-The fourth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This tempting vegetarian recipe is from [Gez Lemon](http://www.twitter.com/gezlemon).
+The fourth in a series of posts that bring together the two sides of my blog: Food and technology. I’ve asked the great and the good from the [web standards community](/tag/web-standards-food/) to share their favourite recipes. This tempting vegetarian recipe is from [Gez Lemon](https://www.twitter.com/gezlemon).
 
 ## Information
 
