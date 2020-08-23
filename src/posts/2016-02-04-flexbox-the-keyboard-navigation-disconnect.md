@@ -15,9 +15,9 @@ When content is presented in sequence, we expect to read it and navigate through
 
 ```html
 <div>
-    <a href="/">One</a>
-    <a href="/">Two</a>
-    <a href="/">Three</a>
+<a href="/">One</a>
+<a href="/">Two</a>
+<a href="/">Three</a>
 </div>
 ```
 
@@ -25,9 +25,9 @@ With flexbox it is possible to display content in a different visual order, with
 
 ```html
 <div style="display: flex;">
-    <a href="/" style="order: 3;">One</a>
-    <a href="/" style="order: 2;">Two</a>
-    <a href="/" style="order: 1;">Three</a>
+<a href="/" style="order: 3;">One</a>
+<a href="/" style="order: 2;">Two</a>
+<a href="/" style="order: 1;">Three</a>
 </div>
 ```
 
@@ -43,9 +43,9 @@ The [HTML `tabindex` attribute](https://w3c.github.io/html/editing.html#the-tabi
 
 ```html
 <div style="display: flex;">
-    <a href="/" style="order: 3;" tabindex="3">One</a>
-    <a href="/" style="order: 2;" tabindex="2">Two</a>
-    <a href="/" style="order: 1;" tabindex="1">Three</a>
+<a href="/" style="order: 3;" tabindex="3">One</a>
+<a href="/" style="order: 2;" tabindex="2">Two</a>
+<a href="/" style="order: 1;" tabindex="1">Three</a>
 </div>
 ```
 
@@ -57,9 +57,9 @@ The [`aria-flowto` attribute](https://www.w3.org/TR/wai-aria/states_and_properti
 
 ```html
 <div style="display: flex;">
-    <a href="/" style="order: 3;" id="i1">One</a>
-    <a href="/" style="order: 2;" id="i2" aria-flowto="i1">Two</a>
-    <a href="/" style="order: 1;" id="i3" aria-flowto="i2">Three</a>
+<a href="/" style="order: 3;" id="i1">One</a>
+<a href="/" style="order: 2;" id="i2" aria-flowto="i1">Two</a>
+<a href="/" style="order: 1;" id="i3" aria-flowto="i2">Three</a>
 </div>
 ```
 

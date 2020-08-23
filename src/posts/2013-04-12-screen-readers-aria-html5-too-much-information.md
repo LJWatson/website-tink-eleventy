@@ -25,13 +25,13 @@ This approach is problematic for two reasons: It breaks the intended relationshi
 
 Here's how the ARIA specification defines the navigation landmark role:
 
-> "A collection of navigational elements (usually links) for navigating the document or related documents."
+> A collection of navigational elements (usually links) for navigating the document or related documents.
 
 At first glance this seems to suggest that the `navigation` role can be applied to the `ul` element, because it's a collection of navigational links. It actually causes a conflict though. The `ul` element already has an ARIA role of "list", and it's treated as a list by other accessibility APIs.
 
 Here's how the HTML5 specification defines the `nav` element:
 
-> "The nav element represents a section of a page that links to other pages or to parts within the page: a section with navigation links."
+> The nav element represents a section of a page that links to other pages or to parts within the page: a section with navigation links.
 
 The `nav` element was purpose built to contain a number of navigational elements. This makes it a much closer fit for the ARIA `navigation` role than the `ul` element. In fact the ARIA `navigation` role maps directly to the HTML5 `nav` element.
 

@@ -29,11 +29,11 @@ A massively simplified version of this interaction might look like this:
 <title>Tequila</title>
 
 <script>
-    var items = 0;
-	function updateItems () {
-		items = items + 1;
-		document.getElementById("quantity").innerHTML=items;
-	}
+var items = 0;
+function updateItems () {
+items = items + 1;
+document.getElementById("quantity").innerHTML=items;
+}
 </script>
 </head>
 
@@ -44,7 +44,7 @@ A massively simplified version of this interaction might look like this:
 
 <h2>Basket summary</h2>
 <div>
-    <p>Your basket contains <span id="quantity">0</span> items.</p>
+<p>Your basket contains <span id="quantity">0</span> items.</p>
 </div>
 
 </body>
@@ -64,7 +64,7 @@ Adding the `aria-live` attribute to the basket summary:
 ```html
 <h2>Basket summary</h2>
 <div aria-live="assertive">
-    <p>Your basket contains <span id="quantity">0</span> items.</p>
+<p>Your basket contains <span id="quantity">0</span> items.</p>
 </div>
 ```
 
@@ -81,7 +81,7 @@ Adding the aria-atomic attribute to the basket summary:
 ```html
 <h2>Basket summary</h2>
 <div aria-live="assertive" aria-atomic="true">
-    <p>Your basket contains <span id="quantity">0</span> items.</p>
+<p>Your basket contains <span id="quantity">0</span> items.</p>
 </div>
 ```
 

@@ -5,7 +5,7 @@ tags: ["ARIA", "Screen readers", "WebVR"]
 categories: "Code things"
 ---
 
-The [`aria-roledescription`](https://www.w3.org/TR/wai-aria-1.1/#aria-roledescription) attribute changes the way screen readers announce the role of an element. Intended to give authors a way to provide a localised and human-readable description for a role, it has the capacity to both enhance and seriously break accessibility for screen reader users.
+The [aria-roledescription](https://www.w3.org/TR/wai-aria-1.1/#aria-roledescription) attribute changes the way screen readers announce the role of an element. Intended to give authors a way to provide a localised and human-readable description for a role, it has the capacity to both enhance and seriously break accessibility for screen reader users.
 
 The ARIA1.1 specification describes the `aria-roledescription` attribute like this:
 

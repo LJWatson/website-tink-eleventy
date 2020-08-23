@@ -11,13 +11,13 @@ HTML5 headings make it easy to syndicate and reuse content, without breaking the
 
 HTML5 uses [sectioning content](https://dev.w3.org/html5/spec/content-models.html#sectioning-content) to break a page up into chunks. The `article`, `aside`, `nav` and `section` elements can be used to explicitly create sections. Here’s what the HTML5 specification says about sectioning content:
 
-> "Sectioning content is content that defines the scope of headings and footers… Each sectioning content element potentially has a heading and an outline."
+> Sectioning content is content that defines the scope of headings and footers… Each sectioning content element potentially has a heading and an outline.
 
 ## HTML5 headings
 
 This means that each section contains its own heading hierarchy. Here’s what the HTML5 specification says about it:
 
-> "The first element of heading content in an element of sectioning content represents the heading for that section."
+> The first element of heading content in an element of sectioning content represents the heading for that section.
 
 This means that you could use an h1 at the start of each sectioning element. For example:
 
@@ -25,25 +25,25 @@ This means that you could use an h1 at the start of each sectioning element. For
 <body>
 <h1>Favourite colours</h1>
 
-	<section>
-	<h1>Purple</h1>
-	<p>Purple is my favourite colour.</p>
+<section>
+<h1>Purple</h1>
+<p>Purple is my favourite colour.</p>
 
-		<aside>
-		<h1>Reasons</h1>
-		<p>I like purple because…</p>
-		</aside>
-	</section>
+<aside>
+<h1>Reasons</h1>
+<p>I like purple because…</p>
+</aside>
+</section>
 
-	<section>
-	<h1>Pink</h1>
-	<p>Pink is my least favourite colour.</p>
+<section>
+<h1>Pink</h1>
+<p>Pink is my least favourite colour.</p>
 
-		<aside>
-		<h1>Reasons</h1>
-		<p>I dislike pink because…</p>
-		</aside>
-	</section>
+<aside>
+<h1>Reasons</h1>
+<p>I dislike pink because…</p>
+</aside>
+</section>
 
 </body>
 ```
@@ -55,32 +55,32 @@ HTML5 calculates the rank of each heading based on its location within the secti
 1.1.1. 			Reasons
 1.2. 				Pink
 1.2.1. 						Reasons
-						
+
 If the same page were to be coded with semantically correct HTML4.01, it might look something like this:
 
 ```html
 <body>
 <h1>Favourite colours</h1>
 
-	<div>
-	<h2>Purple</h2>
-	<p>Purple is my favourite colour.</p>
+<div>
+<h2>Purple</h2>
+<p>Purple is my favourite colour.</p>
 
-		<div>
-		<h3>Reasons</h3>
-		<p>I like purple because…</p>
-		</div>
-	</div>
+<div>
+<h3>Reasons</h3>
+<p>I like purple because…</p>
+</div>
+</div>
 
-	<div>
-	<h2>Pink</h2>
-	<p>Pink is my least favourite colour.</p>
+<div>
+<h2>Pink</h2>
+<p>Pink is my least favourite colour.</p>
 
-		<div>
-		<h3>Reasons</h3>
-		<p>I dislike pink because…</p>
-		</div>
-	</div>
+<div>
+<h3>Reasons</h3>
+<p>I dislike pink because…</p>
+</div>
+</div>
 
 </body>
 ```
@@ -91,7 +91,7 @@ The idea is that the HTML5 heading hierarchy is adaptable. You could pull out th
 
 Things get a touch more involved when you create a heading hierarchy within a single section. The HTML5 specification goes on to say:
 
-> "The first element of heading content in an element of sectioning content represents the heading for that section. Subsequent headings of equal or higher rank start new or implied sections. Headings of lower rank start implied sub sections that are part of the previous one."
+> The first element of heading content in an element of sectioning content represents the heading for that section. Subsequent headings of equal or higher rank start new or implied sections. Headings of lower rank start implied sub sections that are part of the previous one.
 
 This means that if you use nested headings within the same section, HTML5 will behave as though they’re explicit sub sections. For example:
 
@@ -99,13 +99,13 @@ This means that if you use nested headings within the same section, HTML5 will b
 <body>
 <h1>Favourite colours</h1>
 
-	<section>
-	<h1>Purple</h1>
-	<p>Purple is my favourite colour.</p>
+<section>
+<h1>Purple</h1>
+<p>Purple is my favourite colour.</p>
 
-		<h2>Reasons</h2>
-		<p>I like purple because…</p>
-	</section>
+<h2>Reasons</h2>
+<p>I like purple because…</p>
+</section>
 
 </body>
 ```
@@ -122,13 +122,13 @@ If the “Reasons” heading had been an h1 instead, HTML5 would automatically c
 <body>
 <h1>Favourite colours</h1>
 
-	<section>
-	<h1>Purple</h1>
-	<p>Purple is my favourite colour.</p>
+<section>
+<h1>Purple</h1>
+<p>Purple is my favourite colour.</p>
 
-		<h1>Reasons</h1>
-		<p>I like purple because…</p>
-		</section>
+<h1>Reasons</h1>
+<p>I like purple because…</p>
+</section>
 
 </body>
 ```
@@ -155,15 +155,15 @@ This means that the following HTML5 examples would both represent the same outli
 <body>
 <h1>Favourite colours</h1>
 
-	<section>
-	<h1>Purple</h1>
-	<p>Purple is my favourite colour.</p>
+<section>
+<h1>Purple</h1>
+<p>Purple is my favourite colour.</p>
 
-		<aside>
-		<h1>Reasons</h1>
-		<p>I like purple because…</p>
-		</aside>
-	</section>
+<aside>
+<h1>Reasons</h1>
+<p>I like purple because…</p>
+</aside>
+</section>
 
 </body>
 ```
@@ -174,15 +174,15 @@ This means that the following HTML5 examples would both represent the same outli
 <body>
 <h1>Favourite colours</h1>
 
-	<section>
-	<h2>Purple</h2>
-	<p>Purple is my favourite colour.</p>
+<section>
+<h2>Purple</h2>
+<p>Purple is my favourite colour.</p>
 
-		<aside>
-		<h3>Reasons</h3>
-		<p>I like purple because…</p>
-		</aside>
-	</section>
+<aside>
+<h3>Reasons</h3>
+<p>I like purple because…</p>
+</aside>
+</section>
 
 </body>
 ```

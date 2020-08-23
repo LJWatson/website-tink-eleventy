@@ -5,7 +5,7 @@ tags: ["HTML"]
 categories: "Code things"
 ---
 
-HTML5 introduces the [`nav` element](https://dev.w3.org/html5/spec/the-nav-element.html#the-nav-element) for marking up sections of a page that contain navigational links. Used wisely the `nav` element is a big help to [screen reader](https://en.wikipedia.org/wiki/Screen_reader) users, as well as a step forward in semantic meaning.
+HTML5 introduces the [nav element](https://dev.w3.org/html5/spec/the-nav-element.html#the-nav-element) for marking up sections of a page that contain navigational links. Used wisely the `nav` element is a big help to [screen reader](https://en.wikipedia.org/wiki/Screen_reader) users, as well as a step forward in semantic meaning.
 
 ## HTML4 navigation
 

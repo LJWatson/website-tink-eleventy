@@ -26,23 +26,23 @@ The posts in the [recipe book](/category/recipe-book/) category of this website 
 
 <h2>Information</h2>
 <dl>
-    <dt>Makes</dt>
-    <dd>Two helpings.</dd>
-    <dt>Time</dt>
-    <dd>15 minutes.</dd>
+<dt>Makes</dt>
+<dd>Two helpings.</dd>
+<dt>Time</dt>
+<dd>15 minutes.</dd>
 </dl>
 
 <h2>Ingredients</h2>
 <ul>
-    <li>4 large eggs.</li>
-    <li>90ml (6tbsp) single cream.</li>
-    ...
+<li>4 large eggs.</li>
+<li>90ml (6tbsp) single cream.</li>
+...
 </ul>
 
 <h2>Method</h2>
 <ol>
-    <li>Beat the eggs lightly...</li>
-    ...
+<li>Beat the eggs lightly...</li>
+...
 </ol>
 
 <h2>Notes</h2>
@@ -110,10 +110,10 @@ Properties relating to time must be presented in [ISO8601](https://en.wikipedia.
 
 <h2>Information</h2>
 <dl>
-    <dt>Makes</dt>
-    <dd itemprop="recipeYield">Two helpings.</dd>
-    <dt>Time</dt>
-    <dd><time datetime="PT0H15M" itemprop="totalTime">15 minutes.</time></dd>
+<dt>Makes</dt>
+<dd itemprop="recipeYield">Two helpings.</dd>
+<dt>Time</dt>
+<dd><time datetime="PT0H15M" itemprop="totalTime">15 minutes.</time></dd>
 </dl>
 ...
 </article>
@@ -128,23 +128,23 @@ The [ingredients](https://www.schema.org/ingredients) property is used to markup
 
 <h2>Information</h2>
 <dl>
-    <dt>Makes</dt>
-    <dd itemprop="recipeYield">Two helpings.</dd>
-    <dt>Time</dt>
-    <dd><time datetime="PT0H15M" itemprop="totalTime">15 minutes.</time></dd>
+<dt>Makes</dt>
+<dd itemprop="recipeYield">Two helpings.</dd>
+<dt>Time</dt>
+<dd><time datetime="PT0H15M" itemprop="totalTime">15 minutes.</time></dd>
 </dl>
 
 <h2>Ingredients</h2>
 <ul>
-    <li itemprop="ingredients">4 large eggs.</li>
-    <li itemprop="ingredients">90ml (6tbsp) single cream.</li>
-    ...
+<li itemprop="ingredients">4 large eggs.</li>
+<li itemprop="ingredients">90ml (6tbsp) single cream.</li>
+...
 </ul>
 
 <h2>Method</h2>
 <ol>
-    <li itemprop="recipeInstructions">Beat the eggs lightly...</li>
-    ...
+<li itemprop="recipeInstructions">Beat the eggs lightly...</li>
+...
 </ol>
 
 <h2>Notes</h2>

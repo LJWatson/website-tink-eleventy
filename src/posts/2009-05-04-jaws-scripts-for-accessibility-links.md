@@ -5,11 +5,11 @@ tags: ["HTML", "Screen readers"]
 categories: "Code things"
 ---
 
-Bruce Lawson recently asked whether [adding rel=accessibility to the HTMl 5 specification](https://www.brucelawson.co.uk/2009/rel-accessibility/) was a good idea. Among the initial comments, Jared Smith noted that getting assistive technologies to support the idea might be a problem. For the major screen readers at least, I thought it could be easily solved though.
+Bruce Lawson recently asked whether [adding `rel=accessibility` to the HTMl 5 specification](https://www.brucelawson.co.uk/2009/rel-accessibility/) was a good idea. Among the initial comments, Jared Smith noted that getting assistive technologies to support the idea might be a problem. For the major screen readers at least, I thought it could be easily solved though.
 
 Bruce's idea went a little something like this:
 
-> "So I want to float the idea of `rel=accessibility` that would allow assistive technologies to discover and offer shortcuts to accessibility information, such as a WCAG 2 conformance claim, or a form to request content in alternate formats (for example)."
+> So I want to float the idea of `rel=accessibility` that would allow assistive technologies to discover and offer shortcuts to accessibility information, such as a WCAG 2 conformance claim, or a form to request content in alternate formats (for example).
 
 The Immediate reaction to the idea was extremely positive, with only one or two people voicing a concern. From a screen reader user's perspective, the idea certainly has merit.
 

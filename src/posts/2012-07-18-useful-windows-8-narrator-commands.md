@@ -35,7 +35,7 @@ Most Narrator options are set in the Ease of Access Centre. You can also change 
 * Increase volume: Caps lock Page up.
 * Decrease volume: Caps lock Page down.
 * Increase speed: Caps lock + (Plus).
-* decrease speed: Caps lock * (Minus).
+* decrease speed: Caps lock - (Minus).
 * Toggle key announcement: Caps lock f12.
 * Lock Narrator key: Caps lock z.
 * Toggle mouse mode: Caps lock Numlock.

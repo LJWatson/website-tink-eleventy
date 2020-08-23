@@ -50,10 +50,10 @@ The [`voice-pitch`](https://www.w3.org/TR/css3-speech/#voice-pitch) property det
 ```html
 p
 {
-    speak: normal;
-    voice-volume: loud;
-    voice-rate: medium;
-    voice-pitch: low;
+speak: normal;
+voice-volume: loud;
+voice-rate: medium;
+voice-pitch: low;
 }
 ```
 

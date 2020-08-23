@@ -19,9 +19,9 @@ The more widely the two elements are separated in the DOM, the more useful the `
 
 ```html
 <ul role="tablist">
-   <li role="presentation"><a href="#" onclick="displayTab(1);" role="tab" aria-controls="panel1" aria-selected="true">Tab 1</a></li>
-   <li role="presentation"><a href="#" onclick="displayTab(2);" role="tab" aria-selected="false">Tab 2</a></li>
-   ...
+<li role="presentation"><a href="#" onclick="displayTab(1);" role="tab" aria-controls="panel1" aria-selected="true">Tab 1</a></li>
+<li role="presentation"><a href="#" onclick="displayTab(2);" role="tab" aria-selected="false">Tab 2</a></li>
+...
 </ul>
 
 <div role="tabpanel" id="panel1">...</div>

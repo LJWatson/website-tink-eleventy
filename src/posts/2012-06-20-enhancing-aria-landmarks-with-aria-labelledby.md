@@ -25,7 +25,7 @@ Let’s take a typical situation. A web page that has two navigation blocks. You
 …  
 </ul>  
 </nav>
-  
+
 <nav role="navigation">  
 <p>Choose a shelf to browse:</p>  
 <ul>  
@@ -35,7 +35,7 @@ Let’s take a typical situation. A web page that has two navigation blocks. You
 …  
 </ul>  
 </nav>  
-  ```
+```
 
 By applying the landmark role you’ve made it easy for screen reader users to move from one landmark to the next.. Screen readers like NVDA, Jaws and VoiceOver include shortcuts for moving quickly between the landmarks on a page. In this case (depending on the screen reader) you’ll hear something like "Navigation region start" or "Navigation landmark".
 
@@ -54,7 +54,7 @@ Using [aria-labellebdy](https://www.w3.org/TR/wai-aria/states_and_properties#ari
 …  
 </ul>  
 </nav>  
-  
+
 <nav role="navigation" aria-labelledby="secondLabel">  
 <p>Choose a <span id="secondLabel">shelf</span> to browse:</p>  
 <ul>  

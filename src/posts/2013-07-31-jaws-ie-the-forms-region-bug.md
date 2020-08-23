@@ -11,23 +11,23 @@ The situation arises when you have a form inside a container with `role="main"` 
 
 ```html
 <div role="main">
-   <form method="post">
+<form method="post">
 
-      <div>
-         <label for="username">Username: </label><br> 
-         <input type="text" id="username">
-      </div>
+<div>
+<label for="username">Username: </label><br> 
+<input type="text" id="username">
+</div>
 
-      <div>
-         <label for="password">Password: </label><br>
-         <input type="password" id="password">
-      </div>
+<div>
+<label for="password">Password: </label><br>
+<input type="password" id="password">
+</div>
 
-      <div>
-         <input type="submit" value="Log in">
-     </div>
+<div>
+<input type="submit" value="Log in">
+</div>
 
-   </form>
+</form>
 </div>
 ```
 
@@ -39,11 +39,11 @@ There is a workaround that stops Jaws from doing this. Ordinarily it's good to b
 
 ```html
 <div role="main">
-   <form role="form" method="post">
+<form role="form" method="post">
 
 ...
 
-   </form>
+</form>
 </div>
 ```
 

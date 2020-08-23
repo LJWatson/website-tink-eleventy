@@ -5,9 +5,7 @@ tags: ["ARIA", "JavaScript", "Screen readers"]
 categories: "Code things"
 ---
 
-[Traduction française](https://access42.net/Utiliser-le-role-application-ARIA.html)
-
-The [ARIA `application` role](https://www.w3.org/TR/wai-aria-1.1/#application) changes the way screen readers interact with web content. Several good articles explain (rightly) why the `application` role should be [used with caution](https://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely/), but this post looks at a use case where the `application` role is used to good effect.
+The ARIA [application role](https://www.w3.org/TR/wai-aria-1.1/#application) changes the way screen readers interact with web content. Several good articles explain (rightly) why the `application` role should be [used with caution](https://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely/), but this post looks at a use case where the `application` role is used to good effect.
 
 Screen readers sometimes intercept keystrokes and repurpose them for screen reader specific tasks, like navigating content by headings or reading a line of text. The `application` role prevents the screen reader from intercepting keystrokes, and passes them back through to the browser as though the screen reader wasn’t running. Read [Understanding screen reader interaction](/understanding-screen-reader-interaction-modes/) for more information.
 

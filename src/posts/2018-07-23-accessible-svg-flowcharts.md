@@ -76,16 +76,16 @@ The `aria-hidden` attribute was then used to hide the `text` element from screen
 <g role="listitem">
 
 <a xlink:href="#wd-1">
-  <g role="img">
-    <title>Publish a new Working Draft</title>
-  </g>
+<g role="img">
+<title>Publish a new Working Draft</title>
+</g>
 
-  <text font-size="8"><tspan x="30" y="92">WG Decision: review needed, or</tspan>
-    <tspan x="40" y="100">No change for 6 months</tspan>
-  </text>
+<text font-size="8"><tspan x="30" y="92">WG Decision: review needed, or</tspan>
+<tspan x="40" y="100">No change for 6 months</tspan>
+</text>
 
-  <path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 1"></path>
-  <polygon points="120,114 116,124 114,113"></polygon>
+<path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 1"></path>
+<polygon points="120,114 116,124 114,113"></polygon>
 </a>
 </g>
 
@@ -93,14 +93,14 @@ The `aria-hidden` attribute was then used to hide the `text` element from screen
 <g role="listitem" fill="#060">
 
 <a xlink:href="#cr-1">
-  <g role="img">
-    <title>Advance to Candidate Recommendation</title>
-  </g>
+<g role="img">
+<title>Advance to Candidate Recommendation</title>
+</g>
 
-  <text x="138" y="134" font-size="8">Director's approval</text>
+<text x="138" y="134" font-size="8">Director's approval</text>
 
-  <path stroke="#060" d="M135,140h81"></path>
-  <polygon points="211,136 221,140 211,144"></polygon>
+<path stroke="#060" d="M135,140h81"></path>
+<polygon points="211,136 221,140 211,144"></polygon>
 </a>
 </g>
 </g>

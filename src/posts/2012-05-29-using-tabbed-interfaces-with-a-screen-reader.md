@@ -13,7 +13,7 @@ When it comes to tabbed interfaces on web pages, there are two disadvantages for
 
 The first point is straight forward. The visual design helps a sighted person to understand the concept of layered content. The use of light and shadow gives a sense of depth, and the tabs are often styled to mimic their real life counterparts.
 
-This problem can be solved with [ARIA](https://www.w3.org/TR/wai-aria/). The [tablist](https://www.w3.org/TR/wai-aria/roles#tablist), [tabpanel](https://www.w3.org/TR/wai-aria/roles#tablist) and [tab](https://www.w3.org/TR/wai-aria/roles#tab) roles make additional information available to screen readers like NVDA and Jaws. A `tablist` is a set of tabs, and each tab has a corresponding tabpanel.
+This problem can be solved with [ARIA](https://www.w3.org/TR/wai-aria/). The [tablist](https://www.w3.org/TR/wai-aria/roles#tablist), [tabpanel](https://www.w3.org/TR/wai-aria/roles#tablist) and [tab](https://www.w3.org/TR/wai-aria/roles#tab) roles make additional information available to screen readers like NVDA and Jaws. A `tablist` is a set of tabs, and each `tab` has a corresponding `tabpane`l.
 
 ```html
 <ul role=”tablist”>  

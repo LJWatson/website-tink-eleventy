@@ -5,7 +5,7 @@ tags: ["ARIA", "JavaScript", "Screen readers"]
 categories: "Code things"
 ---
 
-**Updated on 27th February 2019:** The Accessibility Object Model (AOM) specification has been updated and `accessibleNode` has been dropped. please read the [AOM explainer](https://github.com/WICG/aom/blob/gh-pages/explainer.md) for more information.
+**Updated on 27th February 2019:** The Accessibility Object Model (AOM) specification has been updated and `accessibleNode` has been dropped. Read the [AOM explainer](https://github.com/WICG/aom/blob/gh-pages/explainer.md) for more information.
 
 The [Accessibility Object Model (AOM)](https://github.com/WICG/aom) is an experimental JavaScript API that enables developers to modify the browser accessibility tree. The AOM has four phases, and support for phase one recently landed in Chrome Canary behind the flag.
 
@@ -72,24 +72,24 @@ The AOM uses the same set of roles as ARIA. The AOM Phase 1 spec also includes a
 We can then create and call the function that handles the behaviour of the disclosure widget:
 
 ```javascript
-    function disclose(event) {
+function disclose(event) {
 
-        if(container.getAttribute('hidden')) {
-            button.accessibleNode.expanded = true;
-            container.removeAttribute('hidden');
-        }
-        else {
-            button.accessibleNode.expanded = false;
-            container.setAttribute('hidden', true);
-        }
-    }
+if(container.getAttribute('hidden')) {
+    button.accessibleNode.expanded = true;
+    container.removeAttribute('hidden');
+}
+else {
+    button.accessibleNode.expanded = false;
+    container.setAttribute('hidden', true);
+}
+}
 
-    button.addEventListener('click', disclose, false);
-    button.addEventListener('keydown', function(event) {
-        if (event.keyCode == 13 || event.keyCode ==32) {
-            disclose();
-        }
-    });
+button.addEventListener('click', disclose, false);
+button.addEventListener('keydown', function(event) {
+if (event.keyCode == 13 || event.keyCode ==32) {
+    disclose();
+}
+});
 ```
 
 It removes the `hidden` attribute from the `div` element, and changes the value of the AOM `expanded` property on the accessible node for the `span` element.
@@ -115,19 +115,19 @@ content.add(container.accessibleNode);
 Lastly, in the function that handles the disclosure behaviour, we create the association between the accessible nodes for the `span` and `div` elements directly in the accessibility tree:
 
 ```javascript
-    function disclose(event) {
+function disclose(event) {
 
-        if(container.getAttribute('hidden')) {
-            button.accessibleNode.expanded = true;
-            button.accessibleNode.controls = content;
-            container.removeAttribute('hidden');
-        }
-        else {
-            button.accessibleNode.expanded = false;
-            button.accessibleNode.controls = null;
-            container.setAttribute('hidden', true);
-        }
-    }
+if(container.getAttribute('hidden')) {
+    button.accessibleNode.expanded = true;
+    button.accessibleNode.controls = content;
+    container.removeAttribute('hidden');
+}
+else {
+    button.accessibleNode.expanded = false;
+    button.accessibleNode.controls = null;
+    container.setAttribute('hidden', true);
+}
+}
 ```
 
 By using an array to store one or more accessible node references, it's possible to associate multiple accessible nodes with another. Think of the AOM properties that equate to ARIA attributes like `aria-labelledby`, `aria-describedby`, or `aria-owns`, that can take multiple idrefs as values.

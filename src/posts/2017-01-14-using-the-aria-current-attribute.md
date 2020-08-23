@@ -5,7 +5,7 @@ tags: ["ARIA", "Screen readers"]
 categories: "Code things"
 ---
 
-It is common on the web for the current thing in a collection to be highlighted visually, but providing an alternative for screen reader users has often involved something of a hack. The [`aria-current`](https://www.w3.org/TR/wai-aria-1.1/#aria-current) attribute is intended to solve this problem.
+It is common on the web for the current thing in a collection to be highlighted visually, but providing an alternative for screen reader users has often involved something of a hack. The [aria-current](https://www.w3.org/TR/wai-aria-1.1/#aria-current) attribute is intended to solve this problem.
 
 ## Common patterns
 
@@ -126,7 +126,7 @@ background-color: #cc33ff;
 
 When a screen reader encounters the link identified with `aria-current`, it will announce something like ["Home, current page link"](https://www.youtube.com/watch?v=as2CZKc4Kx4).
 
-Whenever `aria-current` is used with a value other than true, that information is incorporated into the screen reader announcement. For example in this set of steps, a screen reader will announce ["Do this, current step link"](https://www.youtube.com/watch?v=BxSzMuHXrPg&feature=youtu.be).
+Whenever `aria-current` is used with a value other than true, that information is incorporated into the screen reader announcement. For example in this set of steps, a screen reader will announce "Do this, current step link"."
 
 ```html
 <ol>
@@ -136,7 +136,7 @@ Whenever `aria-current` is used with a value other than true, that information i
 </ol>
 ```
 
-Whereas in this calendar example, a screen reader will announce something like ["Sat 16, current date"](https://www.youtube.com/watch?v=nr1RuyIiHi0&feature=youtu.be).
+Whereas in this calendar example, a screen reader will announce something like "Sat 16, current date".
 
 ```html
 <table>
