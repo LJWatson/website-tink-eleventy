@@ -5,7 +5,7 @@ tags: ["Screen readers", "HTML"]
 categories: "Code things"
 ---
 
-HTML5 includes a handful of [section elements](https://www.w3.org/TR/2011/WD-html5-20110525/sections.html) that give documents a robust semantic structure. The `header`, `footer`, `nav`, `article`, `section` and `aside` elements give different regions of a document meaning. Amongst other things, that meaning can be understood by screen readers, and the information used to help blind and partially sighted people orient themselves and navigate around the page.
+HTML5 includes a handful of [sectioning elements](https://www.w3.org/TR/2011/WD-html5-20110525/sections.html) that give documents a robust semantic structure. The `header`, `footer`, `nav`, `article`, `section` and `aside` elements give different regions of a document meaning. Amongst other things, that meaning can be understood by screen readers, and the information used to help blind and partially sighted people orient themselves and navigate around the page.
 
 Now that HTML5 is being used on mainstream websites (such as that of the [UK Government](https://www.gov.uk)), it’s interesting to see how well screen readers support this handful of elements. Testing included [Jaws 14](https://www.freedomscientific.com), [NVDA 2012.3](https://www.nvda-project.org/) and [Window Eyes 8](https://www.gwmicro.com), with Firefox 18 and Internet Explorer 9, and [VoiceOver (Mac OSX 10.8.2)](https://www.apple.com/accessibility/voiceover/) with Safari 6.
 
@@ -15,23 +15,14 @@ Thanks to [Alastair Campbell](https://www.twitter.com/alastc) and [Kiran Kaja](h
 
 Screen reader support for HTML5 sections
 
-| Element | Jaws 14/FF 18 | Jaws 14/IE 9 | NVDA 2012.3/FF 18 | NVDA 2012.3/IE 9 | VoiceOver/Safari 6 | Window Eyes 8/FF 18 |Window Eyes 8/IE 9
-| --* | --* | --* | --* | --* | --* | --* | ---
-| [article](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element) | Yes | Yes | No | No | No | No | No
-| [aside](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-aside-element) | Yes | Yes | Yes | No | Yes | No | No
-| [footer](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-footer-element)
-| Yes
-| No
-| Yes
-| No
-| Yes
-| No
-| No
-| [header](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-header-element | No
-| No | No
-| No | Yes | No | No
-| [nav](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-nav-element) | Yes | Yes | No | No | Yes | No | No
-| [section](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-section-element) | Yes | Yes | No | No | No | No | No
+| Element | Jaws 14/FF 18 | Jaws 14/IE 9 | NVDA 2012.3/FF 18 | NVDA 2012.3/IE 9 | VoiceOver/Safari 6 | Window Eyes 8/FF 18 | Window Eyes 8/IE 9 |
+| --- | -- | -- | -- | -- | -- | -- | --- |
+| [article](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element) | Yes | Yes | No | No | No | No | No |
+| [aside](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-aside-element) | Yes | Yes | Yes | No | Yes | No | No |
+| [footer](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-footer-element) | Yes | No | Yes | No | Yes | No | No |
+| [header](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-header-element | No | No | No | No | Yes | No | No |
+| [nav](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-nav-element) | Yes | Yes | No | No | Yes | No | No |
+| [section](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-section-element) | Yes | Yes | No | No | No | No | No |
 
 ## Test notes
 

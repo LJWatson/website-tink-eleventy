@@ -31,7 +31,7 @@ Live regions that are marked as `polite` should cause the screen reader to annou
 Test case: [live="polite"](https://accessibleajax.clcworld.net/simple/live_polite.htm)
 
 | Screen Reader | IE8 | FF3.x | Notes |
-| --* | --* | --* | --* |
+| --- | --- | --- | --- |
 | Hal 11 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 |Jaws 10.x | Yes | Yes | Updates are announced automatically at the end of the current activity, subsequent updates are announced until a further activity is invoked by the screen reader |
 |NVDA 0.6P3.2 | No | No |Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x.
@@ -50,7 +50,7 @@ For example an update would be announced at the end of a short activity such as 
 Test case: [live="assertive"](https://accessibleajax.clcworld.net/simple/live_assertive.htm)
 
 | Screen Reader | IE8 | FF3.x | Notes |
-| --* | --* | --* | --* |
+| --- | --- | --- | --- |
 |Hal 11 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 | Jaws 10.x | Yes | Yes | Updates are announced automatically at the end of the current activity, subsequent updates are announced until a further activity is invoked by the screen reader |
 | NVDA 0.6P3.2 | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x.  
@@ -68,7 +68,7 @@ Live regions marked as `rude` should cause the screen reader to announce the upd
 Test case: [live="rude"](https://accessibleajax.clcworld.net/simple/live_rude.htm)
 
 | Screen Reader | IE8 | FF3.x | Notes |
-| --* | --* | --* | --* |
+| --- | --- | --- | --- |
 | Hal 11 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 | Jaws 10.x | Yes | Yes | Updates are announced automatically at the end of the current activity, subsequent updates are announced until a further activity is invoked by the screen reader |
 | NVDA 0.6P3.2 | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x.  
