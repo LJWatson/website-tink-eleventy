@@ -1,8 +1,8 @@
 ---
-title: 'My writing on other blogs'
+title: "Writing on other websites"
 ---
 
-The posts and articles I've written in other places.
+Here’s some articles I’ve written for other publications and blogs:
 
 ## 2020 posts
 
