@@ -21,18 +21,18 @@ Usually the current thing is differentiated from the other things in the collect
 
 ```html
 <style>
-.current {
-font-weight: bold;
-background-color: #cc33ff;
-}
+  .current {
+    font-weight: bold;
+    background-color: #cc33ff;
+  }
 </style>
 
 <nav>
-<ul>
-<li><a href="/" class="current">Home</a></li>
-<li><a href="/">About</a></li>
-<li><a href="/">Contact</a></li>
-</ul>
+  <ul>
+    <li><a href="/" class="current">Home</a></li>
+    <li><a href="/">About</a></li>
+    <li><a href="/">Contact</a></li>
+  </ul>
 </nav>
 ```
 
@@ -44,28 +44,28 @@ There are reasons why you may not want to use either of these solutions, and in 
 
 ```html
 <table>
-<caption>July 2016</caption>
-<tr>
-<th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
-</tr>
-<tr>
-<td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td>
-</tr>
-<tr>
-<td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
-</tr>
-<tr>
-<td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td class="current">16</td><td>17</td>
-</tr>
-<tr>
-<td>18</td><td>19</td><td>20</td><td>21</td><td>21</td><td>22</td><td>23</td>
-</tr>
-<tr>
-<td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
-</tr>
-<tr>
-<td>31</td><td></td><td></td><td></td><td></td><td></td><td></td>
-</tr>
+  <caption>July 2016</caption>
+  <tr>
+    <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
+  </tr>
+  <tr>
+    <td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td>
+  </tr>
+  <tr>
+    <td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+  </tr>
+  <tr>
+    <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td class="current">16</td><td>17</td>
+  </tr>
+  <tr>
+    <td>18</td><td>19</td><td>20</td><td>21</td><td>21</td><td>22</td><td>23</td>
+  </tr>
+  <tr>
+    <td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+  </tr>
+  <tr>
+    <td>31</td><td></td><td></td><td></td><td></td><td></td><td></td>
+  </tr>
 </table>
 ```
 
@@ -109,30 +109,30 @@ So the `aria-current` attribute can be used to solve the first use case in this 
 
 ```html
 <style>
-[aria-current] {
-font-weight: bold;
-background-color: #cc33ff;
-}
+  [aria-current] {
+    font-weight: bold;
+    background-color: #cc33ff;
+  }
 </style>
 
 <nav>
-<ul>
-<li><a href="/" aria-current="page">Home</a></li>
-<li><a href="/">About</a></li>
-<li><a href="/">Contact</a></li>
-</ul>
+  <ul>
+    <li><a href="/" aria-current="page">Home</a></li>
+    <li><a href="/">About</a></li>
+    <li><a href="/">Contact</a></li>
+  </ul>
 </nav>
 ```
 
-When a screen reader encounters the link identified with `aria-current`, it will announce something like ["Home, current page link"](https://www.youtube.com/watch?v=as2CZKc4Kx4).
+When a screen reader encounters the link identified with `aria-current`, it will announce something like "Home, current page link".
 
 Whenever `aria-current` is used with a value other than true, that information is incorporated into the screen reader announcement. For example in this set of steps, a screen reader will announce "Do this, current step link"."
 
 ```html
 <ol>
-<li><a href="/" aria-current="step">Do this</a></li>
-<li><a href="/">Do that</a></li>
-<li><a href="/">Do the other</a></li>
+  <li><a href="/" aria-current="step">Do this</a></li>
+  <li><a href="/">Do that</a></li>
+  <li><a href="/">Do the other</a></li>
 </ol>
 ```
 
@@ -140,28 +140,28 @@ Whereas in this calendar example, a screen reader will announce something like "
 
 ```html
 <table>
-<caption>July 2016</caption>
-<tr>
-<th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
-</tr>
-<tr>
-<td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td>
-</tr>
-<tr>
-<td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
-</tr>
-<tr>
-<td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td aria-current="date">16</td><td>17</td>
-</tr>
-<tr>
-<td>18</td><td>19</td><td>20</td><td>21</td><td>21</td><td>22</td><td>23</td>
-</tr>
-<tr>
-<td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
-</tr>
-<tr>
-<td>31</td><td></td><td></td><td></td><td></td><td></td><td></td>
-</tr>
+  <caption>July 2016</caption>
+  <tr>
+    <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
+  </tr>
+  <tr>
+    <td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td>
+  </tr>
+  <tr>
+    <td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+  </tr>
+  <tr>
+    <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td aria-current="date">16</td><td>17</td>
+  </tr>
+  <tr>
+    <td>18</td><td>19</td><td>20</td><td>21</td><td>21</td><td>22</td><td>23</td>
+  </tr>
+  <tr>
+    <td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+  </tr>
+  <tr>
+    <td>31</td><td></td><td></td><td></td><td></td><td></td><td></td>
+  </tr>
 </table>
 ```
 
@@ -169,10 +169,10 @@ The `aria-current` attribute can be applied outside of these use cases. When `ar
 
 ```html
 <ul>
-<li><a href="/" aria-current="true">Apples</a></li>
-<li><a href="/">Bananas</a></li>
-<li><a href="/">Cherries</a></li>
+  <li><a href="/" aria-current="true">Apples</a></li>
+  <li><a href="/">Bananas</a></li>
+  <li><a href="/">Cherries</a></li>
 </ul>
 ```
 
-Working examples, screen reader support and links to screen reader demos are available for all the [`aria-current` patterns](https://ljwatson.github.io/design-patterns/aria-current/) mentioned in this post.
+Working examples, screen reader support and links to screen reader demos are available for all the [aria-current patterns](https://ljwatson.github.io/design-patterns/aria-current/) mentioned in this post.

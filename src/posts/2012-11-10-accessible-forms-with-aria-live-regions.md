@@ -22,32 +22,32 @@ The update is easy to see at a glance, but not at all easy with a screen reader.
 A massively simplified version of this interaction might look like this:
 
 ```html
-< !DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head>
-<title>Tequila</title>
+  <head>
+    <title>Tequila</title>
 
-<script>
-var items = 0;
-function updateItems () {
-items = items + 1;
-document.getElementById("quantity").innerHTML=items;
-}
-</script>
-</head>
+    <script>
+      var items = 0;
+      function updateItems () {
+        items = items + 1;
+        document.getElementById("quantity").innerHTML=items;
+      }
+    </script>
+  </head>
 
-<body>
-<h1>Tequila</h1>
-<p>Tequila makes me happy...</p>
-<p><button onclick="updateItems()">Add tequila to basket</button></p>
+  <body>
+    <h1>Tequila</h1>
+    <p>Tequila makes me happy...</p>
+    <p><button onclick="updateItems()">Add tequila to basket</button></p>
 
-<h2>Basket summary</h2>
-<div>
-<p>Your basket contains <span id="quantity">0</span> items.</p>
-</div>
+    <h2>Basket summary</h2>
+    <div>
+      <p>Your basket contains <span id="quantity">0</span> items.</p>
+    </div>
 
-</body>
+  </body>
 </html>
 ```
 
@@ -64,7 +64,7 @@ Adding the `aria-live` attribute to the basket summary:
 ```html
 <h2>Basket summary</h2>
 <div aria-live="assertive">
-<p>Your basket contains <span id="quantity">0</span> items.</p>
+  <p>Your basket contains <span id="quantity">0</span> items.</p>
 </div>
 ```
 
@@ -81,7 +81,7 @@ Adding the aria-atomic attribute to the basket summary:
 ```html
 <h2>Basket summary</h2>
 <div aria-live="assertive" aria-atomic="true">
-<p>Your basket contains <span id="quantity">0</span> items.</p>
+  <p>Your basket contains <span id="quantity">0</span> items.</p>
 </div>
 ```
 

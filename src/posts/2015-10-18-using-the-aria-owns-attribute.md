@@ -17,13 +17,13 @@ Let’s take an artificial example, which isn’t likely to happen in the wild, 
 
 ```html
 <ul>
-<li>Fruit</li>
-<li>Vegetables</li>
+  <li>Fruit</li>
+  <li>Vegetables</li>
 </ul>
 
 <ul>
-<li>Apples</li>
-<li>Bananas</li>
+  <li>Apples</li>
+  <li>Bananas</li>
 </ul>
 ```
 
@@ -37,13 +37,13 @@ We can use the `aria-owns` attribute to fix this problem though.
 
 ```html
 <ul>
-<li aria-owns="child">Fruit</li>
-<li>Vegetables</li>
+  <li aria-owns="child">Fruit</li>
+  <li>Vegetables</li>
 </ul>
 
 <ul id="child">
-<li>Apples</li>
-<li>Bananas</li>
+  <li>Apples</li>
+  <li>Bananas</li>
 </ul>
 ```
 
@@ -51,18 +51,18 @@ The `aria-owns` attribute creates a parent/child relationship between the two li
 
 ```html
 <ul>
-<li>Fruit
+  <li>Fruit
+    <ul>
+      <li>Apples</li>
+      <li>Bananas</li>
+    </ul>
+  </li>
 
-<ul>
-<li>Apples</li>
-<li>Bananas</li>
-</ul></li>
-
-<li>Vegetables</li>
+  <li>Vegetables</li>
 </ul>
 ```
 
-Which is to say that is what should happen. Unfortunately screen reader support for aria-owns is still inconsistent.
+Which is to say that is what should happen. Unfortunately screen reader support for `aria-owns` is still inconsistent.
 
 Using this [aria-owns test case](https://ljwatson.github.io/test-cases/aria-owns/index.html), Jaws has support with Chrome, firefox and Internet Explorer. NVDA has support with chrome, but not Edge, Firefox or Internet Explorer. TalkBack does with Chrome, but VoiceOver does not in Safari (OSX or iOS).
 

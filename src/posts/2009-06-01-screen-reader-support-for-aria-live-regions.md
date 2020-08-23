@@ -34,10 +34,8 @@ Test case: [live="polite"](https://accessibleajax.clcworld.net/simple/live_polit
 | --- | --- | --- | --- |
 | Hal 11 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 |Jaws 10.x | Yes | Yes | Updates are announced automatically at the end of the current activity, subsequent updates are announced until a further activity is invoked by the screen reader |
-|NVDA 0.6P3.2 | No | No |Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x.
-The information cannot be determined by accessing the live region in IE8 |
-| SA To Go | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in IE8  
-The information cannot be determined by accessing the live region in FF3.x |
+|NVDA 0.6P3.2 | No | No |Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x.<br/> The information cannot be determined by accessing the live region in IE8 |
+| SA To Go | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in IE8 .<br/> The information cannot be determined by accessing the live region in FF3.x |
 | Window Eyes 7.01 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 
 ### Assertive Live Regions
@@ -53,10 +51,8 @@ Test case: [live="assertive"](https://accessibleajax.clcworld.net/simple/live_as
 | --- | --- | --- | --- |
 |Hal 11 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 | Jaws 10.x | Yes | Yes | Updates are announced automatically at the end of the current activity, subsequent updates are announced until a further activity is invoked by the screen reader |
-| NVDA 0.6P3.2 | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x.  
-The information cannot be determined by accessing the live region in IE8 |
-| SA To Go | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in IE8  
-The information cannot be determined by accessing the live region in FF3.x |
+| NVDA 0.6P3.2 | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x. <br/> The information cannot be determined by accessing the live region in IE8 |
+| SA To Go | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in IE8 <br/> The information cannot be determined by accessing the live region in FF3.x |
 | Window Eyes 7.01 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 
 ### Rude Live Regions
@@ -71,10 +67,8 @@ Test case: [live="rude"](https://accessibleajax.clcworld.net/simple/live_rude.ht
 | --- | --- | --- | --- |
 | Hal 11 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 | Jaws 10.x | Yes | Yes | Updates are announced automatically at the end of the current activity, subsequent updates are announced until a further activity is invoked by the screen reader |
-| NVDA 0.6P3.2 | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x.  
-The live region itself cannot be accessed in IE8 |
-| SA To Go | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in IE8  
-The information cannot be determined by accessing the live region in FF3.x |
+| NVDA 0.6P3.2 | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in FF3.x.  <br/>The live region itself cannot be accessed in IE8 |
+| SA To Go | No | No | Updates are not announced automatically, although the information can be determined by accessing the live region itself in IE8  <br/>The information cannot be determined by accessing the live region in FF3.x |
 | Window Eyes 7.01 | No | No | Updates are not announced automatically, and are not available when the live region is accessed |
 
 ## Screen Reader Experience

@@ -29,12 +29,12 @@ Using the test case mentioned before indicates that generated content is accessi
 
 Browser and screen reader support for CSS generated content
 
-| | Chrome 41 (Android) | Chrome 41 (Windows) | Firefox 36 (Windows) | Internet Explorer 11 (Windows) | Safari 8 (OSX) | Safari 8.1 (iOS)
-| --* | --* | --* | --* | --* | --* | ---
-| Jaws 16 | N/A | Yes | Yes | No | N/A | N/A 
-| NVDA 2015.1 | N/A | Yes | Yes | No | N/A | N/A
-| TalkBack | Yes | N/A | N/A | N/A | N/A | N/A
-| VoiceOver | N/A | N/A | N/A | N/A | Yes | Yes
+| | Chrome 41 (Android) | Chrome 41 (Windows) | Firefox 36 (Windows) | Internet Explorer 11 (Windows) | Safari 8 (OSX) | Safari 8.1 (iOS) |
+| -- | -- | -- | -- | -- | -- | --- |
+| Jaws 16 | N/A | Yes | Yes | No | N/A | N/A |
+| NVDA 2015.1 | N/A | Yes | Yes | No | N/A | N/A |
+| TalkBack | Yes | N/A | N/A | N/A | N/A | N/A |
+| VoiceOver | N/A | N/A | N/A | N/A | Yes | Yes |
 
 With Internet Explorer accounting for about [15% of traffic](https://caniuse.com/usage_table.php) (in March 2015), there is good reason to consider the viability of using CSS generated content.
 

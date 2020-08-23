@@ -13,11 +13,11 @@ With HTML4, a typical navigation block might look like this:
 
 ```html
 <div>
-<ul>
-<li><a href=”home.html”>Home</a></li>
-<li><a href=”about.html”>About us</a></li>
-…
-</ul>
+  <ul>
+    <li><a href=”home.html”>Home</a></li>
+    <li><a href=”about.html”>About us</a></li>
+    …
+  </ul>
 </div>
 ```
 
@@ -35,12 +35,13 @@ So the same navigation block in HTML5 might look like this:
 
 ```html
 <nav>
-<ul>
-<li><a href=”home.html”>Home</a></li>
-<li><a href=”about.html”>About us</a></li>
-…
-</ul>
+  <ul>
+    <li><a href=”home.html”>Home</a></li>
+    <li><a href=”about.html”>About us</a></li>
+    …
+  </ul>
 </nav>
+```
 
 The `nav` element makes it possible for screen readers (and other user agents) to identify the purpose of the content. [NVDA 2011.3](https://www.nvda-project.org/) already does this. It won’t be long before other screen readers also support the `nav` element, but in the meantime you can use ARIA landmark roles.
 
@@ -50,11 +51,11 @@ Adding the [ARIA navigation role](https://www.w3.org/TR/wai-aria/roles#navigatio
 
 ```html
 <nav role=”navigation”>
-<ul>
-<li><a href=”home.html”>Home</a></li>
-<li><a href=”about.html”>About us</a></li>
-…
-</ul>
+  <ul>
+    <li><a href=”home.html”>Home</a></li>
+    <li><a href=”about.html”>About us</a></li>
+    …
+  </ul>
 </nav>
 ```
 

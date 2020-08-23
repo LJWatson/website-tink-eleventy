@@ -11,11 +11,12 @@ Let's take an example that crops up from time to time:
 
 ```html
 <nav>  
-<ul role="navigation">  
-<li><a href="home.html">Home</a></li>  
-<li><a href="about.html">About us</a></li>  
-<li><a href="contact.html">Contact us</a></li>  
-... </ul>  
+  <ul role="navigation">  
+    <li><a href="home.html">Home</a></li>  
+    <li><a href="about.html">About us</a></li>  
+    <li><a href="contact.html">Contact us</a></li> 
+    ...
+  </ul>
 </nav>
 ```
 
@@ -37,18 +38,19 @@ The `nav` element was purpose built to contain a number of navigational elements
 
 ## Screen reader experience
 
-When the `navigation` role is applied to the <ul> element it creates extra verbosity for screen readers that support both ARIA and HTML. For example NVDA announces "Navigation landmark" when it encounters the start of the `nav`, then again when it encounters the `navigation` role. Jaws does the same thing with a slightly different announcement ("Navigation region"), and it also announces the end of each region. It announces "Navigation region end" when it encounters the `/ul`, then again when it encounters the closing tag.
+When the `navigation` role is applied to the `ul` element it creates extra verbosity for screen readers that support both ARIA and HTML. For example NVDA announces "Navigation landmark" when it encounters the start of the `nav`, then again when it encounters the `navigation` role. Jaws does the same thing with a slightly different announcement ("Navigation region"), and it also announces the end of each region. It announces "Navigation region end" when it encounters the `/ul`, then again when it encounters the closing tag.
 
-Things are further complicated by the conflicting roles: The native `list` role and the applied `navigation` role of the <ul>. NVDA announces "Navigation landmark, List of 3 items". It does this in Firefox because the accessibility API concatonates the two roles, but in Internet Explorer it has to go into the DOM to create the same effect. Jaws appears to ignore the accessibility APIs entirely. In Firefox it fails to announce the list, although it does preface each list item with "Bullet". In Internet Explorer it does neither, effectively ignoring the list semantics altogether.
+Things are further complicated by the conflicting roles: The native `list` role and the applied `navigation` role of the `ul`. NVDA announces "Navigation landmark, List of 3 items". It does this in Firefox because the accessibility API concatonates the two roles, but in Internet Explorer it has to go into the DOM to create the same effect. Jaws appears to ignore the accessibility APIs entirely. In Firefox it fails to announce the list, although it does preface each list item with "Bullet". In Internet Explorer it does neither, effectively ignoring the list semantics altogether.
 
-The upshot is that the `navigation` role should be applied to the <nav> element. This represents the relationship between ARIA and HTML5 correctly, prevents the loss of the list semantics, and reduces screen reader verbosity to a manageable level.
+The upshot is that the `navigation` role should be applied to the `nav` element. This represents the relationship between ARIA and HTML5 correctly, prevents the loss of the list semantics, and reduces screen reader verbosity to a manageable level.
 
 ```html
 <nav role="navigation">  
-<ul>  
-<li><a href="home.html">Home</a></li>  
-<li><a href="about.html">About us</a></li>  
-<li><a href="contact.html">Contact us</a></li>  
-... </ul>  
+  <ul>  
+    <li><a href="home.html">Home</a></li>  
+    <li><a href="about.html">About us</a></li>  
+    <li><a href="contact.html">Contact us</a></li>  
+    ...
+  </ul>  
 </nav>
 ```

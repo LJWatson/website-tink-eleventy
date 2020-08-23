@@ -18,22 +18,22 @@ Let’s take a typical situation. A web page that has two navigation blocks. You
 
 ```html
 <nav role="navigation">  
-<p>Choose an aisle to browse:</p>  
-<ul>  
-<li><a href="fresh.html">Fresh foods</a></li>  
-<li><a href="dairy.html">Milk and dairy</a></li>  
-…  
-</ul>  
+  <p>Choose an aisle to browse:</p>  
+  <ul>  
+    <li><a href="fresh.html">Fresh foods</a></li>  
+    <li><a href="dairy.html">Milk and dairy</a></li>  
+    …  
+  </ul>  
 </nav>
 
 <nav role="navigation">  
-<p>Choose a shelf to browse:</p>  
-<ul>  
-<li><a href="milk.html">Milk</a></li>  
-<li><a href="butter.html">Butter</a></li>  
-<li><a href="eggs.html">Eggs</a></li>  
-…  
-</ul>  
+  <p>Choose a shelf to browse:</p>  
+  <ul>  
+    <li><a href="milk.html">Milk</a></li>  
+    <li><a href="butter.html">Butter</a></li>  
+    <li><a href="eggs.html">Eggs</a></li>  
+    …  
+  </ul>  
 </nav>  
 ```
 
@@ -43,26 +43,26 @@ By applying the landmark role you’ve made it easy for screen reader users to m
 
 With just a little more ARIA you can make even more information available. With the above example there isn’t any way to tell what differentiates the two navigation blocks. Screen readers will report them both in exactly the same way, until you drill down into the content itself of course.
 
-Using [aria-labellebdy](https://www.w3.org/TR/wai-aria/states_and_properties#aria-labelledby) you can supplement the information available to screen readers. This creates an association between the `nav` element (or `div if you’re using HTML4) and a piece of text elsewhere on the page. The effect is that screen readers will now announce "Aisle navigation region start" or "Shelf navigation region start", or whatever the screen reader specific variation might be.
+Using [aria-labellebdy](https://www.w3.org/TR/wai-aria/states_and_properties#aria-labelledby) you can supplement the information available to screen readers. This creates an association between the `nav` element (or `div` if you’re using HTML4) and a piece of text elsewhere on the page. The effect is that screen readers will now announce "Aisle navigation region start" or "Shelf navigation region start", or whatever the screen reader specific variation might be.
 
 ```html
 <nav role="navigation" aria-labelledby="firstLabel">  
-<p>Choose an <span id="firstLabel">aisle</span> to browse:</p>  
-<ul>  
-<li><a href="fresh.html">Fresh foods</a></li>  
-<li><a href="dairy.html">Milk and dairy</a></li>  
-…  
-</ul>  
+  <p>Choose an <span id="firstLabel">aisle</span> to browse:</p>  
+  <ul>  
+    <li><a href="fresh.html">Fresh foods</a></li>  
+    <li><a href="dairy.html">Milk and dairy</a></li>  
+    …  
+  </ul>  
 </nav>  
 
 <nav role="navigation" aria-labelledby="secondLabel">  
-<p>Choose a <span id="secondLabel">shelf</span> to browse:</p>  
-<ul>  
-<li><a href="milk.html">Milk</a></li>  
-<li><a href="butter.html">Butter</a></li>  
-<li><a href="eggs.html">Eggs</a></li>  
-…  
-</ul>  
+  <p>Choose a <span id="secondLabel">shelf</span> to browse:</p>  
+  <ul>  
+    <li><a href="milk.html">Milk</a></li>  
+    <li><a href="butter.html">Butter</a></li>  
+    <li><a href="eggs.html">Eggs</a></li>  
+    …  
+  </ul>  
 </nav>
 ```
 

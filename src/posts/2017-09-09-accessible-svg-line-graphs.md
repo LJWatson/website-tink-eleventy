@@ -45,12 +45,12 @@ Add `role="columnheader"` to each of the `text` elements that represent the colu
 
 ```svg
 <g role="row" class="grey small">
-<text role="columnheader" x="334.5" text-anchor="middle" class="grey" y="306">Time</text>
-<text role="columnheader" x="130" text-anchor="middle" y="269">Jan 2009</text>
-<text role="columnheader" x="232" text-anchor="middle" y="269">Dec 2010</text>
-<text role="columnheader" x="334.5" text-anchor="middle" y="269">May 2012</text>
-<text role="columnheader" x="436.5" text-anchor="middle" y="269">Jan 2014</text>
-<text role="columnheader" x="539" text-anchor="middle" y="269">Jul 2015</text>
+  <text role="columnheader" x="334.5" text-anchor="middle" class="grey" y="306">Time</text>
+  <text role="columnheader" x="130" text-anchor="middle" y="269">Jan 2009</text>
+  <text role="columnheader" x="232" text-anchor="middle" y="269">Dec 2010</text>
+  <text role="columnheader" x="334.5" text-anchor="middle" y="269">May 2012</text>
+  <text role="columnheader" x="436.5" text-anchor="middle" y="269">Jan 2014</text>
+  <text role="columnheader" x="539" text-anchor="middle" y="269">Jul 2015</text>
 </g>
 ```
 
@@ -58,12 +58,12 @@ Use a `g` element with `role="rowheader"` to represent the header for each row i
 
 ```svg
 <g role="row">
-<g role="rowheader">
-<path role="img" transform="translate(79,63)" d="M 51 48.5 C 51 48.5 112.5 53 153.3 56.8 C 194 61 214 68 255.5 68 C 296 68 317 67.5 357.7 67.5 C 398.5 67.5 460 105 460 105" class="s1" stroke-linecap="round">
-<title>Jaws</title>
-</path>
-</g>
-...
+  <g role="rowheader">
+    <path role="img" transform="translate(79,63)" d="M 51 48.5 C 51 48.5 112.5 53 153.3 56.8 C 194 61 214 68 255.5 68 C 296 68 317 67.5 357.7 67.5 C 398.5 67.5 460 105 460 105" class="s1" stroke-linecap="round">
+      <title>Jaws</title>
+    </path>
+  </g>
+  ...
 </g>
 ```
 
@@ -73,9 +73,9 @@ Use a `g` element with `role="cell"`, to represent each of the table cells. Add 
 
 ```svg
 <g role="cell">
-<use role="img" href="#points-0" x="130" y="112">
-<title>74%</title>
-</use>
+  <use role="img" href="#points-0" x="130" y="112">
+    <title>74%</title>
+  </use>
 </g>
 ```
 

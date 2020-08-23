@@ -33,4 +33,4 @@ Invoking the command causes Jaws to look for the `main` element with role="main"
 
 If Jaws finds that combination of element and role, it jumps focus to that point and announces "Main content area" or "Start of main content area" if beginner verbosity is enabled). Otherwise it announces "No main content area" (or "There is no main content area on this page").
 
-There is a test page included in the zip file that uses <main role="main">, but there has been at least one [sighting of <main> in the wild](https://www.theatre-optique.com/oculus/1/1) already.
+There is a test page included in the zip file that uses `main role="main"`, but there has been at least one [sighting of <main> in the wild](https://www.theatre-optique.com/oculus/1/1) already.

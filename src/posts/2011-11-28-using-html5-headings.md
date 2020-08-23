@@ -23,64 +23,64 @@ This means that you could use an h1 at the start of each sectioning element. For
 
 ```html
 <body>
-<h1>Favourite colours</h1>
+  <h1>Favourite colours</h1>
 
-<section>
-<h1>Purple</h1>
-<p>Purple is my favourite colour.</p>
+  <section>
+    <h1>Purple</h1>
+    <p>Purple is my favourite colour.</p>
 
-<aside>
-<h1>Reasons</h1>
-<p>I like purple because…</p>
-</aside>
-</section>
+    <aside>
+      <h1>Reasons</h1>
+      <p>I like purple because…</p>
+    </aside>
+  </section>
 
-<section>
-<h1>Pink</h1>
-<p>Pink is my least favourite colour.</p>
+  <section>
+    <h1>Pink</h1>
+    <p>Pink is my least favourite colour.</p>
 
-<aside>
-<h1>Reasons</h1>
-<p>I dislike pink because…</p>
-</aside>
-</section>
+    <aside>
+      <h1>Reasons</h1>
+      <p>I dislike pink because…</p>
+    </aside>
+  </section>
 
 </body>
 ```
 
 HTML5 calculates the rank of each heading based on its location within the sectioning content elements. The above example would therefore have the following structure:
 
-1. Favourite colours
-1.1. 	Purple
-1.1.1. 			Reasons
-1.2. 				Pink
-1.2.1. 						Reasons
+1. Favourite colours  
+  1.1. Purple  
+  &nbsp;&nbsp;&nbsp;&nbsp;1.1.1 Reasons  
+  1.2 Pink  
+  &nbsp;&nbsp;&nbsp;&nbsp;1.2.1 Reasons
 
 If the same page were to be coded with semantically correct HTML4.01, it might look something like this:
 
 ```html
 <body>
-<h1>Favourite colours</h1>
+  <h1>Favourite colours</h1>
 
-<div>
-<h2>Purple</h2>
-<p>Purple is my favourite colour.</p>
+  <div>
+    <h2>Purple</h2>
+    <p>Purple is my favourite colour.</p>
 
-<div>
-<h3>Reasons</h3>
-<p>I like purple because…</p>
-</div>
-</div>
+    <div>
+      <h3>Reasons</h3>
+      <p>I like purple because…</p>
+    </div>
+  </div>
 
-<div>
-<h2>Pink</h2>
-<p>Pink is my least favourite colour.</p>
+  <div>
+    <h2>Pink</h2>
+    <p>Pink is my least favourite colour.</p>
 
-<div>
-<h3>Reasons</h3>
-<p>I dislike pink because…</p>
-</div>
-</div>
+    <div>
+      <h3>Reasons</h3>
+      <p>I dislike pink because…</p>
+    </div>
+  </div>
 
 </body>
 ```
@@ -97,51 +97,51 @@ This means that if you use nested headings within the same section, HTML5 will b
 
 ```html
 <body>
-<h1>Favourite colours</h1>
+  <h1>Favourite colours</h1>
 
-<section>
-<h1>Purple</h1>
-<p>Purple is my favourite colour.</p>
+  <section>
+    <h1>Purple</h1>
+    <p>Purple is my favourite colour.</p>
 
-<h2>Reasons</h2>
-<p>I like purple because…</p>
-</section>
+    <h2>Reasons</h2>
+    <p>I like purple because…</p>
+  </section>
 
 </body>
 ```
 
 In the above example the `aside` element has been removed, so that section is no longer explicitly defined. The “Reasons” heading is of lower rank than the “Purple” heading though, so HTML5 implicitly assumes there is a sub section there anyway. The outline would look like this:
 
-1. Favourite colours
-1.1. 	Purple
-1.1.1. 			Reasons
+1. Favourite colours  
+  1.1. Purple  
+  &nbsp;&nbsp;&nbsp;&nbsp;1.1.1. Reasons
 
-If the “Reasons” heading had been an h1 instead, HTML5 would automatically close the explicitly defined <section> and open an implicitly defined section at the same level. For example:
+If the “Reasons” heading had been an `h1` instead, HTML5 would automatically close the explicitly defined <section> and open an implicitly defined section at the same level. For example:
 
 ```html
 <body>
-<h1>Favourite colours</h1>
+  <h1>Favourite colours</h1>
 
-<section>
-<h1>Purple</h1>
-<p>Purple is my favourite colour.</p>
+  <section>
+    <h1>Purple</h1>
+    <p>Purple is my favourite colour.</p>
 
-<h1>Reasons</h1>
-<p>I like purple because…</p>
-</section>
+    <h1>Reasons</h1>
+    <p>I like purple because…</p>
+  </section>
 
 </body>
 ```
 
 The resulting outline structure would therefore be:
 
-1. Favourite colours
-1.1. 	Purple
-1.2. 	Reasons
+1. Favourite colours  
+  1.1. Purple  
+  1.2. Reasons
 
 ## Using h1 only or explicitly ranked headings
 
-If you wanted to conform to the HTML5 specification, and there was no need to provide backwards compatibility, the h1 only technique would be fine.
+If you wanted to conform to the HTML5 specification, and there was no need to provide backwards compatibility, the `h1` only technique would be fine.
 
 It’s going to be some while before we reach that utopia though. In the meantime, developers can use explicitly ranked headings to support the browsers and assistive technologies that haven’t implemented HTML5 headings at all. Here’s what the HTML5 specification has to say on the subject:
 
@@ -153,17 +153,17 @@ This means that the following HTML5 examples would both represent the same outli
 
 ```html
 <body>
-<h1>Favourite colours</h1>
+  <h1>Favourite colours</h1>
 
-<section>
-<h1>Purple</h1>
-<p>Purple is my favourite colour.</p>
+  <section>
+    <h1>Purple</h1>
+    <p>Purple is my favourite colour.</p>
 
-<aside>
-<h1>Reasons</h1>
-<p>I like purple because…</p>
-</aside>
-</section>
+    <aside>
+      <h1>Reasons</h1>
+      <p>I like purple because…</p>
+    </aside>
+  </section>
 
 </body>
 ```
@@ -172,26 +172,26 @@ This means that the following HTML5 examples would both represent the same outli
 
 ```html
 <body>
-<h1>Favourite colours</h1>
+  <h1>Favourite colours</h1>
 
-<section>
-<h2>Purple</h2>
-<p>Purple is my favourite colour.</p>
+  <section>
+    <h2>Purple</h2>
+    <p>Purple is my favourite colour.</p>
 
-<aside>
-<h3>Reasons</h3>
-<p>I like purple because…</p>
-</aside>
-</section>
+    <aside>
+      <h3>Reasons</h3>
+      <p>I like purple because…</p>
+    </aside>
+  </section>
 
 </body>
 ```
 
 The outline structure represented by both of the above examples would be:
 
-1. Favourite colours
-1.1. 	Purple
-1.1.1. 		Reasons
+1. Favourite colours  
+  1.1. Purple  
+  &nbsp;&nbsp;&nbsp;&nbsp;1.1.1. Reasons
 
 ## HTML5 heading support
 
@@ -199,8 +199,8 @@ The Jaws screen reader briefly introduced support for the HTML5 outline algorith
 
 ## Choosing h1 only or explicitly ranked headings
 
-The question has been asked whether the h1 only or explicitly ranked headings technique is the best one to use.
+The question has been asked whether the `h1` only or explicitly ranked headings technique is the best one to use.
 
 **Updated:** 26th November 2015.
 
-Originally I recommended using a flat h1 heading structure. Four years later the HTML5 outline algorithm is still not supported in browsers, and without that an h1 only heading structure is meaningless. Better to use explicitly ranked HTML headings and take care to get the [heading hierarchy](https://www.nomensa.com/blog/2010/using-html-headings) right!
+Originally I recommended using a flat `h1` heading structure. Four years later the HTML5 outline algorithm is still not supported in browsers, and without that an `h1` only heading structure is meaningless. Better to use explicitly ranked HTML headings and take care to get the [heading hierarchy](https://www.nomensa.com/blog/2010/using-html-headings) right!

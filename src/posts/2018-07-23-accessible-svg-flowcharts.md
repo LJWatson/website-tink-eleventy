@@ -24,12 +24,13 @@ The first step was to create the skeleton structure of the flowchart, using the 
 
 ```svg
 <g role="list">
-<g role="listitem"></g>
-<g role="listitem">
-<g role="list">
-<g role="listitem"></g>
-<g role="listitem"></g>
-</g>
+  <g role="listitem"></g>
+  <g role="listitem">
+    <g role="list">
+      <g role="listitem"></g>
+      <g role="listitem"></g>
+    </g>
+  </g>
 </g>
 ```
 
@@ -40,75 +41,75 @@ The `aria-hidden` attribute was then used to hide the `text` element from screen
 ```svg
 <g role="list">
 
-<!-* FPWD -->
-<g role="listitem">
+  <!-* FPWD -->
+  <g role="listitem">
 
-<a xlink:href="#wd-1">
-<rect role="img" fill="white" y="122" width="57" height="45">
-<title>First Public Working Draft (FPWD) * Exclusion opportunity</title>
-</rect>
+    <a xlink:href="#wd-1">
+      <rect role="img" fill="white" y="122" width="57" height="45">
+        <title>First Public Working Draft (FPWD) * Exclusion opportunity</title>
+      </rect>
 
-<text font-size="8">
-<tspan aria-hidden="true" y="132" x="0">First Public WD</tspan>
-<tspan x="0" y="152">WG decision</tspan>
-<tspan x="0" y="162">Director's approval</tspan>
-</text>
+      <text font-size="8">
+        <tspan aria-hidden="true" y="132" x="0">First Public WD</tspan>
+        <tspan x="0" y="152">WG decision</tspan>
+        <tspan x="0" y="162">Director's approval</tspan>
+      </text>
 
-<path d="M0,140h53" fill="none" stroke="#000"></path>
-<polygon points="47,136 57,140 47,144"></polygon>
-</a>
-</g>
+      <path d="M0,140h53" fill="none" stroke="#000"></path>
+      <polygon points="47,136 57,140 47,144"></polygon>
+    </a>
+  </g>
 
-<!-* WD -->
-<g role="listitem">
+  <!-* WD -->
+  <g role="listitem">
 
-<a xlink:href="#cr-1">
-<ellipse role="img" id="wd-1" ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff">
-<title>Working Draft (WD)</title>
-</ellipse>
+    <a xlink:href="#cr-1">
+      <ellipse role="img" id="wd-1" ry="18" rx="38" cy="140" cx="97" stroke="black" fill="#fff">
+        <title>Working Draft (WD)</title>
+      </ellipse>
 
-<text aria-hidden="true" font-size="14" y="144" x="97" text-anchor="middle">WD</text>
-</a>
+      <text aria-hidden="true" font-size="14" y="144" x="97" text-anchor="middle">WD</text>
+    </a>
 
-<g role="list">
+    <g role="list">
 
-<!-* New WD -->
-<g role="listitem">
+      <!-* New WD -->
+      <g role="listitem">
 
-<a xlink:href="#wd-1">
-<g role="img">
-<title>Publish a new Working Draft</title>
-</g>
+        <a xlink:href="#wd-1">
+          <g role="img">
+            <title>Publish a new Working Draft</title>
+          </g>
 
-<text font-size="8"><tspan x="30" y="92">WG Decision: review needed, or</tspan>
-<tspan x="40" y="100">No change for 6 months</tspan>
-</text>
+          <text font-size="8"><tspan x="30" y="92">WG Decision: review needed, or</tspan>
+            <tspan x="40" y="100">No change for 6 months</tspan>
+          </text>
 
-<path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 1"></path>
-<polygon points="120,114 116,124 114,113"></polygon>
-</a>
-</g>
+          <path d="M78,124C73,114 79,104 97,104 108,104 115,108 117,114" fill="none" stroke="black" stroke-dasharray="6 1"></path>
+          <polygon points="120,114 116,124 114,113"></polygon>
+        </a>
+      </g>
 
-<!-* Advance to CR -->
-<g role="listitem" fill="#060">
+      <!-* Advance to CR -->
+      <g role="listitem" fill="#060">
 
-<a xlink:href="#cr-1">
-<g role="img">
-<title>Advance to Candidate Recommendation</title>
-</g>
+        <a xlink:href="#cr-1">
+          <g role="img">
+            <title>Advance to Candidate Recommendation</title>
+          </g>
 
-<text x="138" y="134" font-size="8">Director's approval</text>
+          <text x="138" y="134" font-size="8">Director's approval</text>
 
-<path stroke="#060" d="M135,140h81"></path>
-<polygon points="211,136 221,140 211,144"></polygon>
-</a>
-</g>
-</g>
+          <path stroke="#060" d="M135,140h81"></path>
+          <polygon points="211,136 221,140 211,144"></polygon>
+        </a>
+      </g>
+    </g>
 
-...
-</g>
+    ...
+  </g>
 
-...
+  ...
 </g>
 ```
 

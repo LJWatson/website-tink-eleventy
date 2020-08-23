@@ -35,7 +35,7 @@ The underlying HTML looks like this:
 ```html
 <span id="button">Tequila!</span>
 <div id="container">
-Makes me happy!
+  Makes me happy!
 </div>
 ```
 
@@ -74,21 +74,21 @@ We can then create and call the function that handles the behaviour of the discl
 ```javascript
 function disclose(event) {
 
-if(container.getAttribute('hidden')) {
-    button.accessibleNode.expanded = true;
-    container.removeAttribute('hidden');
-}
-else {
-    button.accessibleNode.expanded = false;
-    container.setAttribute('hidden', true);
-}
+    if(container.getAttribute('hidden')) {
+        button.accessibleNode.expanded = true;
+        container.removeAttribute('hidden');
+    }
+    else {
+        button.accessibleNode.expanded = false;
+        container.setAttribute('hidden', true);
+    }
 }
 
 button.addEventListener('click', disclose, false);
 button.addEventListener('keydown', function(event) {
-if (event.keyCode == 13 || event.keyCode ==32) {
-    disclose();
-}
+    if (event.keyCode == 13 || event.keyCode ==32) {
+        disclose();
+    }
 });
 ```
 
@@ -117,16 +117,16 @@ Lastly, in the function that handles the disclosure behaviour, we create the ass
 ```javascript
 function disclose(event) {
 
-if(container.getAttribute('hidden')) {
-    button.accessibleNode.expanded = true;
-    button.accessibleNode.controls = content;
-    container.removeAttribute('hidden');
-}
-else {
-    button.accessibleNode.expanded = false;
-    button.accessibleNode.controls = null;
-    container.setAttribute('hidden', true);
-}
+    if(container.getAttribute('hidden')) {
+        button.accessibleNode.expanded = true;
+        button.accessibleNode.controls = content;
+        container.removeAttribute('hidden');
+    }
+    else {
+        button.accessibleNode.expanded = false;
+        button.accessibleNode.controls = null;
+        container.setAttribute('hidden', true);
+    }
 }
 ```
 
@@ -137,10 +137,10 @@ By using an array to store one or more accessible node references, it's possible
 As mentioned at the start, the AOM is an experimental API. For now support for Phase 1 is only available behind the flag in [Chrome Canary](https://www.google.co.uk/chrome/browser/canary.html). This means you need to run Canary from the command line. To do this, open Windows Command Prompt or MacOS Terminal, and navigate to the directory where Chrome Canary is installed.
 
 In Windows run:  
-chrome.exe --enable-blink-features=AccessibilityObjectModel
+`chrome.exe --enable-blink-features=AccessibilityObjectModel`
 
 In MacOS run:  
-open -a Google\\ Chrome --args --enable-blink-features=AccessibilityObjectModel
+`open -a Google\\ Chrome --args --enable-blink-features=AccessibilityObjectModel`
 
 You can then open this [AOM disclosure demo](https://test-cases.tink.uk/aom-disclosure), and with a screen reader running it'll behave exactly like you'd expect. The screen reader recognises a button in a collapsed state. When the button is activated, the screen reader recognises the button is now in the expanded state and (Jaws only) recognises that the button is being used to control the disclosed content.
 

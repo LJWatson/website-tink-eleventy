@@ -15,16 +15,16 @@ A common technique used with HTML4.01 is to use the `strong` element to markup t
 
 ```html
 <ul>
-<li><a href="home.html">Home</a></li>
-<li><strong>About us</strong></li>
-<li><a href="contact.html">Contact us</a></li>
-… 
+  <li><a href="home.html">Home</a></li>
+  <li><strong>About us</strong></li>
+  <li><a href="contact.html">Contact us</a></li>
+  … 
 </ul>
 ```
 
 This has the advantage of creating both the visual effect and the programmatic effect needed to differentiate the current page from the rest.
 
-The [HTML5 specification](https://www.w3.org/TR/2011/WD-html5-20110525/text-level-semantics.html#the-strong-element) subtly changes the purpose of the <strong> element though. Instead of marking up content with strong emphasis, it should be used to markup content of strong importance. More on this (and other similar changes) within the HTML5 spec can be found on the [HTML5 Doctor](https://html5doctor.com/i-b-em-strong-element/) website.
+The [HTML5 specification](https://www.w3.org/TR/2011/WD-html5-20110525/text-level-semantics.html#the-strong-element) subtly changes the purpose of the `strong` element though. Instead of marking up content with strong emphasis, it should be used to markup content of strong importance. More on this (and other similar changes) within the HTML5 spec can be found on the [HTML5 Doctor](https://html5doctor.com/i-b-em-strong-element/) website.
 
 This change in the specification probably doesn’t make it wrong to use the above technique, since it could be argued that the current page is something of strong importance. It is one of those potentially murky areas though, and besides, the HTML5 spec recommends a much cleaner approach instead.
 
@@ -36,10 +36,10 @@ In other words you can strip out all the usual attributes from the `a` element, 
 
 ```html
 <ul>
-<li><a href="home.html">Home</a></li>
-<li><a>About us</a></li>
-<li><a href="contact.html">Contact us</a></li>
-…
+  <li><a href="home.html">Home</a></li>
+  <li><a>About us</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  …
 </ul>
 ```
 

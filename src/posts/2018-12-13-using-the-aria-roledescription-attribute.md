@@ -31,8 +31,8 @@ The first use case looks something like this:
 
 ```html
 <section aria-roledescription="slide" aria-labelledby="s1">
-<h2 id="s1">Accessibility mechanics</h2>
-...
+  <h2 id="s1">Accessibility mechanics</h2>
+  ...
 </section>
 ```
 
@@ -76,7 +76,7 @@ It then places stronger constraints on the way browsers handle the aria-roledesc
 >User agents MUST NOT expose the aria-roledescription property if any of the following conditions exist:
 >
 >1. The element to which aria-roledescription is applied does not have a valid WAI-ARIA role or does not have an implicit WAI-ARIA role semantic.
-> 2. The value of aria-roledescription is empty or contains only whitespace characters.>
+>2. The value of aria-roledescription is empty or contains only whitespace characters.
 
 The difference in the language is subtle: in W3C language, things marked "SHOULD" (in uppercase) are advisory, but things marked "MUST" (in uppercase) are required. So in this case, authors are advised against using `aria-roledescription` on elements without an implicit or explicit ARIA role (refer to the [HTML Accessibility API Mappings](https://www.w3.org/TR/html-aam-1.0/) specification for details) and against giving `aria-roledescription` an empty or whitespace value, whereas browsers are explicitly prohibited from exposing the `aria-roledescription` attribute if either of those conditions fail.
 
@@ -86,7 +86,7 @@ WebVR is scripted, and attached to the `canvas` element. This means that objects
 
 ```html
 <canvas id="webgl-thing">
-<div role="img" aria-roledescription="Ravenous Bugblatter Beast of Traal" aria-label="A red monster with lots of teeth"></div>
+  <div role="img" aria-roledescription="Ravenous Bugblatter Beast of Traal" aria-label="A red monster with lots of teeth"></div>
 </canvas>
 ```
 

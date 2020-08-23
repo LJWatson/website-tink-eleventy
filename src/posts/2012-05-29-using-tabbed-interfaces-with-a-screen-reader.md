@@ -17,24 +17,24 @@ This problem can be solved with [ARIA](https://www.w3.org/TR/wai-aria/). The [ta
 
 ```html
 <ul role=”tablist”>  
-<li role=”tab”>Dogs</li>  
-<li role=”tab”>Cats</li>  
-<li role=”tab”>Sheep</li>  
+  <li role=”tab”>Dogs</li>  
+  <li role=”tab”>Cats</li>  
+  <li role=”tab”>Sheep</li>  
 </ul>  
 
 <div role=”tabpanel”>  
-<h2>Dogs</h2>  
-…  
+  <h2>Dogs</h2>  
+  …  
 </div>  
 
 <div role=”tabpanel”>  
-<h2>Cats</h2>  
-…  
+  <h2>Cats</h2>  
+  …  
 </div>  
 
 <div role=”tabpanel”>  
-<h2>Sheep</h2>  
-…  
+  <h2>Sheep</h2>  
+  …  
 </div>
 ```
 
@@ -59,5 +59,3 @@ Triggering applications mode is the key to getting screen readers like NVDA and 
 The demo here uses Hans Hillen’s [accessible jQuery UI components page](https://access.aol.com/aegis/#goto_tabs). It’s a terrific set of accessible widgets, and the code is available from [Hans’ Github repository](https://www.github.com/hanshillen).
 
 This demo was recorded using [NVDA 2012.2 beta](https://www.nvda-project.org/) and Firefox 12.
-
-[captions](/wp-content/uploads/2012/05/using-tabbed-interfaces-with-nvda-captions_2012-05-26.xml) [Using tabbed interfaces with a screen reader](https://www.youtube.com/watch?v=DG3xXjlAlEA&feature=youtu.be)

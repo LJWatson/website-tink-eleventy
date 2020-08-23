@@ -17,8 +17,8 @@ When the notification appears there are a few simple things you can do to make s
 
 ```html
 <div>
-<h1>You will be logged out soon</h1>
-…
+  <h1>You will be logged out soon</h1>
+  …
 </div>
 ```
 
@@ -38,8 +38,8 @@ Use the [aria-labelledby attribute](https://www.w3.org/WAI/PF/aria/states_and_pr
 
 ```html
 <div tabindex="-1" role="group" aria-labelledby="notification">
-<h1 id=""notification">You will be logged out soon</h1>
-…
+  <h1 id=""notification">You will be logged out soon</h1>
+  …
 </div>
 ```
 

@@ -17,14 +17,14 @@ The placeholder hint or description is displayed inside the empty form field, an
 
 ## How is the HTML5 placeholder attribute Applied?
 
-You can apply the `placeholder` attribute to `input` fields like `text`, `email`, `tel`, `search` or `URL`. It can also be applied to a <textarea>.
+You can apply the `placeholder` attribute to `input` fields like `text`, `email`, `tel`, `search` or `URL`. It can also be applied to a `textarea`.
 
 ```html
 <label for="email">Email address:  
 <input type="email" id="email" name="email" placeholder="you@example.com"/></label>
 ```
     
-## What     isn't the HTML5 placeholder attribute?
+## What isn't the HTML5 placeholder attribute?
 
 The `placeholder` attribute is not a replacement for a label. It's tempting to think that it could be, especially when screen real estate is at a premium and space for a visible label is limited.
 

@@ -21,32 +21,32 @@ The posts in the [recipe book](/category/recipe-book/) category of this website 
 
 ```html
 <article>
-<h1>Scrambled eggs on toast</h1>
-<p>Recipe introduction...</p>
+  <h1>Scrambled eggs on toast</h1>
+  <p>Recipe introduction...</p>
 
-<h2>Information</h2>
-<dl>
-<dt>Makes</dt>
-<dd>Two helpings.</dd>
-<dt>Time</dt>
-<dd>15 minutes.</dd>
-</dl>
+  <h2>Information</h2>
+  <dl>
+    <dt>Makes</dt>
+    <dd>Two helpings.</dd>
+    <dt>Time</dt>
+    <dd>15 minutes.</dd>
+  </dl>
 
-<h2>Ingredients</h2>
-<ul>
-<li>4 large eggs.</li>
-<li>90ml (6tbsp) single cream.</li>
-...
-</ul>
+  <h2>Ingredients</h2>
+  <ul>
+    <li>4 large eggs.</li>
+    <li>90ml (6tbsp) single cream.</li>
+    ...
+  </ul>
 
-<h2>Method</h2>
-<ol>
-<li>Beat the eggs lightly...</li>
-...
-</ol>
+  <h2>Method</h2>
+  <ol>
+    <li>Beat the eggs lightly...</li>
+    ...
+  </ol>
 
-<h2>Notes</h2>
-<p>Recipe notes...</p>
+  <h2>Notes</h2>
+  <p>Recipe notes...</p>
 </article>
 ```
 
@@ -56,7 +56,7 @@ The first step is to establish the scope of the thing being marked up. We do thi
 
 ```html
 <article itemscope>
-...
+  ...
 </article>
 ```
 
@@ -70,7 +70,7 @@ One of the types that inherits from CreativeWork is [Recipe](https://www.schema.
 
 ```html
 <article itemscope itemtype="https://www.schema.org/Recipe">
-...
+  ...
 </article>
 ```
 
@@ -82,8 +82,8 @@ The [name](https://www.schema.org/name) property is assigned to the heading that
 
 ```html
 <article itemscope itemtype="https://www.schema.org/Recipe">
-<h1 itemprop="name">Scrambled eggs on toast</h1>
-...
+  <h1 itemprop="name">Scrambled eggs on toast</h1>
+  ...
 </article>
 ```
 
@@ -91,9 +91,9 @@ The [text](https://www.schema.org/Text) property is assigned to the introductory
 
 ```html
 <article itemscope itemtype="https://www.schema.org/Recipe">
-<h1 itemprop="name">Scrambled eggs on toast</h1>
-<p itemprop="text">Recipe introduction...</p>
-...
+  <h1 itemprop="name">Scrambled eggs on toast</h1>
+  <p itemprop="text">Recipe introduction...</p>
+  ...
 </article>
 ```
 
@@ -105,17 +105,17 @@ Properties relating to time must be presented in [ISO8601](https://en.wikipedia.
 
 ```html
 <article itemscope itemtype="https://www.schema.org/Recipe">
-<h1 itemprop="name">Scrambled eggs on toast</h1>
-<p itemprop="text">Recipe introduction...</p>
+  <h1 itemprop="name">Scrambled eggs on toast</h1>
+  <p itemprop="text">Recipe introduction...</p>
 
-<h2>Information</h2>
-<dl>
-<dt>Makes</dt>
-<dd itemprop="recipeYield">Two helpings.</dd>
-<dt>Time</dt>
-<dd><time datetime="PT0H15M" itemprop="totalTime">15 minutes.</time></dd>
-</dl>
-...
+  <h2>Information</h2>
+  <dl>
+    <dt>Makes</dt>
+    <dd itemprop="recipeYield">Two helpings.</dd>
+    <dt>Time</dt>
+    <dd><time datetime="PT0H15M" itemprop="totalTime">15 minutes.</time></dd>
+  </dl>
+  ...
 </article>
 ```
 
@@ -123,32 +123,32 @@ The [ingredients](https://www.schema.org/ingredients) property is used to markup
 
 ```html
 <article itemscope itemtype="https://www.schema.org/Recipe">
-<h1 itemprop="name">Scrambled eggs on toast</h1>
-<p itemprop="text">Recipe introduction...</p>
+  <h1 itemprop="name">Scrambled eggs on toast</h1>
+  <p itemprop="text">Recipe introduction...</p>
 
-<h2>Information</h2>
-<dl>
-<dt>Makes</dt>
-<dd itemprop="recipeYield">Two helpings.</dd>
-<dt>Time</dt>
-<dd><time datetime="PT0H15M" itemprop="totalTime">15 minutes.</time></dd>
-</dl>
+  <h2>Information</h2>
+  <dl>
+    <dt>Makes</dt>
+    <dd itemprop="recipeYield">Two helpings.</dd>
+    <dt>Time</dt>
+    <dd><time datetime="PT0H15M" itemprop="totalTime">15 minutes.</time></dd>
+  </dl>
 
-<h2>Ingredients</h2>
-<ul>
-<li itemprop="ingredients">4 large eggs.</li>
-<li itemprop="ingredients">90ml (6tbsp) single cream.</li>
-...
-</ul>
+  <h2>Ingredients</h2>
+  <ul>
+    <li itemprop="ingredients">4 large eggs.</li>
+    <li itemprop="ingredients">90ml (6tbsp) single cream.</li>
+    ...
+  </ul>
 
-<h2>Method</h2>
-<ol>
-<li itemprop="recipeInstructions">Beat the eggs lightly...</li>
-...
-</ol>
+  <h2>Method</h2>
+    <ol>
+    <li itemprop="recipeInstructions">Beat the eggs lightly...</li>
+    ...
+  </ol>
 
-<h2>Notes</h2>
-<p itemprop="text">Recipe notes...</p>
+  <h2>Notes</h2>
+  <p itemprop="text">Recipe notes...</p>
 </article>
 ```
 

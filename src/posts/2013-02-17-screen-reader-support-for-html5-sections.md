@@ -20,7 +20,7 @@ Screen reader support for HTML5 sections
 | [article](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element) | Yes | Yes | No | No | No | No | No |
 | [aside](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-aside-element) | Yes | Yes | Yes | No | Yes | No | No |
 | [footer](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-footer-element) | Yes | No | Yes | No | Yes | No | No |
-| [header](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-header-element | No | No | No | No | Yes | No | No |
+| [header](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-header-element) | No | No | No | No | Yes | No | No |
 | [nav](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-nav-element) | Yes | Yes | No | No | Yes | No | No |
 | [section](https://www.w3.org/html/wg/drafts/html/master/sections.html#the-section-element) | Yes | Yes | No | No | No | No | No |
 

@@ -33,7 +33,7 @@ At present only [WebKit/Safari](https://webkit.org/blog/8084/release-notes-for-s
 
 As the [`display`](https://www.w3.org/TR/CSS21/visuren.html#display-prop) property determines whether content is rendered visually, the [`speak`](https://www.w3.org/TR/css3-speech/#speak) property determines whether it is rendered aurally. The `speak` property can be set to `auto`, `none` or `normal`, with `auto` being the default.
 
-When the `speak` property is set to `auto`, it defers to the state of the `display` property.        `display: none;` is set the computed value of the `speak` property is also `none`, otherwise it is `normal`.
+When the `speak` property is set to `auto`, it defers to the state of the `display` property. `display: none;` is set the computed value of the `speak` property is also `none`, otherwise it is `normal`.
 
 There are CSS properties for manipulating other basic speech characteristics:
 
@@ -48,12 +48,11 @@ The [`voice-pitch`](https://www.w3.org/TR/css3-speech/#voice-pitch) property det
 ### CSS Speech example
 
 ```html
-p
-{
-speak: normal;
-voice-volume: loud;
-voice-rate: medium;
-voice-pitch: low;
+p {
+  speak: normal;
+  voice-volume: loud;
+  voice-rate: medium;
+  voice-pitch: low;
 }
 ```
 

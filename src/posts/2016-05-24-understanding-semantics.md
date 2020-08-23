@@ -35,7 +35,7 @@ These roles are discoverable using the accessibility APIs supported by the platf
 <a href="https://tink.uk">Tink UK</a>
 ```
 
-When a screen reader queries the browser for information about the piece of content represented by the HTML shown above, it will discover that it is a link to this website. The screen reader identifies the element’s role as “link”, uses the text content inside it to give the link an accessible name, and makes this information available in synthetic speech. This [screen reader demo of an HTML link](https://www.youtube.com/watch?v=uGlFlv6UWHY) shows how this information is used.
+When a screen reader queries the browser for information about the piece of content represented by the HTML shown above, it will discover that it is a link to this website. The screen reader identifies the element’s role as “link”, uses the text content inside it to give the link an accessible name, and makes this information available in synthetic speech.
 
 Compare this to the pseudo link represented by the following code:
 
@@ -43,7 +43,7 @@ Compare this to the pseudo link represented by the following code:
 <span class="link">Tink UK</span>
 ```
 
-The browser does not recognise this structure as a link, and so does not provide any of the expected behaviour (the styling is provided using CSS). The `span` element is semantically neutral, so it does not have an implicit role that is useful in this context. This [screen reader demo of a pseudo-link](https://www.youtube.com/watch?v=xs7Xh7011m4) shows the missing information.
+The browser does not recognise this structure as a link, and so does not provide any of the expected behaviour (the styling is provided using CSS). The `span` element is semantically neutral, so it does not have an implicit role that is useful in this context.
 
 It is possible to use JavaScript, ARIA, and CSS to polyfill the missing semantic information, and to provide some (but not all) of the styling and behaviours associated with the `a` element. That takes a lot more code, a lot more effort, and it usually results in a very brittle implementation compared to that of a native html element.
 
