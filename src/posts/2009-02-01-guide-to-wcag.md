@@ -1,7 +1,7 @@
 ---
 title: "Guide to WCAG"
 date: "2009-02-01"
-tags: ["Standards"
+tags: ["Standards"]
 categories: "Web life"
 ---
 
