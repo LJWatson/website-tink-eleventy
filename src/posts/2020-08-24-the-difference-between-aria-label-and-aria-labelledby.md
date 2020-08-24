@@ -1,7 +1,7 @@
 ---
 title: "The difference between aria-label and aria-labelledby"
 date: "2020-08-24"
-tags: "Screen readers", "ARIA"]
+tags: ["Screen readers", "ARIA"]
 categories: "Code things"
 ---
 
