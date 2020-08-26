@@ -9,4 +9,8 @@
 
   @include apply-utility('font', 'sans');
   @include apply-utility('weight', 'bold');
+
+  :focus {
+    outline-color: get-color('primary');
+  }
 }
