@@ -4,7 +4,7 @@
       <h2 class="text-700 md:text-800">
         <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
       </h2>
-      <div class="[ post__meta ] [ measure-short flow-space-700 ]">
+      <div class="[ post__meta ] [ measure-short flow-space-300 ]">
         <time class="font-sans weight-bold" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
         {% set categories = helpers.getCategories(item) %}
         {% if categories | length %}
