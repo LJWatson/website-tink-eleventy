@@ -1,3 +1,11 @@
 [build]
   command = "npm run production"
   publish = "dist"
+[[redirects]]
+from = "/feed"
+to = "/feed.xml"
+status = 301
+
+from = "/feed/"
+to = "/feed.xml"
+status = 301
