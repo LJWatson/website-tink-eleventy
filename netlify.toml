@@ -11,3 +11,13 @@ status = 301
 from = "/feed/"
 to = "/feed.xml"
 status = 301
+
+[[redirects]]
+from = "/rss"
+to = "/feed.xml"
+status = 301
+
+[[redirects]]
+from = "/feed/atom/"
+to = "/feed.xml"
+status = 301
