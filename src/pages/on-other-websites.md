@@ -13,6 +13,7 @@ Here’s some articles I’ve written for other publications and blogs:
 
 ## 2019 posts
 
+* [Web Components and the Accessibility Object Model](https://www.24a11y.com/2019/web-components-and-the-aom/)
 * [Public Sector Accessibility Regulations](https://tetralogical.com/articles/public-sector-accessibility-regulations/)
 * [Tips and tricks for testing with Jaws](https://invotra.com/blogs/tips-and-tricks-for-testing-with-jaws/)
 * [Demystifying ATAG 2.0](https://invotra.com/blogs/de-mystifying-the-atag-2-0-guidelines/)
@@ -68,7 +69,7 @@ Here’s some articles I’ve written for other publications and blogs:
 * [Building for inclusion](https://gds.blog.gov.uk/2012/10/01/building-for-inclusion/)
 * [The business case for HTML5](https://www.nomensa.com/blog/2012/business-case-html5)
 * [Where you can stick your social networking buttons](https://www.nomensa.com/blog/2012/where-you-can-stick-your-social-networking-buttons)
-* [PDF accessibility - A strategy for handling the legacy](http://en.wikipedia.org/wiki/Portable_Document_Format)
+* [PDF accessibility - A strategy for handling the legacy](https://www.nomensa.com/blog/2012/pdf-accessibility-strategy-handling-legacy)
 * [Is there a need for a professional accessibility society?](https://www.nomensa.com/blog/2012/there-need-professional-accessibility-society)
 
 ## 2011 posts
