@@ -76,6 +76,16 @@ $gorko-config: (
     'output': 'responsive',
     'property': 'margin-top'
   ),
+  'pad-top': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': 'padding-top'
+  ),
+  'pad-bottom': (
+    'items': $gorko-size-scale,
+    'output': 'responsive',
+    'property': 'padding-bottom'
+  ),
   'leading': (
     'items': (
       'loose': 1.5,

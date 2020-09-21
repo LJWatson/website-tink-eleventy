@@ -11,6 +11,8 @@
 
 // Global styles
 body {
+  display: flex;
+  flex-direction: column;
   background: var(--color-bg);
   color: var(--color-text);
   width: 100%;
@@ -120,6 +122,7 @@ button:focus {
 
 // Import utilities
 @import 'utilities/cluster';
+@import 'utilities/expander';
 @import 'utilities/flow';
 @import 'utilities/sidebar';
 @import 'utilities/splitter';

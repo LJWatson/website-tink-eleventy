@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
-    {% demoMode %}
+    {% if demoMode %}
     <meta name="robots" content="noindex" />
     {% else %}
     <script>
@@ -51,21 +51,23 @@
   </head>
   <body>
     {% include "partials/site-head.html" %}
-    <div class="wrapper">
-      {% if demoMode %}
-        <div class="[ post ] [ flow ] [ flow-space-700 text-500 ]">
-          <div class="[ post__body ] [ flow ] [ flow-space-700 ]">
-            <!-- Demo code goes here -->
+    <div class="expander">
+      <div class="wrapper">
+        {% if demoMode %}
+          <div class="[ post ] [ flow ] [ flow-space-700 text-500 ]">
+            <div class="[ post__body ] [ flow ] [ flow-space-700 pad-top-700 pad-bottom-700 ]">
+              <p>Demo code goes here</p>
+            </div>
           </div>
-        </div>
-      {% else %}
-        <div class="sidebar">
-          <main tabindex="-1" id="main-content">
-            {% block content %}{% endblock %}
-          </main>
-          {% include "partials/sidebar.html" %}
-        </div>
-      {% endif %}
+        {% else %}
+          <div class="sidebar">
+            <main tabindex="-1" id="main-content">
+              {% block content %}{% endblock %}
+            </main>
+            {% include "partials/sidebar.html" %}
+          </div>
+        {% endif %}
+      </div>
     </div>
     {% include "partials/site-foot.html" %}
     {% block foot %}{% endblock %}
