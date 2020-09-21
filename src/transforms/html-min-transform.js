@@ -1,10 +1,11 @@
 const htmlmin = require('html-minifier');
+const prettifyHtml = require('prettify-html');
 
 module.exports = (value, outputPath) => {
   const isProduction = process.env.NODE_ENV === 'production';
 
   if (!isProduction) {
-    return value;
+    return prettifyHtml(value);
   }
 
   if (!outputPath) {
