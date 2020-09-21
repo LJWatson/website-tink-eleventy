@@ -9,6 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+    {% demoMode %}
+    <meta name="robots" content="noindex" />
+    {% else %}
     <script>
       // A global function that the theme toggle can use to apply the current theme.
       window.applyThemeSetting = function(override) {
@@ -21,6 +24,8 @@
       };
       window.applyThemeSetting();
     </script>
+    {% endif %}
+
     <style>{% include "css/critical.css" %}</style>
 
     {# Add facility for pages to delare an array of critical styles #}
@@ -47,16 +52,27 @@
   <body>
     {% include "partials/site-head.html" %}
     <div class="wrapper">
-      <div class="sidebar">
-        <main tabindex="-1" id="main-content">
-          {% block content %}{% endblock %}
-        </main>
-        {% include "partials/sidebar.html" %}
-      </div>
+      {% if demoMode %}
+        <div class="[ post ] [ flow ] [ flow-space-700 text-500 ]">
+          <div class="[ post__body ] [ flow ] [ flow-space-700 ]">
+            <!-- Demo code goes here -->
+          </div>
+        </div>
+      {% else %}
+        <div class="sidebar">
+          <main tabindex="-1" id="main-content">
+            {% block content %}{% endblock %}
+          </main>
+          {% include "partials/sidebar.html" %}
+        </div>
+      {% endif %}
     </div>
     {% include "partials/site-foot.html" %}
     {% block foot %}{% endblock %}
-    <script src="/js/components/disclosure-toggle.js?{{ global.random() }}" type="module" defer></script>
-    <script src="/js/components/theme-toggle.js?{{ global.random() }}" type="module" defer></script>
+
+    {% if not demoMode %}
+      <script src="/js/components/disclosure-toggle.js?{{ global.random() }}" type="module" defer></script>
+      <script src="/js/components/theme-toggle.js?{{ global.random() }}" type="module" defer></script>
+    {% endif %}
   </body>
 </html>
