@@ -18,7 +18,7 @@ Contrary to what you might have heard, you do not need to make each cell of a ta
 Let's use the following table as our working example:
 
 ```html
-<table id="data-table">
+<table>
     <caption>Average daily tea and coffee consumption</caption>
     <tr>
         <th>Person</th><th>Coffee</th><th>Tea</th>
@@ -37,9 +37,9 @@ Let's use the following table as our working example:
 
 Press <kbd>t</kbd> to move screen reader focus to the table and NVDA will say:
 
-> Average daily tea and coffee consumption
-> Table with 3 columns and 4 rows
-> Average daily tea and coffee consumption caption
+>Average daily tea and coffee consumption
+>Table with 3 columns and 4 rows
+>Average daily tea and coffee consumption caption
 
 NVDA starts by announcing the table's [accessible name](https://developer.paciellogroup.com/blog/2017/04/what-is-an-accessible-name/), then that there is a table with 3 columns and 4 rows, before repeating the accessible name again but this time indicating it is the table's caption. 
 
@@ -47,10 +47,10 @@ All of this information comes from the browser; the table's accessible name is t
 
 The repetition of the table caption makes NVDA a little verbose, but it is an example of a common phenomenon - screen readers often do the same thing in slightly different ways. Jaws for example announces this when you press the <kbd>t</kbd> key:
 
-> Table with 3 columns and 4 rows
-> Average daily tea and coffee consumption
-> Column 1, row 1
-> Person
+>Table with 3 columns and 4 rows
+>Average daily tea and coffee consumption
+>Column 1, row 1
+>Person
 
 Jaws does not repeat the caption, but it does not indicate that the name of the table is a caption either. It also takes the additional step of moving screen reader focus to the first cell in the table and announcing its coordinates and content, where NVDA only moves screen reader focus to the table (not into it).
 
@@ -62,32 +62,32 @@ Whether you're using NVDA or Jaws, you'll know that there is a table, the table'
 
 Use the <kbd>down arrow</kbd> key to move NVDA's focus into the table and NVDA will say:
 
-> Row 1, column 1
-> Person
+>Row 1, column 1
+>Person
 
 Now the screen reader focus is in the first cell of the table, the next step is to explore the table and orientate yourself so you know what data the table contains.
 
 Use the keyboard command <kbd>control alt + right arrow</kbd> to move one cell to the right, and NVDA will say:
 
-> Column 2
-> Coffee
+>Column 2
+>Coffee
 
 Then repeat the same keyboard command until NVDA says:
 
-> Edge of table
+>Edge of table
 
 Then use <kbd>control alt + left arrow</kbd> to reverse direction until NVDA says:
 
-> Edge of table
+>Edge of table
 
 Now use <kbd>control alt + down arrow</kbd> to move one cell down, and NVDA will say:
 
-> Row 2
-> Njoki
+>Row 2
+>Njoki
 
 Repeat the same keyboard command until NVDA says:
 
-> Edge of table
+>Edge of table
 
 Then use <kbd>control alt + up arrow</kbd> to reverse direction until NVDA tells you you're at the edge of the table again.
 
@@ -97,25 +97,25 @@ These four keyboard commands let you move left/right through rows and up/down th
 
 Let's say you want to find out  how much coffee Njoki drinks. Use <kbd>control alt + down arrow</kbd> until NVDA says:
 
-> Row 2
-> Njoki
+>Row 2
+>Njoki
 
 Then use <kbd>control alt + right arrow</kbd> and NVDA will tell you:
 
-> Coffee
-> Column 2
-> 5 cups
+>Coffee
+>Column 2
+>5 cups
 
 Even though the screen reader is focused on the `td` element that represents the cell containing the number of cups, not the `th` element that represents the column header, the screen reader uses the information it got from the browser to create an association between the two. The screen reader counts on you remembering which row you're in, and just announces the column header as well as the cell content as you move horizontally across the row.
 
 Now you might want to know how many cups of coffee Iesha drinks. Use <kbd>control alt + down arrow</kbd> to move down one cell and NVDA will say:
 
-> Eisha
-> Row 3
-> 1 cup
+>Eisha
+>Row 3
+>1 cup
 
 This time the screen reader associates the `th` element that is the row header with the contents of the `td` it is focused on, and speaks both pieces of information. As before, the screen reader counts on you remembering which column you're in, and just announces the row header as you move vertically through the column.
 
 This ability to navigate the table using these commands is entirely dependent on the proper HTML (or equivalent ARIA roles) being used; especially the `th` elements that act as row and column headers.
 
-Try it for yourself with this demo data table, or watch this [screen reader demonstration](https://youtu.be/X1KR4u94cho) of the same thing.
+Try it for yourself with this [demo data table](https://demos.tink.uk/data-table.html), or watch this [screen reader demonstration](https://youtu.be/X1KR4u94cho) of the same thing.
