@@ -7,7 +7,7 @@ categories: "Code things"
 
 Online advertising is, in my opinion, intrusive, invasive, and, in the case of accessibility, frequently destructive. Yet since it [first emerged in 1994](https://www.wired.com/2010/10/1027hotwired-banner-ads/), online advertising has been one of the few ways content creators have had to be compensated for their efforts. Until now.
 
-[Web Monetization](https://webmonetization.org/specification.html) is a proposed standard being incubated at the W3C. It lets browsers securely pay for content, and that in turn enables content creators to choose how to respond - by taking down a paywall, removing advertising, or revealing additional content for example.
+[Web Monetization](https://webmonetization.org/specification.html) is a proposed standard being [incubated at the W3C](https://github.com/WICG/webmonetization). It lets browsers securely pay for content, and that in turn enables content creators to choose how to respond - by taking down a paywall, removing advertising, or revealing additional content for example.
 
 [Coil](https://coil.com) is a service that uses Web Monetization to let content consumers pay content creators. You pay a monthly subscription of $5, install the Coil browser extension, and then keep browsing exactly as you always do. Only now something cool, or should that be Coil, happens in the background - whenever you visit a website that has Web Monetization enabled a tiny (really tiny) payment is sent from your browser to the content creator.
 
