@@ -1,7 +1,7 @@
 ---
 title: "Playing with Envision Glasses"
 date: "2020-11-05"
-tags: []
+tags: 
 categories: "Real life"
 ---
 
@@ -28,8 +28,6 @@ Enter [Envision Glasses](https://www.letsenvision.com/glasses). Envision Glasses
 
 Envision Glasses are available in two styles: the standard Titanium frames with no lenses, or a set of "designer" Smith Optics frames with lenses that can be swapped with your own prescription lenses.
 
-<img alt="Photo of Envision Glasses with the standard titanium frames; the frames are very lightweight metal just a few millimetres wide" src="../images/google-glass-with-titanium-frames.jpg">
-
 
 
 The frames consist of the arm that goes over your left ear and the bits that frame your eyes. The rest, known as the body, attaches to the frames just over your right eye to form the arm that hooks over your right ear.
@@ -41,10 +39,6 @@ If you have usable sight, the HUD is in the top right corner of your field of vi
 ### Notes
 
 I chose the standard titanium frames because the little jewelry I wear is platinum or silver and very plain, so they felt more my style than the darker and heavier Smith Optics frames (think NHS specs from the 1970s or classic Ray Ban frames).
-
-<div>
-<img alt=Photo of Envision Glasses with the Smith Optics frames; the frames are black plastic, 2 or 3 times thicker than the titanium frames" src="../images/google-glass-with-smith-optics-frames.jpg">
-</div>
  
 The asthetic imbalance between the light metal frames and the heavier black plastic body, particularly where it curves around the top of one eye,  makes me feel a bit like I've been assimilated by the [Borg](https://en.wikipedia.org/wiki/Borg), but I'm actually OK with that. The hardware has to go somewhere and I think the Envision Glasses manage it in a reasonably stylish way.
 
