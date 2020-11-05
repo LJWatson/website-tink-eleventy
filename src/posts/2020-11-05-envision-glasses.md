@@ -16,9 +16,7 @@ As astonishing as this is, and believe me it really is astonishing, the apps all
 Imagine these scenarios:
 
 * You're paying for your groceries; there is a queue of people behind you; you have your white cane tucked under one arm, your wallet in one hand and the other outstretched to receive your change; now you have to fish your phone out of your pocket, choose the appropriate image recognition protocol, and point it at the change so you can confirm you were given the right amount.
-<<<<<<< Updated upstream
 * You're walking down the street looking for the café where you've arranged to meet someone for coffee; the pavements are crowded with people; and you have to take your phone out of your pocket and hold it out as you point it at the buildings you pass, possibly waving it above your head in the process    .
-* You're walking down the street looking for the café where you've arranged to meet someone for coffee; the pavements are crowded with people; and you have to take your phone out of your pocket and hold it out as you point it at the buildings you pass, possibly waving it above your head in the process.
 * You're at a large gathering, perhaps a party or a conference and you've lost track of the people you are with; you're already standing there on your own, now you have to wave your phone around to scan the room for any of the people in its library.
 
 How much less inconvenient, socially awkward, or unsafe would it be if you could keep your phone in your pocket and just do what everyone else does - look at the thing you're interested in?
@@ -44,11 +42,7 @@ I chose the standard titanium frames because the little jewelry I wear is platin
 
 <img alt="Photo of Envision Glasses with the Smith Optics frames; the frames are black plastic, 2 or 3 times thicker than the titanium frames" src="../images/google-glass-with-smith-optics-frames.jpg" width="400" height="400"> 
 
-<<<<<<< Updated upstream
-The asthetic imbalance between the light metal frames and the heavier black plastic body, particularly where it curves around the top of one eye,  makes me feel a bit like I've been assimilated by the [Borg](https://en.wikipedia.org/wiki/Borg), but I'm actually OK with that. The hardware has to go somewhere and I think the Envision Glasses manage it in a reasonably stylish way.
-=======
 The asthetic imbalance between the light metal frames and the heavier black plastic body, particularly where it curves around the top of one eye,  makes me feel a bit like I've been assimilated by the [Borg](https://en.wikipedia.org/wiki/Borg), but I'm actually OK with that. The hardware has to go somewhere and I think the glasses manage it in a reasonably stylish way.
->>>>>>> Stashed changes
 
 The body is about 5cm longer than the other arm of the Envision Glasses, so it clears the back of my head by perhaps 2cm. This can't be helped and for people with larger heads than mine I daresay it's much less noticeable. At 45g the body is also heavy enough that it makes the top of my ear uncomfortable after a short amount of time, though I assume I'll get used to this with wear.
 
@@ -276,21 +270,13 @@ There is also an element of personal security. Knowing someone can help you if y
 
 When the Envision Glasses arrive they have no charge, so the first thing you should do (even before you install the Envision AI app) is plug them in to charge for a bit. They charge quite rapidly though, so you won't have to wait long.
 
-<<<<<<< Updated upstream
-I haven't had the chance to really put the Envision Glasses through their paces yet, but based on my casual use around the house over the past couple of days, I think you'd probably get 4 or 5 hours from a full charge. I did notice that when using the Envision AI app, particularly during the setup and pairing phase, it hammered my phone battery into nothing. I have an iPhone 8 running iOS 14 though, so that's almost certainly a factor too.
-=======
 I haven't had the chance to really put the Envision Glasses through their paces yet, but based on my casual use around the house over the past couple of days, I think you'd probably get at least 4 or 5 hours from a full charge. I did notice that when using the Envision AI app, particularly during the setup and pairing phase, it hammered my phone battery into nothing. I have an iPhone 8 running iOS 14 though, so that's almost certainly a factor too.
->>>>>>> Stashed changes
 
 The Envision Glasses need an internet connection for the most part. Some features like Instant Text, Detect Colours, and Find Objects, work offline, but otherwise you need to be on a wifi. I thought that switching to data when my phone left wifi range would do the trick, but it seems not - though I wasn't in a position to investigate at the time. The user manual explains you can use your phone as a hotspot, but I haven't tried that yet.
 
 ## Price and subscription
 
-<<<<<<< Updated upstream
-Envision Glasses are expensive. There is no other way to put it. The Super Earlybird price of EUR1,499 was eye-watering, and the pre-order price of EUR1,899 is worse.
-=======
 Envision Glasses are expensive. There is no other way to put it. The Super Earlybird price of EUR1,499 was eye-watering, and the pre-order price of EUR1,899 is enough to make your teeth itch.
->>>>>>> Stashed changes
 
 The economics of assistive technologies have not changed over the years. The audience is small, the cost of production is high, and unless you are a large tech giant or on the receiving end of enough funding to make it possible to ship something for free, someone has to pay the cost, and in this case it's the consumer.
 
