@@ -28,9 +28,10 @@ Enter [Envision Glasses](https://www.letsenvision.com/glasses). Envision Glasses
 
 Envision Glasses are available in two styles: the standard Titanium frames with no lenses, or a set of "designer" Smith Optics frames with lenses that can be swapped with your own prescription lenses.
 
-
-
 The frames consist of the arm that goes over your left ear and the bits that frame your eyes. The rest, known as the body, attaches to the frames just over your right eye to form the arm that hooks over your right ear.
+
+<img alt="Photo of Envision Glasses with the standard titanium frames; the frames are very lightweight metal just a few millimetres wide" src="../images/google-glass-with-titanium-frames.jpg" width="400" height="400">
+
 
 The body is made of black plastic and it's a lot more substantial than the frames because it's where all the hardware (including the camera and speaker) is found. When attached to the frames the body curves smoothly around the top of the frame over your right eye by about a centimetre. This is where the camera is found so it points forward in the direction you're facing. Continuing about two thirds of the way along the frame over your right eye is a clear perspex block that creates a Heads Up Display (HUD).
 
