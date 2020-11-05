@@ -32,7 +32,6 @@ The frames consist of the arm that goes over your left ear and the bits that fra
 
 <img alt="Photo of Envision Glasses with the standard titanium frames; the frames are very lightweight metal just a few millimetres wide" src="../images/google-glass-with-titanium-frames.jpg" width="400" height="400">
 
-
 The body is made of black plastic and it's a lot more substantial than the frames because it's where all the hardware (including the camera and speaker) is found. When attached to the frames the body curves smoothly around the top of the frame over your right eye by about a centimetre. This is where the camera is found so it points forward in the direction you're facing. Continuing about two thirds of the way along the frame over your right eye is a clear perspex block that creates a Heads Up Display (HUD).
 
 If you have usable sight, the HUD is in the top right corner of your field of vision. Architecturally Envision Glasses are based on the "screen first" model of the Google Glass but with a built-in screen reader, which is why the help and instructions mention screens so often, though the experience is seamless whether you use the HUD or not.
@@ -40,7 +39,9 @@ If you have usable sight, the HUD is in the top right corner of your field of vi
 ### Notes
 
 I chose the standard titanium frames because the little jewelry I wear is platinum or silver and very plain, so they felt more my style than the darker and heavier Smith Optics frames (think NHS specs from the 1970s or classic Ray Ban frames).
- 
+
+<img alt="Photo of Envision Glasses with the Smith Optics frames; the frames are black plastic, 2 or 3 times thicker than the titanium frames" src="../images/google-glass-with-smith-optics-frames.jpg" width="400" height="400"> 
+
 The asthetic imbalance between the light metal frames and the heavier black plastic body, particularly where it curves around the top of one eye,  makes me feel a bit like I've been assimilated by the [Borg](https://en.wikipedia.org/wiki/Borg), but I'm actually OK with that. The hardware has to go somewhere and I think the Envision Glasses manage it in a reasonably stylish way.
 
 The body is about 5cm longer than the other arm of the Envision Glasses, so it clears the back of my head by perhaps 2cm. This can't be helped and for people with larger heads than mine I daresay it's much less noticeable. At 45g the body is also heavy enough that it makes the top of my ear uncomfortable after a short amount of time, though I assume I'll get used to this with wear.
