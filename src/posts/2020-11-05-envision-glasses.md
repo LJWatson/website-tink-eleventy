@@ -18,9 +18,7 @@ Imagine these scenarios:
 * You're paying for your groceries; there is a queue of people behind you; you have your white cane tucked under one arm, your wallet in one hand and the other outstretched to receive your change; now you have to fish your phone out of your pocket, choose the appropriate image recognition protocol, and point it at the change so you can confirm you were given the right amount.
 <<<<<<< Updated upstream
 * You're walking down the street looking for the café where you've arranged to meet someone for coffee; the pavements are crowded with people; and you have to take your phone out of your pocket and hold it out as you point it at the buildings you pass, possibly waving it above your head in the process    .
-=======
 * You're walking down the street looking for the café where you've arranged to meet someone for coffee; the pavements are crowded with people; and you have to take your phone out of your pocket and hold it out as you point it at the buildings you pass, possibly waving it above your head in the process.
->>>>>>> Stashed changes
 * You're at a large gathering, perhaps a party or a conference and you've lost track of the people you are with; you're already standing there on your own, now you have to wave your phone around to scan the room for any of the people in its library.
 
 How much less inconvenient, socially awkward, or unsafe would it be if you could keep your phone in your pocket and just do what everyone else does - look at the thing you're interested in?
