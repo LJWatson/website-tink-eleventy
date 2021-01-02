@@ -19,7 +19,7 @@ Even when there is a text description it isn't always helpful. The WebAIM Millio
 
 ## Machine learning features
 
-In the absence of text descriptions provided by content authors, screen readers are turning to machine learning. Screen readers have used a form of machine learning called [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition) for some time. OCR examines a graphical representation of a document (like a scan of a paper document) for text content, then converts it into actual text that screen reader users can read. More recently screen readers have begun introducing [image recognition](https://en.wikipedia.org/wiki/Computer_vision#Recognition) capabilities. VoiceOver on iOS uses image recognition to describe images and identify common objects like icons and buttons; Jaws Picture Smart describes images and controls sourced from files, websites and the clipboard; NVDA recognises objects and with addons can be further extended.
+In the absence of text descriptions provided by content authors, screen readers are turning to machine learning. Screen readers have used a form of machine learning called [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition) for some time. OCR examines a graphical representation of a document (like a scan of a paper document) for text content, then converts it into actual text that screen reader users can read. More recently screen readers have begun introducing [image recognition](https://en.wikipedia.org/wiki/Computer_vision#Recognition) capabilities. VoiceOver on iOS uses image recognition to describe images and identify common objects like icons and buttons; Jaws Picture Smart describes images and controls sourced from files, websites and the clipboard; NVDA recognises objects and can be extended with addons.
 
 ## Image recognition in practice
 
@@ -37,7 +37,7 @@ To help mitigate this, the Picture Smart feature in Jaws uses certainty qualifie
 
 If I had not actually seen the Mona Lisa, I could be reasonably confident that it was a picture of a woman, most likely a portrait painting, but much less sure if it was a sketch or a drawing (assuming there is a difference at all). Not bad; not bad at all.
 
-## Content authored text descriptions are still needed
+## Authored text descriptions are still needed
 
 If you're thinking to yourself that providing text descriptions is no longer something you need to bother with though - think again.
 
