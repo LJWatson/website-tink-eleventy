@@ -13,7 +13,7 @@ That is an awful lot of content that a blind person cannot see, understand, or u
 
 If an image in an HTML document does not have a text description, which is to say if it is missing an `alt` attribute (or other attribute capable of giving it an accessible name like `aria-label` or `aria-labelledby`) the results are ugly. Different screen reader and browser combinations behave a little differently, but one common behaviour is to use the path to the image and/or the image file name instead.
 
-Occaisionally the file name offers a tiny clue as to the content of the image but the days of human readable file names are largely gone and the majority of images now have non-sensical alpha-numeric strings as file names- and what "Image001.jpg" might contain is anyone's guess.
+Ocaisionally the file name offers a tiny clue as to the content of the image but the days of human readable file names are largely gone and the majority of images now have non-sensical alpha-numeric strings as file names- and what "Image001.jpg" might contain is anyone's guess.
 
 Even when there is a text description it isn't always helpful. The WebAIM Million further noted that just under 10% of images with text descriptions used descriptions that were effectively useless - things like "image", "blank", or even "filename.png".
 
