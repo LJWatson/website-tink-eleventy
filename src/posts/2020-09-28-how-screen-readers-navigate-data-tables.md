@@ -131,5 +131,5 @@ This time the screen reader associates the `th` element that is the row header w
 
 This ability to navigate the table using these commands is entirely dependent on the proper HTML (or equivalent ARIA roles) being used; especially the `th` elements that act as row and column headers.
 
-Try it for yourself with this [demo data table](https://demos.tink.uk/data-table.html), or watch this [screen reader demonstration](https://youtu.be/X1KR4u94cho) of the same thing.
+Try it for yourself with this [demo data table](https://demos.tink.uk/html-table/), or watch this [screen reader demonstration](https://youtu.be/X1KR4u94cho) of the same thing.
     

@@ -175,4 +175,4 @@ The `aria-current` attribute can be applied outside of these use cases. When `ar
 </ul>
 ```
 
-Working examples, screen reader support and links to screen reader demos are available for all the [aria-current patterns](https://ljwatson.github.io/design-patterns/aria-current/) mentioned in this post.
+Working examples, screen reader support and links to screen reader demos are available for all the [aria-current patterns](https://demos.tink.uk/aria-current/) mentioned in this post.
