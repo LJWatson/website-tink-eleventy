@@ -1,6 +1,6 @@
 ---
 title: "AccessiBe and data protection"
-date: "2021-07-19"
+date: "2021-07-26"
 tags: ["Screen readers", "Privacy", "JavaScript"]
 categories: "Web life"
 ---
@@ -29,10 +29,9 @@ When the AccessiBe overlay is opened, the JavaScript it uses sets up local stora
 
 But...
 
-The JavaScript that provides the AccessiBe overlay is loaded directly from AccessiBe's servers. This is what's known as third party JavaScript.
+The JavaScript that provides the AccessiBe overlay is loaded directly from AccessiBe's servers. This means it's a third party JavaScript.
 
 Third party JavaScripts, especially those that are added by web managers outside of the development lifecycle, can pose a [security risk](https://snyk.io/blog/third-party-javascript-concerns/). They can also be used to track you as you browse different websites.
-
 
 ## AccessiBe's privacy policy
 
@@ -46,11 +45,11 @@ It goes on to say:
 
 >This information does not include, actual content/text from the webpage or form or field information.
 
-The interesting word there is `actual`. AccessiBe may not collect `actual content`, but (according to the [AccessiBe homepage](https://web.archive.org/web/20210718152033/https://accessibe.com/):
+The interesting word there is "actual". AccessiBe may not collect "actual content" like an image, but (according to the [AccessiBe homepage](https://web.archive.org/web/20210718152033/https://accessibe.com/):
 
 >AccessiBe uses contextual understanding and image recognition to scan and analyze the functionality of every element on your website...
 
-So it might not collect the `actual content` from the website, but it says nothing about the data it collects by scanning the content and images.
+So it might not collect the "actual" image content from the website, but it says nothing about the data it collects by scanning the content and images to find out what is in them.
 
 The privacy policy goes on to say:
 
@@ -62,7 +61,8 @@ This seems reassuring; until you remember that it only relates to the informatio
 
 Unless you use a Virtual Private Network (VPN), the [geolocation of your IP address](https://www.iplocation.net/) can be used to determine roughly where you were in the world when you visited the site with the AccessiBe overlay enabled, as well as the internet service provider you were using at the time. It's likely that your IP address is shared by the other devices on your network, and so does not identify your device specifically, but it is another piece of information that can be used to profile you.
 
-When you follow a link, your browser keeps note of the web page you were on at the time, and makes the URL available to the website you're navigating to in the HTTP referrer. This information can help website owners learn more about the paths people take to reach their content (from search engines or from competitor websites for example), but AccessiBe does not own the websites that use its overlay.
+When you follow a link, your browser keeps note of the web page you were on at the time, and makes the URL available to the website you're navigating to in the HTTP referrer. This is another piece of personal information that AccessiBe has access to.
+
 
 Your `browser type and settings` create your `browser fingerprint`. Like its name suggests, your browser fingerprint is like your actual fingerprint. Whenever you touch something you leave behind a fingerprint. If someone knows what your fingerprint looks like, they can track the places you've visited by matching your fingerprints to those found at different locations.
 
@@ -90,7 +90,7 @@ According to the [Information Commissioner's Office (ICO)](https://ico.org.uk/fo
 >A Data Protection Impact Assessment (DPIA) is a process to help you identify and minimise the data protection risks of a project.
 >You must do a DPIA for processing that is likely to result in a high risk to individuals.
 
-AccessiBe's privacy policy makes me think there is a high risk to individuals, so I wanted to know what due diligence they'd carried out, and what ethical and legal basis they had to justify the risk.
+AccessiBe's privacy policy makes me think there is a high risk to individuals, and the ICO states that a DPIA *must* be carried out in such cases, so I wanted to know what due diligence AccessiBe had carried out, and what ethical and legal basis they had to justify the risk.
 
 On 17 March 2021, I sent AccessiBe a Direct Message (DM) on Twitter, asking them for a copy of their DPIA:
 
@@ -101,7 +101,6 @@ When AccessiBe did not respond, I completed the contact form on their website on
 When they had not responded by 1 April, I sent [AccessiBe an open tweet](https://twitter.com/LeonieWatson/status/1377596545168719876) asking them for a copy of their DPIA.
 
 I'm still waiting.
-
 
 If you choose not to risk letting AccessiBe have access to your personal data:
 
