@@ -1,6 +1,6 @@
 ---
-title: "AccessiBe and data protection"
-date: "2021-07-26"
+title: "AccessiBe and data protection?"
+date: "2021-07-27"
 tags: ["Screen readers", "Privacy", "JavaScript"]
 categories: "Web life"
 ---
@@ -13,7 +13,7 @@ I use Firefox with [Enhanced Tracking Protection (ETP)](https://support.mozilla.
 
 >Enhanced Tracking Protection in Firefox automatically protects your privacy while you browse. It blocks trackers that follow you around online to collect information about your browsing habits and interests... It also includes protections against harmful scripts...
 
-This is the browser I used when I visited the AccessiBe website to find out more about their accessibility overlay and how it works.
+So this is the browser I used when I visited the AccessiBe website to find out more about their accessibility overlay and how it works.
 
 Except the AccessiBe overlay didn't work because it was blocked by the ETP.
 
@@ -49,7 +49,7 @@ The interesting word there is "actual". AccessiBe may not collect "actual conten
 
 >AccessiBe uses contextual understanding and image recognition to scan and analyze the functionality of every element on your website...
 
-So it might not collect the "actual" image content from the website, but it says nothing about the data it collects by scanning the content and images to find out what is in them.
+So it might not collect the "actual" image file, but it says nothing about the data it collects by scanning the image to find out what's in it.
 
 The privacy policy goes on to say:
 
@@ -73,6 +73,8 @@ You might think that millions of other people have the same browser type and set
 The [population of Bristol](https://web.archive.org/web/20210629185008/https://www.bristol.gov.uk/statistics-census-information/the-population-of-bristol), the region identified by my IP address, is currently 465,900. That means there is 0.6 of another person somewhere in the area with the same browser fingerprint as me.
 
 Now remember that as well as my IP address and browser fingerprint, AccessiBe also knows I use a screen reader, which, statistically speaking, means I'm blind or have extremely low vision.
+
+I wonder, what are the chances of the other 0.6 of a person being a screen reader user too?
 
 None of this information identifies me as Léonie Watson, but it does identify me as a unique individual that AccessiBe can track across the websites that use the AccessiBe overlay.
 
@@ -102,9 +104,11 @@ When they had not responded by 1 April, I sent [AccessiBe an open tweet](https:/
 
 I'm still waiting.
 
+## Protect your personal data
+
 If you choose not to risk letting AccessiBe have access to your personal data:
 
 * Use a VPN like [Mozilla VPN](https://www.mozilla.org/en-US/products/vpn/) or  [Tunnel Bear](https://www.tunnelbear.com/)
-* Use a blocker like Better (for Safari) or [AccessiByeBye](https://www.accessibyebye.org/) (for Chrome, edge, and Firefox), or one of the other solutions on the [AccessiBe Gone](https://sclower.github.io/accessibegone/)
+* Use a blocker like Better (for Safari) or [AccessiByeBye](https://www.accessibyebye.org/) (for Chrome, edge, and Firefox), or one of the other solutions on the [AccessiBe Gone](https://sclower.github.io/accessibegone/) repository
 
 With thanks to Laura Kalbag for help uncovering what the AccessiBe JavaScript does; to Heather Burns for help understanding GDPR policy; and to Christine Runnegar for helping me learn more about privacy in general.
