@@ -49,7 +49,7 @@ Speech generated using formant TTS has few audio glitches, so it's intelligible 
 
 My usual Windows screen reader is Jaws, which uses the Eloquence ETI TTS by default. There are eight voices available; Reed, Shelly, Bobby, Rocko, Glen, Sandy, Grandma and Grandpa.
 
-<audio src="../media/2021/Eloquence-TTS-voices.mp3" controls></audio>
+<audio src="../images/2021/Eloquence-TTS-voices.mp3" controls></audio>
 
 ### Concatenative TTS
 
