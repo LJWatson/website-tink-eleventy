@@ -5,7 +5,7 @@ tags: ["Screen readers", "Voice"]
 categories: "Web life"
 ---
 
-I've been thinking about conversational interfaces for some time, and about the importance of voice quality as a part of user experience. 
+I've been thinking about conver	sational interfaces for some time, and about the importance of voice quality as a part of user experience. 
 
 I use a screen reader and it sounds the same, whatever I'm doing - reading an email from a friend, reading news of a global disaster, reading something in the first-person female or first-person transgender, shopping for clothes or scrutinising a business contract. Although the quality of voices used by screen readers is OK, you're never in any doubt that you're listening to synthetic speech - and believe me, it's boring!
 
@@ -51,7 +51,7 @@ My usual Windows screen reader is Jaws, which uses the Eloquence ETI TTS by defa
 
 <details>
 <summary>Show media player</summary>
-<audio src="../media/2021/Eloquence-TTS-voices.mp3" controls></audio>
+<audio src="Eloquence-TTS-voices.mp3" controls></audio>
 </details>
 
 ### Concatenative TTS
