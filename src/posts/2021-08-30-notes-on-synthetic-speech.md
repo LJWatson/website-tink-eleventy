@@ -136,7 +136,7 @@ In the following demo, Google's WaveNet TTS is used to repeat the same text:
 <details>
 <summary aria-label="Show media player for neural TTS demo">Show media player</summary>
 
-<audio controls src="../media/2021/TTS_Concatenative-demo.mp3"></audio>
+<audio controls src="../media/2021/TTS_Neural-demo.mp3"></audio>
 
 ### Neural TTS transcript
 
