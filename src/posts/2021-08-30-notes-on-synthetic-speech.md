@@ -1,6 +1,6 @@
 ---
 title: "Notes on synthetic speech"
-date: "2021-09-01"
+date: "2021-08-30"
 tags: ["Screen readers", "Voice"]
 categories: "Web life"
 ---
@@ -41,22 +41,46 @@ You can change the size and shape of your resonating chambers using things like 
 
 ### Formant TTS
 
-Formant TTS creates artificial sounds based on a set of rules that mimic the basic characteristics of human speech (like frequency and amplitude). It needs little processor power, making it a good choice for devices with little or unknown computational capability - like computers running screen readers in the 1990s.
+Formant TTS creates artificial sounds based on a set of rules that mimic the basic characteristics of human speech (like frequency and amplitude). It needs little processor power, making it a good choice for devices with little or unknown computational capability - like computers running screen readers in the 1990s or older computers today.
 
 The fact that formant TTS is entirely artificial means it's flexible enough to convert any text into synthetic speech, but the rules for generating different voices are limited. For example, a female voice is typically created by nothing more sophisticated than doubling the pitch of a male voice.
 
-Speech generated using formant TTS has few audio glitches, so it's intelligible even at faster speeds, but it's every bit as artificial as the TTS itself, sounding robotic, monotone, and utterly devoid of expression.
-
-My usual Windows screen reader is Jaws, which uses the Eloquence ETI TTS by default. There are eight voices available; Reed, Shelly, Bobby, Rocko, Glen, Sandy, Grandma and Grandpa.
+My usual Windows screen reader is Jaws, which uses the Eloquence TTS by default. There are eight voices available; Reed, Shelly, Bobby, Rocko, Glen, Sandy, Grandma and Grandpa. The voices are intended to represent people of different ages and/or binary genders, but as the following demo shows, the voice characterisations are rudimentary at best:
 
 <details>
-<summary aria-label="Show media player for Eloquence TTS demo">Show media player</summary>
-<audio controls src="../media/2021/Eloquence-TTS-voices.mp3"></audio>
+<summary aria-label="Show media player for Eloquence TTS">Show media player</summary>
+<audio controls src="../media/2021/TTS_Eloquence-demo.mp3"></audio>
+
+### Eloquence TTS transcript
+
+All voices have an American accent.
+
+Robotic Male Adult Voice: "Hello, this is the voice of Reed.,"
+Robotic Female Adult Voice: "This is the voice of Shelly,"
+Robotic Male Child Voice: "This is the voice of Bobby,"
+Robotic Deep Male Adult Voice: "This is the voice of Rocko,"
+Robotic High Male Adult Voice: "This is the voice of Glen,"
+Robotic High Female Adult Voice: "This is the voice of Sandy,"
+Robotic Elder Female Voice: "This is the voice of Grandma,"
+Robotic Elder Male Voice: "and this is the voice of Grandpa."
 </details>
 
+Speech generated using formant TTS has few audio glitches, so it's intelligible even at faster speeds, but it's every bit as artificial as the TTS itself, sounding robotic, monotone, and utterly devoid of expression.
+
+In the following demo, the formant Eloquence TTS is used to speak a passage of text at the default speaking rate set by Jaws, then again at the rate at which I typically listen to my screen reader:
+
 <details>
-<summary>Show media player</summary>
-<audio src="../media/2021/Eloquence-TTS-voices.mp3" controls></audio>
+<summary aria-label="Show media player for formant TTS demo">Show media player</summary>
+
+<audio controls src="../media/2021/TTS_formant-demo.mp3></audio>
+
+### Formant TTS transcript
+
+Robotic Male Adult Voice (Slow):
+"For millions of years, humans lived just like the animals. Then something happened that unleashed the power of our imagination. We learned to talk."
+
+Robotic Male Adult Voice (Fast):
+"For millions of years, humans lived just like the animals. Then something happened that unleashed the power of our imagination. We learned to talk."
 </details>
 
 ### Concatenative TTS
@@ -67,7 +91,20 @@ Speech is synthesized by searching the database for the recorded chunks that mos
 
 In theory, concatenative TTS preserves the human qualities of the original recordings, but in practice it isn't possible to record a large enough set of words, in enough combinations of speaking style, voices, or emotional expressions, to do so. The voice quality tends to be better than formant TTS, but it still lacks the variable characteristics of human speech, and often has a "mumbling" quality that makes it less crisp when listening at higher rates of WPM.
 
-Concatenative TTS is a good choice in situations where the vocabulary is limited and the rate of speech is measured; like airport announcements or automated phone menus, but less good for screen readers that need to be able to read everything and anything.
+In the following demo, the concatenative Vocalizer Expressive 2 TTS is used to speak the same passage of text:
+
+<details>
+<summary aria-label="Show media player for concatenative TTS demo">Show media player</summary>
+
+<audio controls src="../media/2021/TTS_Concatenative-demo.mp3></audio>
+
+### Concatenative TTS transcript
+
+Artificial Male Adult Voice:
+"For millions of years, humans lived just like the animals. Then something happened that unleashed the power of our imagination. We learned to talk."
+</details>
+
+Concatenative TTS is a good choice in situations where the vocabulary is limited and the rate of speech is measured; like airport announcements or automated phone menus, but less good for screen readers that need to be able to read everything and anything. Despite this, the vocal improvement over formant TTS means that most screen readers have the capability to use concatenative TTS voices.
 
 ### Parametric TTS
 
@@ -75,13 +112,41 @@ Parametric TTS was created to overcome the limitations of both formant and conca
 
 By changing the parameters that are sent to the vocoder, parametric TTS can be used to create voices with more flexibility than concatenative TTS, and more nuance than formant TTS. Despite the ability to simulate voices of different genders, ages, and accents with reasonable accuracy, parametric TTS smooths out the sound, giving speech an oddly flat, monotone quality.
 
+In the following demo, Google's parametric TTS is used to repeat the same text:
+
+<details>
+<summary aria-label="Show media player for parametric TTS demo">Show media player</summary>
+
+<audio controls src="../media/2021/TTS_parametric-demo.mp3></audio>
+
+### Parametric TTS transcript
+
+More Human Male Adult Voice:
+"For millions of years, humans lived just like the animals. Then something happened that unleashed the power of our imagination. We learned to talk."
+</details>
+
 ### Neural TTS
 
 Like parametric TTS, neural TTS creates artificial wave forms, but it does so using a neural network that's been trained by an enormous amount of voice data.
 
-Being trained on truly vast datasets means that neural TTS voices can sound remarkably human, even to the point that it can be hard to tell they're synthetic unless you know what you're listening for. It takes a lot of processor power to generate speech using a neural TTS though, so speech is generated in the cloud where computational "oomph" is plentiful.
+Being trained on truly vast datasets means that neural TTS voices can sound remarkably human, even to the point that it can be hard to tell they're synthetic unless you know what you're listening for. 
 
-This means that neural TTS is not yet an option for screen readers.
+In the following demo, Google's WaveNet TTS is used to repeat the same text:
+
+<details>
+<summary aria-label="Show media player for neural TTS demo">Show media player</summary>
+
+<audio controls src="../media/2021/TTS_Concatenative-demo.mp3></audio>
+
+### Neural TTS transcript
+
+Nearly Human Male Adult Voice:
+"For millions of years, humans lived just like the animals. Then something happened that unleashed the power of our imagination. We learned to talk."
+</details>
+
+It takes a lot of processor power to generate speech using parametric or neural TTS though, so speech is typically generated in the cloud where computational "oomph" is plentiful.
+
+This means that parametric and neural TTS are not yet an option for screen readers.
 
 There are privacy safeguards that would need to exist for one thing. Imagine everything you read, everything you look at, and everything you write, being processed in the cloud, and I do mean *everything*. All your email; documents like your will, the naughty message you just sent someone, the groceries you bought this week, or a Non-Disclosure Agreement (NDA) you need to sign; people's personal information including you're own; and a thousand other things that you happen to look at over the course of time.
 
@@ -95,4 +160,4 @@ I want to listen to my screen reader fast; really fast. It makes my teeth itch w
 
 I'd also like to listen to a voice that sounds almost, if not yet entirely quite like, a proper human. One that can put a bit of expression into the things I listen to, even if it's still a bit limited.
 
-But until neural TTS engines can be run locally, I'm taking performance over voice quality because I have work to do, emails to send, contracts to sign, and maybe even the occasional naughty message to send someone, and I don't want to hang about!
+But until parametric or neural TTS engines can be used with screen readers, I'm taking performance over voice quality because I have work to do, emails to write, contracts to sign, and maybe even the occasional naughty message to send someone, and I don't want to hang about!
