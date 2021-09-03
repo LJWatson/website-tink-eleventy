@@ -86,6 +86,21 @@
     dt {
       @include apply-utility('weight', 'bold');
     }
+
+    details {
+      padding: get-size('500') 0;
+      border-top: 1px solid var(--color-stroke);
+      border-bottom: 1px solid var(--color-stroke);
+
+      & > * + * {
+        margin-top: var(--flow-space, get-size('500'));
+      }
+
+      h2,
+      h3 {
+        --flow-space: #{get-size('600')};
+      }
+    }
   }
 
   @include media-query('md') {
