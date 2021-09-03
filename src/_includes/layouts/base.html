@@ -13,7 +13,7 @@
     <meta name="robots" content="noindex" />
     {% else %}
     <script>
-      // A global function that the theme toggle can use to apply the current theme.
+      {# A global function that the theme toggle can use to apply the current theme. #}
       window.applyThemeSetting = function(override) {
         const currentSetting = override || localStorage.getItem('user-color-scheme');
         const currentAttribute = document.documentElement.getAttribute('data-user-color-scheme');
