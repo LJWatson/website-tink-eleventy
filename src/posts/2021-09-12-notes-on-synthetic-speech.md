@@ -1,6 +1,6 @@
 ---
 title: "Notes on synthetic speech"
-date: "2021-09-03"
+date: "2021-09-012"
 tags: ["Screen readers", "Voice"]
 categories: "Web life"
 ---
@@ -144,9 +144,9 @@ Nearly Human Male Adult Voice:
 "For millions of years, humans lived just like the animals. Then something happened that unleashed the power of our imagination. We learned to talk."
 </details>
 
-It takes a lot of processor power to generate speech using parametric or neural TTS though, so speech is typically generated in the cloud where computational "oomph" is plentiful.
+It takes a lot of processor power to generate speech using neural TTS though, so speech is typically generated in the cloud where computational "oomph" is plentiful.
 
-This means that parametric and neural TTS are not yet an option for screen readers.
+This means that neural TTS are not yet an option for screen readers.
 
 There are privacy safeguards that would need to exist for one thing. Imagine everything you read, everything you look at, and everything you write, being processed in the cloud, and I do mean *everything*. All your email; documents like your will, the naughty message you just sent someone, the groceries you bought this week, or a Non-Disclosure Agreement (NDA) you need to sign; people's personal information including you're own; and a thousand other things that you happen to look at over the course of time.
 
@@ -161,3 +161,7 @@ I want to listen to my screen reader fast; really fast. It makes my teeth itch w
 I'd also like to listen to a voice that sounds almost, if not yet entirely quite like, a proper human. One that can put a bit of expression into the things I listen to, even if it's still a bit limited.
 
 But until parametric or neural TTS engines can be used with screen readers, I'm taking performance over voice quality because I have work to do, emails to write, contracts to sign, and maybe even the occasional naughty message to send someone, and I don't want to hang about!
+
+## Acknowledgements
+
+This post was updated on 12 September, with thanks to feedback from Blake Roberts. The original 3 September post can be found through the [Internet Archive Way Back Machine](https://web.archive.org/web/20210912153538/https://tink.uk/notes-on-synthetic-speech/).
