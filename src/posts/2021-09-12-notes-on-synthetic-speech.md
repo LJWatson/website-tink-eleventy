@@ -160,7 +160,7 @@ I want to listen to my screen reader fast; really fast. It makes my teeth itch w
 
 I'd also like to listen to a voice that sounds almost, if not yet entirely quite like, a proper human. One that can put a bit of expression into the things I listen to, even if it's still a bit limited.
 
-But until parametric or neural TTS engines can be used with screen readers, I'm taking performance over voice quality because I have work to do, emails to write, contracts to sign, and maybe even the occasional naughty message to send someone, and I don't want to hang about!
+But until neural TTS engines can be used with screen readers, I'm taking performance over voice quality because I have work to do, emails to write, contracts to sign, and maybe even the occasional naughty message to send someone, and I don't want to hang about!
 
 ## Acknowledgements
 
