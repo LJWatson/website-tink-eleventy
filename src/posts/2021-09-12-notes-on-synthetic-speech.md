@@ -1,6 +1,6 @@
 ---
 title: "Notes on synthetic speech"
-date: "2021-09-012"
+date: "2021-09-12"
 tags: ["Screen readers", "Voice"]
 categories: "Web life"
 ---
