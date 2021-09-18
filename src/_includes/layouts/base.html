@@ -26,6 +26,14 @@
     </script>
     {% endif %}
 
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('./_data/sw.js');
+                });
+            }
+        </script>
+
     <style>{% include "css/critical.css" %}</style>
 
     {# Add facility for pages to delare an array of critical styles #}
