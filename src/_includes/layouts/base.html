@@ -8,14 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<script>
-            if ('serviceWorker' in navigator) {
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('./_data/sw.js');
-                });
-            }
-        </script>
-
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
     {% if demoMode %}
@@ -33,6 +25,15 @@
       };
       window.applyThemeSetting();
     </script>
+
+<script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('./_data/sw.js');
+                });
+            }
+        </script>
+
     {% endif %}
 
        
