@@ -7,6 +7,15 @@
     <meta name="monetization" content="$ilp.uphold.com/dPdrQinmELyw">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('./_data/sw.js');
+                });
+            }
+        </script>
+
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
     {% if demoMode %}
@@ -26,14 +35,7 @@
     </script>
     {% endif %}
 
-        <script>
-            if ('serviceWorker' in navigator) {
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('./_data/sw.js');
-                });
-            }
-        </script>
-
+       
     <style>{% include "css/critical.css" %}</style>
 
     {# Add facility for pages to delare an array of critical styles #}
