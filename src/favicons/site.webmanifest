@@ -1,6 +1,9 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Tink.UK",
+  "short_name": "Tink",
+"description": "Léonie Watson on technology, food & life in the digital age",
+"start_url": "https://tink.uk/",
+ 
   "icons": [
     {
       "src": "/favicons/android-chrome-192x192.png",
