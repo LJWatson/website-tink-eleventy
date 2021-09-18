@@ -82,6 +82,7 @@ module.exports = config => {
   // Pass through
   config.addPassthroughCopy('./src/favicons/');
 config.addPassthroughCopy('./src/media/');
+config.addPassthroughCopy('./src/scripts/');
 
   return {
     markdownTemplateEngine: 'njk',
