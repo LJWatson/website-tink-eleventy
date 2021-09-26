@@ -83,6 +83,12 @@ module.exports = config => {
   config.addPassthroughCopy('./src/favicons/');
 config.addPassthroughCopy('./src/media/');
 
+  // eleventy pwa plugin
+  const pluginPWA = require("eleventy-plugin-pwa");
+    module.exports = function(eleventyConfig) {
+      eleventyConfig.addPlugin(pluginPWA);
+  };
+
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',

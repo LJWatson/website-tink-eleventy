@@ -26,6 +26,11 @@
       window.applyThemeSetting();
     </script>
 
+    <script>
+      if ("serviceWorker" in navigator)
+        navigator.serviceWorker.register("/service-worker.js");
+    </script> 
+
     {% endif %}
        
     <style>{% include "css/critical.css" %}</style>
