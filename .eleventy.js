@@ -1,6 +1,7 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const slugify = require('slugify');
+const pluginPWA = require('eleventy-plugin-pwa');
 
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
@@ -17,6 +18,11 @@ module.exports = config => {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+  config.addPlugin(pluginPWA, {
+    globPatterns: [
+      '**/*.{css,js,mjs,map,jpg,png,gif,webp,ico,svg,woff2,woff,eot,ttf,otf,ttc,json}'
+    ]
+  });
 
   // Transforms
   config.addTransform('htmlmin', htmlMinTransform);
@@ -81,7 +87,7 @@ module.exports = config => {
 
   // Pass through
   config.addPassthroughCopy('./src/favicons/');
-config.addPassthroughCopy('./src/media/');
+  config.addPassthroughCopy('./src/media/');
 
   return {
     markdownTemplateEngine: 'njk',
