@@ -4,7 +4,7 @@
   <script src="/js/components/code-block.js?{{ global.random() }}" type="module"></script>
 {% endblock %}
 {% block content %}
-  <div class="[ post ] [ flow ] [ flow-space-700 text-500 ]">
+  <div class="[ post ] [ flow modal-open-inert ] [ flow-space-700 text-500 ]">
     <h1>{{ title }}</h1>
     <div class="[ post__meta ] [ measure-short flow-space-300 ]">
       <time class="font-sans weight-bold" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
@@ -12,7 +12,7 @@
       {% if categories | length %}
         <ul class="cluster" aria-label="Categories">
         {% for category in categories %}
-          <li>  
+          <li>
             <a href="/category/{{ category | slug }}" class="[ pill ] [ bg-primary ]">{{ category }}</a>
           </li>
         {% endfor %}
@@ -35,6 +35,24 @@
           {% endfor %}
         </ul>
       </div>
-    {% endif %} 
+    {% endif %}
+    <hr />
+  </div>
+  <div class="blog-comments">
+    <h2 class="modal-open-inert">Comments</h2>
+
+    <noscript>JavaScript is required to view or add comments</noscript>
+
+    <div id="commento"></div>
+    <script defer src="/scripts/wicg-inert.min.js"></script>
+    <script>
+      window.parent = {
+        location: {
+          host: 'tink.uk',
+          pathname: '{{ page.url }}'
+        }
+      };
+    </script>
+    <script defer src="/scripts/commento.js" data-hide-deleted="true" data-no-fonts="false"></script>
   </div>
 {% endblock %}
