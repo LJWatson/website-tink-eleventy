@@ -17,6 +17,7 @@
     "@tbranyen/jsdom": "^13.0.0",
     "concurrently": "^5.2.0",
     "core-js": "^3.16.4",
+    "eleventy-plugin-pwa": "^1.0.8",
     "get-google-fonts": "^1.2.2",
     "gorko": "^0.2.1",
     "gulp": "^4.0.2",
