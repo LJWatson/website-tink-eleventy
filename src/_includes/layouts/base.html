@@ -26,28 +26,13 @@
       window.applyThemeSetting();
     </script>
 
-<script>
-    window.addEventListener('load', () => {
-      registerSW();
-    });
- 
-    // Register the Service Worker
-    async function registerSW() {
-      if ('serviceWorker' in navigator) {
-        try {
-          await navigator
-                .serviceWorker
-                .register('/js/serviceworker.js');
-        }
-        catch (e) {
-          console.log('SW registration failed');
-        }
-      }
-    }
- </script>
+    <script>
+      if ("serviceWorker" in navigator)
+        navigator.serviceWorker.register("/service-worker.js");
+    </script>
 
     {% endif %}
-       
+
     <style>{% include "css/critical.css" %}</style>
 
     {# Add facility for pages to delare an array of critical styles #}
