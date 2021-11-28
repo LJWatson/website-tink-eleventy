@@ -1,8 +1,8 @@
 /**
- * Theme 
- * 
+ * Theme
+ *
  * Sets custom properties for background colour, text colour and stroke colour
- * based on default light theme or dark theme 
+ * based on default light theme or dark theme
  */
 
 @import 'mixins/dark-mode';
@@ -14,6 +14,7 @@
   --color-text: #{get-color('dark')};
   --color-text-rev: #{get-color('light')};
   --color-underlines: #{get-color('primary-mid')};
+  --color-input: #{get-color('dark-glare')};
 }
 
 @include dark-mode() {
@@ -22,4 +23,5 @@
   --color-stroke: #{get-color('primary')};
   --color-text: #{get-color('light')};
   --color-underlines: #{get-color('primary')};
+  --color-input: #{get-color('primary')};
 }
