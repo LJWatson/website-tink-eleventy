@@ -56,6 +56,12 @@ but can be expanded to set heading fonts as well */
   padding: var(--flow-space, get-size('600')) 0 0;
 }
 
+#commento .commento-main-area > ul {
+  clear: both;
+  margin: 0;
+  padding: var(--flow-space, 1.77rem) 0 0;
+}
+
 #commento .commento-comments > ul,
 #commento .commento-body,
 #commento .commento-card {
@@ -149,7 +155,7 @@ but can be expanded to set heading fonts as well */
 }
 
 #commento .commento-login-text,
-#commento .commento-button-margin  {
+#commento .commento-button-margin {
   margin-top: var(--flow-space, get-size('600'));
 }
 
