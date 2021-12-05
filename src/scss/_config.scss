@@ -96,8 +96,8 @@ $gorko-config: (
   ),
   'measure': (
     'items': (
-      'short': '48ch',
-      'long': '65ch'
+      'short': 'min(100%,48ch)',
+      'long': 'min(100%,65ch)'
     ),
     'output': 'responsive',
     'property': 'max-width'
