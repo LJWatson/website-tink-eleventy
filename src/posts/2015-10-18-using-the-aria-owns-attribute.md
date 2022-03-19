@@ -5,6 +5,20 @@ tags: ["ARIA", "HTML"]
 categories: "Code things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 When a parent/child relationship is evident on-screen, but it isn’t represented in the DOM, the [aria-owns](https://www.w3.org/TR/wai-aria/states_and_properties#aria-owns) attribute can be used to establish that relationship in the accessibility layer.
 
 The parent/child relationship is a cornerstone of HTML structure. Every element in an HTML document is the parent, sibling or child of another.

@@ -5,6 +5,20 @@ tags: []
 categories: "Web life"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 The [Cyber Streetwise](https://www.cyberstreetwise.com/#!/street) website was launched by the UK [Home Office](https://www.gov.uk/government/organisations/home-office) in January. Developed by [Nudge Digital](https://www.nudgedigital.co.uk/), Cyber Streetwise is a high profile website intended to change attitudes towards online security. It is also a complete travesty when it comes to accessibility.
 
 The Cyber Streetwise website has already received criticism from [industry](https://medium.com/p/55d6028c688a) and [the press](https://www.theregister.co.uk/2014/02/14/cyber_streetwise/), for its poor technical architecture and unintuitive interface design. Even with such criticisms in mind, the appalling lack of accessibility on the Cyber Streetwise website is simply astonishing.

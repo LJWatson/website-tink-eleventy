@@ -5,6 +5,20 @@ tags: ["Screen readers", "Windows"]
 categories: "Desktop things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 Narrator is the integrated screen reader for Windows 10. The August 2nd [Windows 10 Anniversary update](https://blogs.msdn.microsoft.com/accessibility/2016/07/01/making-progress-on-accessibility-with-the-windows-10-anniversary-update/) introduces several new Narrator features, including a Narrator mode designed specifically for developers.
 
 When you develop accessible apps, webapps or websites, one of the challenges is understanding how screen readers consume content. Making sense of speech output and relating it to the different objects on-screen is an acquired skill.

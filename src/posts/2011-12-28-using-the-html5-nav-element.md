@@ -5,6 +5,20 @@ tags: ["HTML"]
 categories: "Code things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 HTML5 introduces the [nav element](https://dev.w3.org/html5/spec/the-nav-element.html#the-nav-element) for marking up sections of a page that contain navigational links. Used wisely the `nav` element is a big help to [screen reader](https://en.wikipedia.org/wiki/Screen_reader) users, as well as a step forward in semantic meaning.
 
 ## HTML4 navigation

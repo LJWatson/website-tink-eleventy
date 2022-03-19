@@ -5,6 +5,20 @@ tags: ["HTML"]
 categories: "Code things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 Online advertising is, in my opinion, intrusive, invasive, and, in the case of accessibility, frequently destructive. Yet since it [first emerged in 1994](https://www.wired.com/2010/10/1027hotwired-banner-ads/), online advertising has been one of the few ways content creators have had to be compensated for their efforts. Until now.
 
 [Web Monetization](https://webmonetization.org/specification.html) is a proposed standard being [incubated at the W3C](https://github.com/WICG/webmonetization). It lets browsers securely pay for content, and that in turn enables content creators to choose how to respond - by taking down a paywall, removing advertising, or revealing additional content for example.

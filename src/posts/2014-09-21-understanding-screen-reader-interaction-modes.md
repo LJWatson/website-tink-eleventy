@@ -5,6 +5,20 @@ tags: ["Screen readers", "ARIA"]
 categories: "Code things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 [Traduction française](https://access42.net/Comprendre-les-modes-d-interaction.html?lang=fr)
 
 Windows screen readers have multiple modes of interaction, and depending on the task being carried out they’ll automatically switch to the most appropriate mode. This post explains why Windows screen readers behave the way they do, and how your code can influence that behaviour.

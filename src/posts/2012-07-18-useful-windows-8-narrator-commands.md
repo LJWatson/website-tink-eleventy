@@ -5,6 +5,20 @@ tags: ["Windows", "Screen readers"]
 categories: "Desktop things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 Windows 8 introduces several improvements to Narrator, its built in speech capability. Like VoiceOver in the early days, there is much that Narrator doesn’t do, but it already has many of the characteristics you’d expect to find in a screen reader.
 
 The challenge with using any new screen reader is learning the keyboard commands to operate it. Narrator introduces a whole new set of keyboard commands, quite unlike those used by other screen readers.
