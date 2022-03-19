@@ -5,6 +5,20 @@ tags: ["ARIA", "HTML", "Screen readers"]
 categories: "Code things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 [Emoji](https://en.wikipedia.org/wiki/Emoji) help us communicate complex ideas very easily. When used in native apps and applications, emoji are reasonably accessible to screen readers, but on the web we need to do a little more to make sure everyone can understand emoji.
 
 An emoji is an [ideogram](https://en.wikipedia.org/wiki/Ideogram) (a picture that represents an idea or concept). Unlike an image that is displayed from a (.png, .gif or .jpg) file, an emoji is displayed using a [Unicode](https://en.wikipedia.org/wiki/Unicode) character. On the web this is often done using the hexadecimal or decimal representation of the Unicode character. For example:

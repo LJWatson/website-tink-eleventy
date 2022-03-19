@@ -5,6 +5,20 @@ tags: ["CSS", "HTML", "Screen readers"]
 categories: "Code things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 The CSS [before/after pseudo-selectors](https://www.w3.org/TR/css3-selectors/#gen-content) can be used to insert content into a page. In some situations this technique is a useful thing to do, but how do browsers and screen readers handle the generated content?
 
 Quick recap: The `before/after` selectors insert content either before or after an element’s existing content. For example the CSS shown below will insert "bar" immediately after the "Foo" that is already present in the HTML:

@@ -5,6 +5,20 @@ tags: ["SVG", "ARIA"]
 categories: "Code things"
 ---
 
+<details>
+		<summary lang="ru">Сообщение для российских читателей</summary>
+
+<p lang="ru">
+Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
+нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
+украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
+</p>
+
+<p>
+Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
+</p>
+</details>
+
 The [accessible SVG line graphs](/accessible-svg-line-graphs/) post explains how to use ARIA table semantics to make that form of data visualisation accessible to screen readers. This article uses the same ARIA based approach to make a screen reader accessible SVG flowchart.
 
 The example comes from the W3C Process document, and a flowchart that describes the process of taking a specification from its First Public Working Draft (FPWD) through to official W3C Recommendation (Rec). The original SVG can be found in the [W3C Process 2015](https://www.w3.org/2015/Process-20150901/) document, and a revised version (with a first attempt at accessibility) is in the [W3C Process 2017](https://www.w3.org/2017/Process-20170301/) document.
