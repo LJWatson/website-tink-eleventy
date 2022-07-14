@@ -52,4 +52,6 @@ It goes on to explain:
 >Familiar interfaces borrow from well-established patterns. These should be used consistently within the interface to reinforce their meaning and purpose.
 >This should be applied to functionality, behaviour, editorial, and presentation. You should say the same things in the same way and users should be able to do the same things in the same way.
 
-Good design means following that principle and making sure that the functionality of your component matches the perceived affordances of your visual design.
+Good design means following that principle and making sure that the functionality of your component matches the perceived affordances of your visual design, or that your visual design matches the functionality of your component.
+
+Lea Verou asked the original question on Twitter and has since used all her considerable expertise to create an [exclusive button group](https://lea.verou.me/2022/07/button-group/) that matches the actions people can make to the perceived affordances of her design.
