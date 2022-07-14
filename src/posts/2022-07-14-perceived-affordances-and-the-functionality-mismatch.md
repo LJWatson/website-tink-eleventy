@@ -24,7 +24,7 @@ The digital world still hasn't really figured out physical affordance, at least 
 
 Buttons and radio buttons are not the only User Interface (UI) components to make the transition from the physical to digital world (think restaurant menus or the tabs in filing cabinets and telephone organisers), but let's stick with them for now. 
 
-Even though digital radio buttons look nothing like their physical counterparts used to, a common visual convention for digital buttons and radio buttons has emerged over the past three decades or so. If you're sighted and you've used any form of Graphical User Interface (GUI) in that time, you'll probably be able to recognise a button or set of radio buttons by their visual appearance. if you can't see and use a screen reader instead, then you'll recognise them based on their semantics and the way your screen reader announces that information.
+Even though digital radio buttons look nothing like their physical counterparts used to, a common visual convention for digital buttons and radio buttons has emerged over the past three decades or so. If you're sighted and you've used any form of Graphical User Interface (GUI) in that time, you'll probably be able to recognise a button or set of radio buttons by their visual appearance. if you can't see and use a screen reader instead, then you'll recognise them based on their [semantics](/understanding-semantics/) and the way your screen reader announces that information.
 
 ## Mismatch
 
@@ -44,7 +44,7 @@ If you're a [sighted screen reader user](https://webaim.org/projects/screenreade
 
 One of the [Inclusive Design Principles](https://inclusivedesignprinciples.org) is:
 
->Be consistent
+>Be consistent:
 >Use familiar conventions and apply them consistently.
 
 It goes on to explain:
