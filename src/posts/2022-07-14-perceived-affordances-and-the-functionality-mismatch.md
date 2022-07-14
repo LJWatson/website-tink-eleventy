@@ -1,8 +1,9 @@
 ---
-title: "Perceived affordance and the functionality mismatch"
+title: "Perceived affordances and the functionality mismatch"
 date: "2022-07-14"
 tags: ["Screen readers"]
 categories: "Web life"
+---
 
 Using one element or set of elements (usually because of their functionality) and styling them to look like something else is a common pattern. A recent [conversation on Twitter](https://twitter.com/LeaVerou/status/1545712667515654144) about using radio buttons styled to look like buttons highlighted the essential problem with this approach - it creates a mismatch between the actions people expect they can take and the ones they actually can.
 
