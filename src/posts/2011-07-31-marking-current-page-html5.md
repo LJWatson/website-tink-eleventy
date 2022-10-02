@@ -5,20 +5,6 @@ tags: ["HTML"]
 categories: "Code things"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 **Updated on 3rd July 2017:** this post is out of date, please read [Using the aria-current attribute](/using-the-aria-current-attribute/) instead.
 
 When you’re browsing a website using its primary navigation, it’s helpful to know which page you’re on, and which pages you can go to. HTML5 makes it simple to do this, but the technique moves away from a common approach used in HTML4.01.

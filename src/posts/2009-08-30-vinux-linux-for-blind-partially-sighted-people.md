@@ -5,20 +5,6 @@ tags: ["Screen readers", "Linux"]
 categories: "Desktop things"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 [Vinux](https://vinux.org.uk/index.php) is a Linux distribution optimised for blind and partially sighted people. Originally based on [Ubuntu](https://www.ubuntu.com/), Vinux 2.0 beta was released earlier this month based on the [Debian](https://www.uk.debian.org/) distribution. Vinux boots with screen reader and Braille support fully loaded, and with screen magnification available at a simple keystroke.
 
 ## Linux Origins

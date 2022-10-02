@@ -5,20 +5,6 @@ tags: ["Screen readers", "Artificial Intelligence"]
 categories: "Web life"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 The provision of text alternatives has been a first principle of accessibility since before [WCAG 1.0](https://www.w3.org/TR/WCAG10/) made it official in 1999, but apparently not everyone has got the message. According to the [WebAIM Million from February 2020](https://webaim.org/projects/million/), more than 30% of homepage images were missing text descriptions and more than half of those images were part of links.
 
 That is an awful lot of content that a blind person cannot see, understand, or use.

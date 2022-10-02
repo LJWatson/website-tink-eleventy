@@ -5,20 +5,6 @@ tags: ["Screen readers", "ARIA"]
 categories: "Code things"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 The [aria-label](https://www.w3.org/TR/wai-aria-1.1/#aria-label) and [aria-labelledby](https://www.w3.org/TR/wai-aria-1.1/#aria-labelledby) attributes do the same thing but in different ways. Sometimes the two attributes are confused and this has unintended results. This post describes the differences between `aria-label` and `aria-labelledby` and how to choose the right one.
 
 The `aria-label` and `aria-labelledby` attributes are both used to give an element it's [accessible name](https://developer.paciellogroup.com/blog/2017/04/what-is-an-accessible-name/). An element's accessible name is a piece of text that differentiates one instance of that element in a document from the rest; the text of a link or text description for an image for example.

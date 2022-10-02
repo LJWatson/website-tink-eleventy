@@ -5,20 +5,6 @@ tags: ["ARIA", "Screen readers", "WebVR"]
 categories: "Code things"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 The [aria-roledescription](https://www.w3.org/TR/wai-aria-1.1/#aria-roledescription) attribute changes the way screen readers announce the role of an element. Intended to give authors a way to provide a localised and human-readable description for a role, it has the capacity to both enhance and seriously break accessibility for screen reader users.
 
 The ARIA1.1 specification describes the `aria-roledescription` attribute like this:

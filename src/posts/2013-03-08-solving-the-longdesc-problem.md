@@ -5,20 +5,6 @@ tags: ["HTML"]
 categories: "Web life"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 The [Image Description extension](https://dvcs.w3.org/hg/html-proposals/raw-file/1f251fcbe363/longdesc1/longdesc.html) re-introduces the longdesc attribute to HTML. Although most people recognise that longdesc is flawed, finding a viable alternative has proved surprisingly difficult. For now longdesc is the best solution we have, but in the interests of finding a better option perhaps it's helpful to take a step back and look at the problem we’re trying to solve.
 
 ## Problem 1: Availability

@@ -5,20 +5,6 @@ tags: ["ARIA", "JavaScript", "Screen readers"]
 categories: "Code things"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 **Updated on 27th February 2019:** The Accessibility Object Model (AOM) specification has been updated and `accessibleNode` has been dropped. Read the [AOM explainer](https://github.com/WICG/aom/blob/gh-pages/explainer.md) for more information.
 
 The [Accessibility Object Model (AOM)](https://github.com/WICG/aom) is an experimental JavaScript API that enables developers to modify the browser accessibility tree. The AOM has four phases, and support for phase one recently landed in Chrome Canary behind the flag.

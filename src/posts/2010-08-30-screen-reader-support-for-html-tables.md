@@ -5,20 +5,6 @@ tags: ["HTML", "Screen readers"]
 categories: "Code things"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 Screen reader support for tables is something of a curiosity. Although tables are among the most common of HTML elements, they’re often misused and poorly coded. To some extent this has influenced screen reader support, but even so the variations in screen reader behaviour are quite remarkable.
 
 Possibly the biggest misuse of tables is using them to control page layout. Originally intended to markup tabular data, the concept of a layout table is now generally acknowledged.

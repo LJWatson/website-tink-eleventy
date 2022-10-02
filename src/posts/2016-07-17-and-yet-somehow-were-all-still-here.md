@@ -5,20 +5,6 @@ tags: ["Philosophy"]
 categories: "Real life"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 When my friend Tim Norris posted this to Facebook recently, it made me stop and think. One of those "thinks" was that his words were worth sharing, so here (with Tim's permission) they are...
 
 > The earliest "historical" thing I can vaguely remember was the tail end of the [Vietnam War](https://en.wikipedia.org/wiki/Vietnam_War). I have vivid memories of an [oil crisis](https://en.wikipedia.org/wiki/1973_oil_crisis) in 1973 which resulted in the issuing of ration coupons (I remember my school teacher being really pleased because he drove a frugal Mini and he could get much further on his ration).

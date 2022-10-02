@@ -5,20 +5,6 @@ tags: ["Screen readers", "HTML"]
 categories: "Code things"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 When a table is created using the appropriate HTML elements (or ARIA roles) screen readers can inform users about the characteristics of the table, and users have access to keyboard commands specifically for navigating tabular content. 
 
 For the purposes of this post I'm going to use NVDA. Jaws uses the same keyboard commands in this situation, which is useful because between them they represent more than [80% of the screen reader market](https://webaim.org/projects/screenreadersurvey8/#primary) on desktop/laptop devices. Check the documentation for [VoiceOver](https://www.apple.com/voiceover/info/guide/_1133.html) and [Narrator](https://support.microsoft.com/en-us/help/22806/windows-10-narrator-keyboard-commands-touch-gestures) to find the corresponding keyboard commands for those screen readers.

@@ -4,20 +4,6 @@ date: "2009-09-20"
 categories: "Real life"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 [Standards.Next](https://otrops.com/notes/Standards.Next_-_Cognition_and_accessibility) is an informal meetup hosted by [Opera](https://www.opera.com), and attended by anyone with an interest in web standards and beyond. On Saturday 19th September focus turned to one of the most unchartered areas of user experience: Cognition and Accessibility.
 
 Cognition covers an incredibly wide range of conditions and requirements. It's one of the least well documented areas of web accessibility, and perhaps the least understood. The four presentations at Standards.Next provided a fantastic insight into some of the key issues.

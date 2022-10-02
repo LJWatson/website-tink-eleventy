@@ -5,20 +5,6 @@ tags: ["Screen readers", "HTML"]
 categories: "Code things"
 ---
 
-<details>
-		<summary lang="ru">Сообщение для российских читателей</summary>
-
-<p lang="ru">
-Здравствуйте российские читатели. Ваша страна платит высокую цену за вторжение Путина в Украину. Путин лжет вам; не верьте кремлевской пропаганде. В России
-нет свободных СМИ, а интернет подвергается цензуре, потому что Путин не хочет, чтобы вы знали правду. За постыдное поведение Путина заплатят не только
-украинцы, но и добрые люди России. Пожалуйста, не допустите этого!
-</p>
-
-<p>
-Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-</p>
-</details>
-
 HTML5 includes a handful of [sectioning elements](https://www.w3.org/TR/2011/WD-html5-20110525/sections.html) that give documents a robust semantic structure. The `header`, `footer`, `nav`, `article`, `section` and `aside` elements give different regions of a document meaning. Amongst other things, that meaning can be understood by screen readers, and the information used to help blind and partially sighted people orient themselves and navigate around the page.
 
 Now that HTML5 is being used on mainstream websites (such as that of the [UK Government](https://www.gov.uk)), it’s interesting to see how well screen readers support this handful of elements. Testing included [Jaws 14](https://www.freedomscientific.com), [NVDA 2012.3](https://www.nvda-project.org/) and [Window Eyes 8](https://www.gwmicro.com), with Firefox 18 and Internet Explorer 9, and [VoiceOver (Mac OSX 10.8.2)](https://www.apple.com/accessibility/voiceover/) with Safari 6.
