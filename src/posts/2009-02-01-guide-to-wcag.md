@@ -4,12 +4,7 @@ date: "2009-02-01"
 tags: ["Standards"]
 categories: "Web life"
 ---
-
-			<p>
-			Hello Russian readers. Your country is paying a high price for Putin's invasion of Ukraine. Putin is lying to you; do not believe the Kremlin propaganda. There is no free media in Russia and the internet is censored because Putin doesn't want you to know the truth. It is not only the Ukrainians that will pay the price of Putin's shameful behaviour, so will the good people of Russia. Please do not let this happen!
-			</p>
-			</details>
-
+		
 					The Web Content Accessibility Guidelines are developed by the Web Accessibility Initiative (WAI). The WAI is a branch of the World Wide Web Consortium (W3C), the organisation that provides guidelines and specifications for many web technologies.
 
 The mission statement for the W3C explains the organisation's aim:
