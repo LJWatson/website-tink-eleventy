@@ -4,8 +4,8 @@ date: "2009-02-01"
 tags: ["Standards"]
 categories: "Web life"
 ---
-		
-					The Web Content Accessibility Guidelines are developed by the Web Accessibility Initiative (WAI). The WAI is a branch of the World Wide Web Consortium (W3C), the organisation that provides guidelines and specifications for many web technologies.
+
+The Web Content Accessibility Guidelines are developed by the Web Accessibility Initiative (WAI). The WAI is a branch of the World Wide Web Consortium (W3C), the organisation that provides guidelines and specifications for many web technologies.
 
 The mission statement for the W3C explains the organisation's aim:
 
