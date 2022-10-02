@@ -5,7 +5,9 @@ tags: ["Screen readers", "ARIA", "HTML"]
 categories: "Code things"
 ---
 
-**Updated on 1 November 2018:** Jaws scripts no longer available. A shortcut ("q") for moving directly to the `main` element is now available in Jaws as standard.
+**Updated:** 1 November 2018
+
+Jaws scripts no longer available. A shortcut ("q") for moving directly to the `main` element is now available in Jaws as standard.
 
 The [main element extension](https://dvcs.w3.org/hg/html-extensions/raw-file/tip/maincontent/index.html) specifies a way to markup the primary content area of a web page in HTML5. There are several good reasons for introducing the `main` element, including a more reliable way for screen readers to pinpoint the start of the primary content area on the page.
 
@@ -33,4 +35,4 @@ Invoking the command causes Jaws to look for the `main` element with role="main"
 
 If Jaws finds that combination of element and role, it jumps focus to that point and announces "Main content area" or "Start of main content area" if beginner verbosity is enabled). Otherwise it announces "No main content area" (or "There is no main content area on this page").
 
-There is a test page included in the zip file that uses `main role="main"`, but there has been at least one [sighting of <main> in the wild](https://www.theatre-optique.com/oculus/1/1) already.
+There is a test page included in the zip file that uses `main role="main"`, but there has been at least one [sighting of `<main>` in the wild](https://www.theatre-optique.com/oculus/1/1) already.
