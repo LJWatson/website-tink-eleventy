@@ -33,7 +33,7 @@ assumed to be `speak: none;`.
 
 There are then numerous other properties for setting the `voice-family`, `voice-pitch`, `voice-rate`, and `voice-volume` of the speech output. Again, you'll notice the similarities with existing CSS properties - `voice-family` is the equivalent of `font-family` for example. 
 
-## Arguments against using CSS Speech
+## Arguments against CSS Speech
 
 One of the arguments against implementing CSS Speech is that it could disrupt or even prevent someone from using the website. This is both true, not true, and relatively easily solved in any case. 
 
