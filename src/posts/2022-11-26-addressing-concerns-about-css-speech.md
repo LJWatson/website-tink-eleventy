@@ -47,6 +47,7 @@ There are some truly [extraordinary Text To Speech (TTS) engins](https://play.ht
 Imagine this news item:
 
 ```html
+<h2>News headline: Nothing happened!</h2>
 <p>Reported on 1 April</p>
 <p>Nothing happened today. Everybody went and had a nice cup of tea instead.</p>>
 ```
@@ -57,7 +58,7 @@ Imagine this news item:
 
 ## Transcript
 
-MALE VOICE (FLAT VOLUME, RATE, PITCH): "News headline: Nothing happened today. Reported on April the 1st. Nothing happened today. Everybody went and had a nice cup of tea instead."
+MALE VOICE (FLAT VOLUME, RATE, PITCH): "News headline: Nothing happened! Reported on April the 1st. Nothing happened today. Everybody went and had a nice cup of tea instead."
 </details>
 
 With CSS Speech it would be possible to subtley alter the way parts of the news item are spoken - giving them a little bit of texture and interest:
