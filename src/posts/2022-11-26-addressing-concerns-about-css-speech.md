@@ -46,7 +46,7 @@ There are some truly extraordinary Text To Speech (TTS) engins out there, but th
 
 Imagine this news item:
 
-```
+```html
 <h2>News headline: Nothing happened!</h2>
 <p>Reported on 1 April</p>
 <p>Nothing happened today. Everybody went and had a nice cup of tea instead.</p>>
@@ -63,7 +63,7 @@ MALE VOICE (FLAT VOLUME, RATE, PITCH): "News headline: Nothing happened today. R
 
 With CSS Speech it would be possible to subtley alter the way parts of the news item are spoken - giving them a little bit of texture and interest:
 
-```
+```html
 .headline {
 speak: auto;
 voice-volume: x-loud;
@@ -95,4 +95,3 @@ MALE VOICE (NORMAL VOLUME, RATE, PITCH): "Nothing happened today. Everybody went
 </details>
 
 This is the real case for CSS Speech - the ability to make aural design as much a part of thoughtful user experience as visual design.
-
