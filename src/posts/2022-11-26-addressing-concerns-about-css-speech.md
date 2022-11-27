@@ -11,7 +11,7 @@ The concern is that if a website makes your screen reader talk faster or louder,
 
 It's worth noting that the use case for CSS Speech is not just about screen readers. It also encompasses reader/read aloud capability (available in Firefox, Edge, and Safari, plus Chrome with an extension). So concerns about speaking rate and volume apply to anyone who listens to content for whatever reason.
 
-Let's take a look at the protections and safe-guards that already exist, that could be improved upon, and that will be needed if CSS Speech is to be supported in browsers. 
+Let's take a look at the protections and safe-guards that already exist, that could be improved upon, and that will be needed if CSS Speech is to be supported in browsers and adopted across the web. 
 
 ## User control
 
@@ -42,12 +42,11 @@ The ultimate safeguard is for browsers to offer a way to ignore CSS Speech. Ther
 
 With these protections and safeguards in place, CSS Speech would let us elevate the experience of listening to content from a monotone into something altogether more interesting.
 
-There are some truly extraordinary Text To Speech (TTS) engins out there, but they're not the ones used by browsers or screen readers as a rule. For the most part this means that content spoken by web readers or screen readers is delivered in a flat, disinterested way that never changes - whether reading about a climate catastrophe or describing unfeasibly cute and fluffy things.
+There are some truly [extraordinary Text To Speech (TTS) engins](https://play.ht/) out there, but they're not the ones used by browsers or screen readers as a rule. For the most part this means that content spoken by web readers or screen readers is delivered in a flat, disinterested way that never changes - whether reading about a climate catastrophe or describing unfeasibly cute and fluffy things.
 
 Imagine this news item:
 
 ```html
-<h2>News headline: Nothing happened!</h2>
 <p>Reported on 1 April</p>
 <p>Nothing happened today. Everybody went and had a nice cup of tea instead.</p>>
 ```
