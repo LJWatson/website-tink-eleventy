@@ -106,12 +106,12 @@ Wait for it...
 >Each of these steps involves specific moves and algorithms . It might be helpful to watch tutorials or read guides that provide detailed instructions and visual aids. Since  you are blind I would recommend looking for audio tutorials or guides that are specifically designed for visually impaired individuals. There are also tactile Rubik's cubes with different textures on each side to make it.
 
 Good grief! That seems plausible, but who knows? And before you ask, no, I have no idea if it works or not. This is not an accessible Rubik's cube and the other member of this household is otherwise occupied right now Washing his hair apparently.
-.
+
 The truncation in some of the ChatGPT responses is a little odd (after the word "currently" for example), and the end ing is something of a cliff-hanger. I'm not sure if that's ChatGPT or a bug in the BeMyAI feature though.
 
 ## The fridge test
 
-When BeMyEyes [announced the BeMyAI feature](https://finance.yahoo.com/news/eyes-announces-tool-powered-openai-170300522.html) it was reported that:
+When BeMyEyes announced the BeMyAI feature it was [reported](https://finance.yahoo.com/news/eyes-announces-tool-powered-openai-170300522.html) that:
 
 >If a user sends a picture of the inside of their refrigerator, the
 Virtual Volunteer will not only be able to correctly identify the items within, but also extrapolate and analyze what can be prepared with those ingredients.
@@ -162,4 +162,4 @@ I can indeed. Good idea
 
 And there you have it. My adventures with the early beta BeMyAI feature of the BeMyEyes iOS app.
 
-What's [really going to bake your  noodle](https://www.quotes.net/mquote/60262) is that I really did have stir-fry for dinner tonight, only some time before I stuck BeMyAI in the fridge and asked it for ideas..
+What's [really going to bake your  noodle](https://www.quotes.net/mquote/60262) though, is that I really did have stir-fry for dinner tonight, only some time before I stuck BeMyAI in the fridge and asked it for ideas..
