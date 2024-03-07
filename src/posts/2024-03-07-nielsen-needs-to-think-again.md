@@ -5,7 +5,7 @@ tags: ["Screen readers", "AI"]
 categories: "Web life"
 ---
 
-Jakob Nielsen thinks that [accessibility has failed](https://jakobnielsenphd.substack.com/p/accessibility-generative-ui?utm_source=practicaltips&utm_medium=email&utm_campaign=we-need-to-talk-about-jakob).
+Jakob Nielsen thinks that [accessibility has failed](https://jakobnielsenphd.substack.com/p/accessibility-generative-ui).
 
 I give this some thought as I make my lunch with ingredients I purchased from an online grocery store. I keep thinking about it as I return to my desk and respond to a few emails using my online mailbox. I check my online calendar for upcoming meetings (there are two, both to be held using one ubiquitous VOIP platform or another), and I keep thinking about it.
 
