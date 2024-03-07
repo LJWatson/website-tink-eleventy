@@ -15,7 +15,7 @@ I think about some of the things I've done in recent days. I think about the pai
 
 I stop thinking about it.
 
-I don't know if Nielsen has a disability or not and I won't presume to speak about his experience in any case. I do have a disability and since Nielsen didn't afford disabled people the same courtesy, this is experience.
+I don't know if Nielsen has a disability or not and I won't presume to speak about his experience in any case. I do have a disability and since Nielsen didn't afford disabled people the same courtesy, this is my experience.
 
 Of course there were some things I found difficult, and a few that I couldn't do at all without sighted assistance.
 
