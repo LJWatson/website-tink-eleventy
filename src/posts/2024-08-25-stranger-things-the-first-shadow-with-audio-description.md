@@ -62,4 +62,4 @@ But what about the play?
 
 Well, I'm not going to spoil the surprise.
 
-But I promise you that from the moment the curtain rises, Stranger Things: The First Shadow will get hold of you, pull you in, then it will turn you Upside Down!
+But I promise you that from the moment the curtain rises, Stranger Things: The First Shadow will get hold of you, pull you in, and then it will turn you Upside Down!
