@@ -1,5 +1,5 @@
 ---
-title: "Stranger Things: The First Shadow with Audio Description"
+title: "Stranger Things: The First Shadow with Audio Description (AD)"
 date: "2024-08-25"
 tags: []
 categories: "Real life"
