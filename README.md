@@ -8,7 +8,7 @@ Welcome aboard! This site runs off [Eleventy](https://www.11ty.dev/) and [Gulp](
 
 Before anything, make sure you have [Node.js installed](https://nodejs.org/en/download/). It’s recommended that you use the LTS version of Node.js.
 
-To run the site, first run `npm install` to install all of the dependecies.
+To run the site, first run `npm install` to install all of the dependencies.
 
 Then:
 
