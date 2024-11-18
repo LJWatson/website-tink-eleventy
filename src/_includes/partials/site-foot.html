@@ -4,11 +4,16 @@
       <div>
         <h2>Follow me on:</h2>
         <ul>
+          {% if site.blueskyHandle %}
+          <li>
+            <a href="https://bsky.app/profile/tink.uk">Bluesky</a>
+          </li>
+          {% endif %}
+
           {% if site.mastodonHandle %}
           <li>
             <a rel="me" href="https://w3c.social/{{ site.mastodonHandle }}" rel="external">Mastodon</a>
           </li>
-          {% endif %}
 
           {% if site.gitHubHandle %}
           <li>
