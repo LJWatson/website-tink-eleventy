@@ -1,9 +1,11 @@
-const {dest, src} = require('gulp');
-const cleanCSS = require('gulp-clean-css');
-const sassProcessor = require('gulp-sass')(require('sass'));
+import { sep } from 'node:path';
 
-// We want to be using canonical Sass, rather than node-sass
-sassProcessor.compiler = require('sass');
+import {dest, src} from 'gulp';
+import cleanCSS from 'gulp-clean-css';
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+
+const sassProcessor = gulpSass(dartSass);
 
 // Flags whether we compress the output etc
 const isProduction = process.env.NODE_ENV === 'production';
@@ -18,7 +20,8 @@ const calculateOutput = ({history}) => {
   let response = './dist/css';
 
   // Get everything after the last slash
-  const sourceFileName = /[^/]*$/.exec(history[0])[0];
+  const pathSegments = history[0].split(sep);
+  const sourceFileName = pathSegments[pathSegments.length - 1];
 
   // If this is critical CSS though, we want it to go
   // to the _includes directory, so nunjucks can include it
@@ -47,4 +50,4 @@ const sass = () => {
     .pipe(dest(calculateOutput, {sourceMaps: !isProduction}));
 };
 
-module.exports = sass;
+export default sass;

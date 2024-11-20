@@ -1,5 +1,4 @@
-const {dest, src} = require('gulp');
-const GetGoogleFonts = require('get-google-fonts');
+import GetGoogleFonts from 'get-google-fonts';
 
 const fonts = async () => {
   // Setup of the library instance by setting where we want
@@ -17,4 +16,4 @@ const fonts = async () => {
   return result;
 };
 
-module.exports = fonts;
+export default fonts;

@@ -1,16 +1,16 @@
-const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const slugify = require('slugify');
-const pluginPWA = require('eleventy-plugin-pwa');
+import rssPlugin from '@11ty/eleventy-plugin-rss';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import slugify from 'slugify';
+// import pluginPWA from 'eleventy-plugin-pwa';
 
-const dateFilter = require('./src/filters/date-filter.js');
-const w3DateFilter = require('./src/filters/w3-date-filter.js');
-const parseTransform = require('./src/transforms/parse-transform.js');
-const htmlMinTransform = require('./src/transforms/html-min-transform.js');
+import dateFilter from './src/filters/date-filter.js';
+import w3DateFilter from './src/filters/w3-date-filter.js';
+import parseTransform from './src/transforms/parse-transform.js';
+import htmlMinTransform from './src/transforms/html-min-transform.js';
 
 const EXCLUDED_TAGS = ['blog', 'all'];
 
-module.exports = config => {
+export default config => {
   // Add filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('w3DateFilter', w3DateFilter);
@@ -18,11 +18,11 @@ module.exports = config => {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
-  config.addPlugin(pluginPWA, {
-    globPatterns: [
-      '**/*.{css,js,mjs,map,jpg,png,gif,webp,ico,svg,woff2,woff,eot,ttf,otf,ttc,json}'
-    ]
-  });
+  // config.addPlugin(pluginPWA, {
+  //   globPatterns: [
+  //     '**/*.{css,js,mjs,map,jpg,png,gif,webp,ico,svg,woff2,woff,eot,ttf,otf,ttc,json}'
+  //   ]
+  // });
 
   // Transforms
   config.addTransform('htmlmin', htmlMinTransform);

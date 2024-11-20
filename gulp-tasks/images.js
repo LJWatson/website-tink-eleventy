@@ -1,5 +1,5 @@
-const {dest, src} = require('gulp');
-const imagemin = require('gulp-imagemin');
+import {dest, src} from 'gulp';
+import imagemin, {mozjpeg, optipng} from 'gulp-imagemin';
 
 // Grabs all images, runs them through imagemin
 // and plops them in the dist folder
@@ -10,8 +10,8 @@ const images = () => {
     .pipe(
       imagemin(
         [
-          imagemin.mozjpeg({quality: 60, progressive: true}),
-          imagemin.optipng({optimizationLevel: 5, interlaced: null})
+          mozjpeg({quality: 60, progressive: true}),
+          optipng({optimizationLevel: 5, interlaced: null})
         ],
         {
           silent: true
@@ -21,4 +21,4 @@ const images = () => {
     .pipe(dest('./dist/images'));
 };
 
-module.exports = images;
+export default images;
