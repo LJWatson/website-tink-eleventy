@@ -1,7 +1,7 @@
-const htmlmin = require('html-minifier');
-const prettifyHtml = require('prettify-html');
+import htmlmin from 'html-minifier';
+import prettifyHtml from 'prettify-html';
 
-module.exports = (value, outputPath) => {
+export default (value, outputPath) => {
   const isProduction = process.env.NODE_ENV === 'production';
 
   if (!isProduction) {

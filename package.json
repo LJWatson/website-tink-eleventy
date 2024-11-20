@@ -2,6 +2,7 @@
   "name": "tink.uk",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
@@ -11,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@tbranyen/jsdom": "^13.0.0",
     "concurrently": "^5.2.0",
     "core-js": "^3.16.4",
