@@ -1,7 +1,7 @@
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import slugify from 'slugify';
-import pluginPWA from 'eleventy-plugin-pwa';
+// import pluginPWA from 'eleventy-plugin-pwa';
 
 import dateFilter from './src/filters/date-filter.js';
 import w3DateFilter from './src/filters/w3-date-filter.js';
@@ -18,11 +18,11 @@ export default config => {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
-  config.addPlugin(pluginPWA, {
-    globPatterns: [
-      '**/*.{css,js,mjs,map,jpg,png,gif,webp,ico,svg,woff2,woff,eot,ttf,otf,ttc,json}'
-    ]
-  });
+  // config.addPlugin(pluginPWA, {
+  //   globPatterns: [
+  //     '**/*.{css,js,mjs,map,jpg,png,gif,webp,ico,svg,woff2,woff,eot,ttf,otf,ttc,json}'
+  //   ]
+  // });
 
   // Transforms
   config.addTransform('htmlmin', htmlMinTransform);
