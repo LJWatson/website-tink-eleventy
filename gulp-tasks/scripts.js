@@ -1,6 +1,6 @@
-const {dest, src} = require('gulp');
-const terser = require('gulp-terser');
-const sourcemaps = require('gulp-sourcemaps');
+import {dest, src} from 'gulp';
+import terser from 'gulp-terser';
+import sourcemaps from 'gulp-sourcemaps';
 
 // Flags wether we compress the output etc
 const isProduction = process.env.NODE_ENV === 'production';
@@ -20,4 +20,4 @@ const scripts = () => {
     .pipe(dest('./dist/js'));
 };
 
-module.exports = scripts;
+export default scripts;

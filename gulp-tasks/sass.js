@@ -1,9 +1,9 @@
-const {dest, src} = require('gulp');
-const cleanCSS = require('gulp-clean-css');
-const sassProcessor = require('gulp-sass')(require('sass'));
+import {dest, src} from 'gulp';
+import cleanCSS from 'gulp-clean-css';
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
 
-// We want to be using canonical Sass, rather than node-sass
-sassProcessor.compiler = require('sass');
+const sassProcessor = gulpSass(dartSass);
 
 // Flags whether we compress the output etc
 const isProduction = process.env.NODE_ENV === 'production';
@@ -47,4 +47,4 @@ const sass = () => {
     .pipe(dest(calculateOutput, {sourceMaps: !isProduction}));
 };
 
-module.exports = sass;
+export default sass;
