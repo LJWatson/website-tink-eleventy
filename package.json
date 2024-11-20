@@ -5,7 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
-    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
+    "production": "cross-env NODE_ENV=production npx gulp && cross-env NODE_ENV=production npx eleventy"
   },
   "keywords": [],
   "author": "",
@@ -30,5 +30,8 @@
     "moment": "^2.27.0",
     "prettify-html": "0.0.2",
     "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
