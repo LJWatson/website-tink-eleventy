@@ -89,6 +89,10 @@ export default config => {
   config.addPassthroughCopy('./src/favicons/');
   config.addPassthroughCopy('./src/media/');
   config.addPassthroughCopy('./src/scripts/');
+  
+  // image minification is broken, pass-though copy instead. dph 2024/12/27
+  config.addPassthroughCopy('./src/images/');
+  
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
